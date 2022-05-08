@@ -1,0 +1,153 @@
+.header {
+    position: fixed;
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 2.5rem 2.5rem;
+    color: #fff;
+    z-index: 100;
+}
+
+.scrolledHeader {
+    width: 95%;
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 2rem;
+    color: #fff;
+    z-index: 100;
+    border-radius: 15px;
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+}
+
+.logobox {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    margin-right: auto;
+}
+
+.logo {
+    width: 20%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.heading {
+    font-size: 2.1rem;
+}
+
+.navbox {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+.nav li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 3rem;
+    font-weight: 500;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+    padding: .9rem 1.3rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    width: 12rem;
+}
+
+.mobileBox {
+    display: none;
+}
+
+.none {
+    display: none;
+}
+
+.mobileNav {
+
+}
+
+.mobileNav li {
+    list-style: none;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .btn1 {
+        background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+        padding: .9rem 1.3rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.9rem;
+        font-weight: 600;
+        color: #fff;
+        width: 15rem;
+        margin: 2rem auto;
+    }
+    
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    .none {
+        width: 95%;
+        position: absolute;
+        top: -50rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+         background-color: rgba(0, 0, 0, 0.486);
+        border-radius: 10px;
+        padding: 1.3rem 2rem;
+        text-align: center;
+        transition: all .4s;
+    }
+
+    .mobileBox {
+        width: 95%;
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.651);
+        border-radius: 10px;
+        padding: 1.3rem 2rem;
+        text-align: center;
+        transition: all .8s;
+    }
+}
+
