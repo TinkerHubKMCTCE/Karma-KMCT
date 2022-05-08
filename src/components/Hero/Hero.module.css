@@ -1,0 +1,80 @@
+.hero {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),url("hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.herobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding: 4rem;
+}
+
+.headerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 8rem;
+    font-weight: bolder;
+    display: inline-block;
+    background-image: linear-gradient(to bottom,#09B326, #32B4ED);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.caption {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.date {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.countdownbox {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 3rem 6rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.countdown {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.column {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:480px) {
+    .herobox {
+        justify-content: center;
+    }
+
+    .heading {
+        font-size: 7rem;
+    }
+
+}
