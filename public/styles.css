@@ -1,0 +1,15 @@
+section {
+    padding: 4rem 0;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
