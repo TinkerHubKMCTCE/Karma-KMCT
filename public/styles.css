@@ -1,15 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size:40%;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 section {
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 .section-title {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: center;
+}
+
+.map_contact_card {
+    height: 50rem;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col-map {
+    padding: 0;
 }
 
 #map {
     width: 100%;
-    height: 500px;
+    height: 50rem;
+}
+
+.contact-wrapper {
+    padding: 5rem 10%;
+}
+
+.contact-wrapper h4 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.single-contact {
+    margin: 2rem 0;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.phone p {
+    font-size: 1.5rem;
 }
