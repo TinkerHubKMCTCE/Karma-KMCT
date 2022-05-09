@@ -14,19 +14,19 @@ const Carousel1 = () => {
           <div className={classes.box}>
             <div className={classes.boxContent}>
               <img className={classes.boxImage} src={image} alt="" />
-              <h3 className={classes.boxHeading}>Sreenath Bhasi</h3>
+              <h3 className={classes.boxHeading}>Lorem Ipsum</h3>
               <span className={classes.span}>Actor</span>
             </div>
 
             <div className={classes.boxContent}>
               <img className={classes.boxImage} src={image} alt="" />
-              <h3 className={classes.boxHeading}>Sreenath Bhasi</h3>
+              <h3 className={classes.boxHeading}>Lorem Ipsum</h3>
               <span className={classes.span}>Actor</span>
             </div>
 
             <div className={classes.boxContent}>
               <img className={classes.boxImage} src={image} alt="" />
-              <h3 className={classes.boxHeading}>Sreenath Bhasi</h3>
+              <h3 className={classes.boxHeading}>Lorem Ipsum</h3>
               <span className={classes.span}>Actor</span>
             </div>
           </div>
