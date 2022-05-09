@@ -2,6 +2,8 @@ import { Fragment } from "react";
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About"
+import Carousel from "./components/Carousel/Carousel";
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
      <Header />
      <Hero />
      <About />
+     <Carousel />
+     <Footer />
     </Fragment>
   );
 }

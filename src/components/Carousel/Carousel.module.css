@@ -1,0 +1,61 @@
+.carousel {
+    width: 100%;
+    padding: 5rem;
+}
+
+
+
+.heading {
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    color: #fff;
+}
+
+.heading::before {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 250px;
+    height: 2px;
+    text-align: center;
+    background-color: blue;
+  }
+
+.boxContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContent1 {
+    width: 35rem;
+    height: 38rem;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 3px solid rgb(68, 141, 243);
+}
+
+.boxImage {
+    width: 90%;
+    margin-bottom: 3rem;
+}
+
+.boxImage1 {
+    width: 100%;
+    margin-bottom: 3rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.boxHeading1 {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+
