@@ -1,0 +1,99 @@
+.cardBox {
+    background: rgba(0, 0, 0, 0.612);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.612);
+    padding: 3rem 6rem;
+    margin-top: 10rem;
+    
+}
+
+.boxContent1 {
+    width: 35rem;
+    height: 38rem;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 3px solid rgb(68, 141, 243);
+    padding: .3rem .5rem;
+}
+
+.headingBox {
+    position: relative;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    color: #fff;
+}
+
+  .heading::before {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 240px;
+    height: 4px;
+    text-align: center;
+    background-image: linear-gradient(90deg, #09B35C 2.27%, #32B4ED 97.67%);
+  }
+
+.para {
+    color: rgb(151, 145, 145);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.headingBox {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 4rem;
+}
+
+.boxImage {
+    width: 90%;
+    margin-bottom: 3rem;
+}
+
+.boxImage1 {
+    width: 100%;
+    margin-bottom: 3rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.boxHeading {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.boxHeading1 {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.span {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: gray;
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    
+}

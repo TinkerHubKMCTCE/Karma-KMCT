@@ -26,8 +26,8 @@ const Header = () => {
                     <ul className={classes.nav}>
                         <li>Home</li>
                         <li>About</li>
-                        <li>Cultural</li>
-                        <li>Tech</li>
+                        <li>Highlights</li>
+                        <li>Culturals</li>
                         <li>Contact</li>
                     </ul>
                 
@@ -41,8 +41,8 @@ const Header = () => {
                     <ul className={classes.mobileNav}>
                             <li>Home</li>
                             <li>About</li>
+                            <li>Highlights</li>
                             <li>Cultural</li>
-                            <li>Tech</li>
                             <li>Contact</li>
                         </ul>
                 

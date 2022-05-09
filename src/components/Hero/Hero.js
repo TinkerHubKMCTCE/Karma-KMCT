@@ -1,38 +1,78 @@
+import { useEffect, useRef, useState } from "react";
 import classes from "./Hero.module.css"
 
 const Hero = () => {
+
+    const [countDays, setDays] = useState(false)
+    const [countHours, setHours] = useState(false)
+    const [countMinutes, setMinutes] = useState(false)
+    const [countSeconds, setSeconds] = useState(false)
+
+    let interval = useRef()
+
+    const startTimer = () => {
+        const countdownDate = new Date("May 21 2022 00:00:00").getTime()
+
+        interval = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = countdownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24))
+            const hours = Math.floor(distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+            const minutes = Math.floor((distance/1000/60) % 60)
+            const seconds = Math.floor(distance % (1000 * 60) / 1000)
+
+            if(distance < 0) {
+                //
+                clearInterval(interval)
+            } else {
+                setDays(days)
+                setHours(hours)
+                setMinutes(minutes)
+                setSeconds(seconds)
+            }
+        }, 1000)
+    }
+
+    useEffect(() => {
+        startTimer()
+        return() => {
+            clearInterval(interval)
+        }
+    })
+
     return (
         <section className={classes.hero}>
             <div className={classes.herobox}>
                 <div className={classes.headerbox}>
-                    <h1 className={classes.heading}>KARMA 2022</h1>
+                    <h1 className={classes.heading}>KARMA 22</h1>
                     <h4 className={classes.caption}>What goes around comes around</h4>
                     <p className={classes.date}>MAY 21-23, 2022</p>
                 </div>
 
                 <div className={classes.countdownbox}>
                     <div className={classes.countdown}>
-                    <p>12</p>
+                    <p>{countDays}</p>
                     <p><small>days</small></p>
                     </div>
 
                     <span className={classes.column}>:</span>
 
                     <div className={classes.countdown}>
-                    <p>17</p>
+                    <p>{countHours}</p>
                     <p>hours</p>
                     </div>
 
                         <span className={classes.column}>:</span>
 
                     <div className={classes.countdown}>
-                    <p>40</p>
+                    <p>{countMinutes}</p>
                     <p>min</p>
                     </div>
 
                             <span className={classes.column}>:</span>
                     <div className={classes.countdown}>
-                    <p>59</p>
+                    <p>{countSeconds}</p>
                     <p>sec</p>
                     </div>
 

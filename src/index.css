@@ -19,4 +19,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: url(/public/assets/Desktop-3.png);
+  background-size: cover;
+  background-attachment: fixed;
 }
