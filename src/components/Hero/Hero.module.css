@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-.heading {
+/* .heading {
     font-family: myFirstFont;
     font-size: 12rem;
     font-weight: bolder;
@@ -34,7 +34,11 @@
     background-image: linear-gradient(to bottom,#09B326, #32B4ED);
     color: transparent;
     -webkit-background-clip: text;
+} */
+.logo{
+    margin-bottom: 3rem;
 }
+
 
 .caption {
     font-style: italic;
@@ -80,8 +84,8 @@
         justify-content: center;
     }
 
-    .heading {
-        font-size: 7rem;
+    .logo {
+        width: 50rem;
     }
 
 }
