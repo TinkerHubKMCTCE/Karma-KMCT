@@ -25,7 +25,7 @@ const Carousel2 = () => {
           infiniteLoop={true}
         >
           <div className={classes.box}>
-            <Link to="/culturals" style={{ textDecoration: "none" }}>
+            <Link to="/desafio" style={{ textDecoration: "none" }}>
               <div className={classes.boxContent1}>
                 <img className={classes.boxImage1} src={image3} alt="" />
                 <h3 className={classes.boxHeading1}>Lorem Ipsum</h3>
