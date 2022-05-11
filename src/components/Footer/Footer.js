@@ -21,7 +21,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://docs.google.com/document/d/1K0En27BTf6KJB2eHZmnr7BAMDWK8T83--8HJOu-GkA0/edit?usp=sharing"
-                style={{ color: "white" }}
+                style={{ color: "white", textDecoration: "none" }}
               >
                 Privacy Policy
               </a>
@@ -29,7 +29,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://docs.google.com/document/d/1VOnAodNTeF8ShOCxxVb_AXnxLKg2jKZCUY0QxbQd4nE/edit?usp=sharing"
-                style={{ color: "white" }}
+                style={{ color: "white", textDecoration: "none" }}
               >
                 Terms & Conditions
               </a>
@@ -37,7 +37,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://docs.google.com/document/d/1K0En27BTf6KJB2eHZmnr7BAMDWK8T83--8HJOu-GkA0/edit?usp=sharing"
-                style={{ color: "white" }}
+                style={{ color: "white", textDecoration: "none" }}
               >
                 Cancellation / Refund Policy
               </a>
