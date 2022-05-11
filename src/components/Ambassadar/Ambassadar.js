@@ -36,8 +36,14 @@ const Ambassadar = () => {
         open={open}
       >
         <div className={classes.backdrop}>
-          <div className={classes.bkdHeadingBox}>
+          <div
+            className={classes.bkdHeadingBox}
+            style={{ display: "flex", justifyContent: "space-between" }}
+          >
             <h3 className={classes.bkdHeading}>Register</h3>
+            <button className={classes.btn1} onClick={() => setOpen(!open)}>
+              Close
+            </button>
           </div>
           <div className={classes.inputBox}>
             <input
