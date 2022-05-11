@@ -20,9 +20,9 @@ const Carousel2 = () => {
         <Carousel
           showThumbs={false}
           showStatus={false}
-          // autoPlay={true}
+          autoPlay={true}
           interval={3000}
-          // infiniteLoop={true}
+          infiniteLoop={true}
         >
           <div className={classes.box}>
             <Link to="/culturals" style={{ textDecoration: "none" }}>
