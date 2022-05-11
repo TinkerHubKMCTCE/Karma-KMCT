@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import classes from "./Hero.module.css";
 
+import logo from "./karma_logo.svg";
+
 const Hero = () => {
   const [countDays, setDays] = useState(false);
   const [countHours, setHours] = useState(false);
@@ -46,7 +48,7 @@ const Hero = () => {
     <section className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
-          <img src="" alt="/" className={classes.logo} />
+          <img src={logo} alt="/" className={classes.logo} />
           <h4 className={classes.caption}>What goes around comes around</h4>
           <p className={classes.date}>MAY 21-23, 2022</p>
         </div>
