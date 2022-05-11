@@ -1,8 +1,8 @@
 import classes from "./Ambassadar.module.css";
 import Mobile from "./Mobile.svg";
 import Backdrop from "@mui/material/Backdrop";
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
+// import Box from "@mui/material/Box";
+// import TextField from "@mui/material/TextField";
 import { useState } from "react";
 
 const Ambassadar = () => {
@@ -35,21 +35,32 @@ const Ambassadar = () => {
         sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
         open={open}
       >
-          <div className={classes.backdrop}>
-            <div className={classes.bkdHeadingBox}>
-              <h3 className={classes.bkdHeading}>Register</h3>
-            </div>
-            <div className={classes.inputBox}>
-            <input placeholder="Full Name" type="text" className={classes.input} />
-            <input placeholder="College" type="text" className={classes.input} />
+        <div className={classes.backdrop}>
+          <div className={classes.bkdHeadingBox}>
+            <h3 className={classes.bkdHeading}>Register</h3>
+          </div>
+          <div className={classes.inputBox}>
+            <input
+              placeholder="Full Name"
+              type="text"
+              className={classes.input}
+            />
+            <input
+              placeholder="College"
+              type="text"
+              className={classes.input}
+            />
             <input placeholder="Email" type="text" className={classes.input} />
-            <input placeholder="Phone number" type="text" className={classes.input} />
-            </div>
-            <button className={classes.btn1} onClick={() => setOpen(!open)}>
+            <input
+              placeholder="Phone number"
+              type="text"
+              className={classes.input}
+            />
+          </div>
+          <button className={classes.btn1} onClick={() => setOpen(!open)}>
             Sign Up
           </button>
-          </div>
-          
+        </div>
       </Backdrop>
     </section>
   );
