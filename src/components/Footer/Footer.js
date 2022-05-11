@@ -14,26 +14,50 @@ const Footer = () => {
         <div className={classes.logoBox}>
           <img src={footer_karma} alt="/" className={classes.footer_karma} />
           <img src={footer_kmct} alt="/" className={classes.footer_kmct} />
-          {/* <img className={classes.logo1} src={Grey2} alt="/" />
-          <img className={classes.logo2} src={Group} alt="/" /> */}
         </div>
         <div className={classes.linkBox}>
           <ul className={classes.links}>
-            <li>Home</li>
-            <li>About</li>
-            <li>Events</li>
             <li>Contact Us</li>
+            <li>
+              <a
+                href="https://docs.google.com/document/d/1K0En27BTf6KJB2eHZmnr7BAMDWK8T83--8HJOu-GkA0/edit?usp=sharing"
+                style={{ color: "white" }}
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://docs.google.com/document/d/1VOnAodNTeF8ShOCxxVb_AXnxLKg2jKZCUY0QxbQd4nE/edit?usp=sharing"
+                style={{ color: "white" }}
+              >
+                Terms & Conditions
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://docs.google.com/document/d/1K0En27BTf6KJB2eHZmnr7BAMDWK8T83--8HJOu-GkA0/edit?usp=sharing"
+                style={{ color: "white" }}
+              >
+                Cancellation / Refund Policy
+              </a>
+            </li>
           </ul>
           <div className={classes.socialIcons}>
-            {/* <FontAwesomeIcon icon="fa-brands fa-instagram" /> */}
-            <img className={classes.social} src={social1} alt="" />
-            <img className={classes.social} src={social2} alt="" />
-            <img className={classes.social} src={social3} alt="" />
+            <a href="https://www.facebook.com/kmctce.karma">
+              <img className={classes.social} src={social1} alt="" />
+            </a>
+            <a href="https://www.instagram.com/karma_kmct_/">
+              <img className={classes.social} src={social2} alt="" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g">
+              <img className={classes.social} src={social3} alt="" />
+            </a>
           </div>
         </div>
       </div>
       <div className={classes.copyright}>
-        <h2>© 2022 kedilo.com</h2>
+        <h2>Karma'22 | All Rights Reserved © Kedilo</h2>
       </div>
     </footer>
   );
