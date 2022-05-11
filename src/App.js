@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
+import Ambassadar from "./components/Ambassadar/Ambassadar";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <About />
       {/* <Carousel /> */}
+      <Ambassadar />
       <Footer />
     </Fragment>
   );
