@@ -42,6 +42,7 @@ const Header = () => {
             </li>
             <li>Contact</li>
           </ul>
+          <div></div>
 
           <Link to="">
             <button className={classes.btn}>Buy Tickets</button>

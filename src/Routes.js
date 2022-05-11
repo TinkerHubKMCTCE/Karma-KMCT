@@ -12,11 +12,11 @@ const MyRoutes = () => {
     <Fragment>
       <Router>
         <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="/culturals" element={<Culturals />} />
-          <Route path="/desafio" element={<Desafio />} />
-          <Route path="/voguefiesta" element={<VogueFiesta />} />
-          <Route path="/aghaidh" element={<Aghaidh />} />
+          <Route path="/" exact element={<App />} />
+          <Route path="/culturals" exact element={<Culturals />} />
+          <Route path="/desafio" exact element={<Desafio />} />
+          <Route path="/voguefiesta" exact element={<VogueFiesta />} />
+          <Route path="/aghaidh" exact element={<Aghaidh />} />
         </Routes>
       </Router>
     </Fragment>
