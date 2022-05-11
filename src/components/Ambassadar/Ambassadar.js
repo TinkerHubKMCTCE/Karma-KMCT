@@ -1,8 +1,6 @@
 import classes from "./Ambassadar.module.css";
 import Mobile from "./Mobile.svg";
 import Backdrop from "@mui/material/Backdrop";
-// import Box from "@mui/material/Box";
-// import TextField from "@mui/material/TextField";
 import { useState } from "react";
 
 const Ambassadar = () => {

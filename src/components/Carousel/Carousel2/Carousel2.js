@@ -7,6 +7,7 @@ import image5 from "./Rectangle 38.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import { Link } from "react-router-dom";
 
 const Carousel2 = () => {
   return (
@@ -16,9 +17,15 @@ const Carousel2 = () => {
           <h2 className={classes.heading}>Cultural Events</h2>
         </div>
 
-        <Carousel showThumbs={false} showStatus={false}>
+        <Carousel
+          showThumbs={false}
+          showStatus={false}
+          autoPlay={true}
+          interval={3000}
+          infiniteLoop={true}
+        >
           <div className={classes.box}>
-            <a href="" style={{ textDecoration: "none" }}>
+            <Link to="/culturals" style={{ textDecoration: "none" }}>
               <div className={classes.boxContent1}>
                 <img className={classes.boxImage1} src={image3} alt="" />
                 <h3 className={classes.boxHeading1}>Lorem Ipsum</h3>
@@ -27,7 +34,7 @@ const Carousel2 = () => {
                   Deleniti, officia?
                 </p>
               </div>
-            </a>
+            </Link>
 
             <div className={classes.boxContent1}>
               <img className={classes.boxImage1} src={image4} alt="" />
@@ -76,35 +83,6 @@ const Carousel2 = () => {
             </div>
           </div>
         </Carousel>
-
-        {/* <div className={classes.box}>
-          <div className={classes.boxContent1}>
-            <img className={classes.boxImage1} src={image3} alt="" />
-            <h3 className={classes.boxHeading1}>Lorem Ipsum</h3>
-            <p className={classes.para}>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Deleniti, officia?
-            </p>
-          </div>
-
-          <div className={classes.boxContent1}>
-            <img className={classes.boxImage1} src={image4} alt="" />
-            <h3 className={classes.boxHeading1}>Lorem Ipsum</h3>
-            <p className={classes.para}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Corporis, dignissimos.
-            </p>
-          </div>
-
-          <div className={classes.boxContent1}>
-            <img className={classes.boxImage1} src={image5} alt="" />
-            <h3 className={classes.boxHeading1}>Lorem Ipsum</h3>
-            <p className={classes.para}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Corporis, dignissimos.
-            </p>
-          </div>
-        </div> */}
       </div>
     </Fragment>
   );
