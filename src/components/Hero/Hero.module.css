@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Origami.ttf);
+}
+
 .hero {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),url("hero.jpg");
@@ -21,16 +26,22 @@
     align-items: center;
 }
 
-.heading {
-    font-size: 8rem;
+/* .heading {
+    font-family: myFirstFont;
+    font-size: 12rem;
     font-weight: bolder;
     display: inline-block;
     background-image: linear-gradient(to bottom,#09B326, #32B4ED);
     color: transparent;
     -webkit-background-clip: text;
+} */
+.logo{
+    margin-bottom: 3rem;
 }
 
+
 .caption {
+    font-style: italic;
     color: #fff;
     font-size: 2rem;
     font-weight: 300;
@@ -73,8 +84,8 @@
         justify-content: center;
     }
 
-    .heading {
-        font-size: 7rem;
+    .logo {
+        width: 50rem;
     }
 
 }

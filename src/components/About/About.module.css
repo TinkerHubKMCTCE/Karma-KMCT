@@ -1,6 +1,4 @@
 .aboutSec {
-    background-image: url("Desktop-3.png"); 
-    background-size: cover;
     height: 100%;
     padding: 3rem 1.5rem;
 }
@@ -23,14 +21,12 @@
 .details {
     flex-basis: 75%;
     color: #fff;
-    margin-top: 2rem;
 }
 
 .heading {
     font-size: 4rem;
     font-weight: 400;
     margin-bottom: 0;
-    line-height: 0;
 }
 
 .heading1 {
@@ -40,7 +36,6 @@
     font-weight: 700;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #fff;
-    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 480px) {

@@ -1,46 +1,89 @@
-import classes from "./Hero.module.css"
+import { useEffect, useRef, useState } from "react";
+import classes from "./Hero.module.css";
+
+import logo from "./karma_logo.svg";
 
 const Hero = () => {
-    return (
-        <section className={classes.hero}>
-            <div className={classes.herobox}>
-                <div className={classes.headerbox}>
-                    <h1 className={classes.heading}>KARMA 2022</h1>
-                    <h4 className={classes.caption}>What goes around comes around</h4>
-                    <p className={classes.date}>MAY 21-23, 2022</p>
-                </div>
+  const [countDays, setDays] = useState(false);
+  const [countHours, setHours] = useState(false);
+  const [countMinutes, setMinutes] = useState(false);
+  const [countSeconds, setSeconds] = useState(false);
 
-                <div className={classes.countdownbox}>
-                    <div className={classes.countdown}>
-                    <p>12</p>
-                    <p><small>days</small></p>
-                    </div>
+  let interval = useRef();
 
-                    <span className={classes.column}>:</span>
+  const startTimer = () => {
+    const countdownDate = new Date("May 21 2022 00:00:00").getTime();
 
-                    <div className={classes.countdown}>
-                    <p>17</p>
-                    <p>hours</p>
-                    </div>
+    interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
 
-                        <span className={classes.column}>:</span>
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor((distance / 1000 / 60) % 60);
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                    <div className={classes.countdown}>
-                    <p>40</p>
-                    <p>min</p>
-                    </div>
+      if (distance < 0) {
+        //
+        clearInterval(interval);
+      } else {
+        setDays(days);
+        setHours(hours);
+        setMinutes(minutes);
+        setSeconds(seconds);
+      }
+    }, 1000);
+  };
 
-                            <span className={classes.column}>:</span>
-                    <div className={classes.countdown}>
-                    <p>59</p>
-                    <p>sec</p>
-                    </div>
+  useEffect(() => {
+    startTimer();
+    return () => {
+      clearInterval(interval);
+    };
+  });
 
-                   
-                </div>
-            </div>
-        </section>
-    )
-}
+  return (
+    <section className={classes.hero}>
+      <div className={classes.herobox}>
+        <div className={classes.headerbox}>
+          <img src={logo} alt="/" className={classes.logo} />
+          <h4 className={classes.caption}>What goes around comes around</h4>
+          <p className={classes.date}>MAY 21-23, 2022</p>
+        </div>
+
+        <div className={classes.countdownbox}>
+          <div className={classes.countdown}>
+            <p>{countDays}</p>
+            <p>
+              <small>days</small>
+            </p>
+          </div>
+
+          <span className={classes.column}>:</span>
+
+          <div className={classes.countdown}>
+            <p>{countHours}</p>
+            <p>hours</p>
+          </div>
+
+          <span className={classes.column}>:</span>
+
+          <div className={classes.countdown}>
+            <p>{countMinutes}</p>
+            <p>min</p>
+          </div>
+
+          <span className={classes.column}>:</span>
+          <div className={classes.countdown}>
+            <p>{countSeconds}</p>
+            <p>sec</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default Hero;
