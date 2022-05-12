@@ -1,0 +1,88 @@
+.backdrop {
+    width: 65%;
+    border-radius: 10px;
+    background-image: url(/public/assets/Desktop-2.svg);
+    background-size: cover;
+    padding: 4rem 5rem;
+    transition: all .4s;
+}
+
+.bkdHeadingBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.fieldBox {
+    margin: 0 auto;
+    background-color: red;
+}
+
+.bkdHeading {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.inputBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    justify-items: center;
+}
+
+.input {
+    border-image-source: linear-gradient(to bottom right, #09B326, #1ba6e2);
+    border-width: 2pt;
+    border-image-slice: 1;
+    width: 100%;
+    font-size: 1.8rem;
+    padding: .7rem 1.3rem;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.input::placeholder {
+    color: rgb(213, 204, 204);
+    opacity: 90%;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.btn1 {
+    justify-self: center;
+    background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
+    padding: .8rem 3.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    transition: all .3s;
+    margin-top: 3rem;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.btn1:hover {
+    background-image: linear-gradient(to left, #09B326, #32B4ED);
+    transition: all .3s;
+}
+
+@media screen and (max-width:480px) {
+    .backdrop {
+        width: 90%;
+    }
+
+    .inputBox {
+        grid-template-columns: repeat(1, 2fr);
+        gap: 3rem;
+    }
+}

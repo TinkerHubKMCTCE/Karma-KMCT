@@ -7,15 +7,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Form = (props) => {
     const [open, setOpen] = useState(false);
   const [fullName, setfullName] = useState("");
-  const [college, setCollege] = useState("");
+  const [passout, setPassout] = useState("");
   const [mail, setMail] = useState("");
   const [number, setNumber] = useState("");
 
   const nameHandler = (event) => {
     setfullName(event.target.value);
   };
-  const collegeHandler = (event) => {
-    setCollege(event.target.value);
+  const passoutHandler = (event) => {
+    setPassout(event.target.value);
   };
   const mailHandler = (event) => {
     setMail(event.target.value);
@@ -26,13 +26,13 @@ const Form = (props) => {
 
   const sheetSubmit = (event) => {
     event.preventDefault();
-    console.log(fullName, college, mail, number);
+    console.log(fullName, passout, mail, number);
 
     fetch("https://sheetdb.io/api/v1/axyeojo2uz837", {
       method: "POST",
       body: JSON.stringify({
         fullName,
-        college,
+        passout,
         mail,
         number,
       }),
@@ -50,7 +50,7 @@ const Form = (props) => {
     >
       <div className={classes.backdrop}>
         <div className={classes.bkdHeadingBox}>
-          <h3 className={classes.bkdHeading}>Register for Campus Ambassador</h3>
+          <h3 className={classes.bkdHeading}>Register for Alumni</h3>
           <div onClick={props.onClick} className={classes.close}>
           <FontAwesomeIcon icon={faXmark} size="3x" />
           </div>
@@ -67,11 +67,11 @@ const Form = (props) => {
             required
           />
           <input
-            placeholder="College"
+            placeholder="Passout Year"
             type="text"
             className={classes.input}
-            onChange={collegeHandler}
-            value={college}
+            onChange={passoutHandler}
+            value={passout}
             required
           />
           <input
