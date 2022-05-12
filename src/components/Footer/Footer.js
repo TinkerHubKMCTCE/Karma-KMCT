@@ -14,13 +14,13 @@ const Footer = () => {
           <img src={footer_kmct} alt="/" className={classes.footer_kmct} />
         </div>
         <div className={classes.socialIcons}>
-          <a className={classes.anchor} href="/https://www.facebook.com/kmctce.karma">
+          <a className={classes.anchor} href="/https://www.facebook.com/karma.kmct/">
             <FontAwesomeIcon className={classes.social} icon={faFacebook} />
           </a>
-          <a className={classes.anchor} href="/https://www.instagram.com/karma_kmct_/">
+          <a className={classes.anchor} href="/https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g">
             <FontAwesomeIcon className={classes.social} icon={faYoutube} />
           </a>
-          <a className={classes.anchor} href="/https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g">
+          <a className={classes.anchor} href="/https://instagram.com/karma.kmct">
             <FontAwesomeIcon className={classes.social} icon={faInstagram} />
           </a>
         </div>
