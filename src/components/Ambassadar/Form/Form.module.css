@@ -1,0 +1,63 @@
+.backdrop {
+    width: 65%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.758);
+    padding: 4rem 5rem;
+}
+
+.bkdHeadingBox {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.fieldBox {
+    margin: 0 auto;
+    background-color: red;
+}
+
+.bkdHeading {
+    font-size: 3rem;
+}
+
+.inputBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    justify-items: center;
+}
+
+.input {
+    border: 2px solid rgba(85, 85, 232, 0.803);
+    border-width: 3pt;
+    border-image-slice: 1;
+    border-radius: 13px;
+    width: 90%;
+    font-size: 3rem;
+    padding: 1.2rem 1.3rem;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.input::placeholder {
+    color: rgb(213, 204, 204);
+    opacity: 90%;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.btn1 {
+    justify-self: center;
+    background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
+    padding: 1rem 2.7rem;
+    border: none;
+    border-radius: 9px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    transition: all .3s;
+    margin-top: 3rem;
+}
