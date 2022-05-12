@@ -52,15 +52,18 @@ const Culturals = () => {
             <div className={classes.headingBox}>
               <h3 className={classes.heading}>Vogue Fiesta - Fashion Show</h3>
               <p className={classes.para}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
-                officiis tenetur facere voluptas, quisquam ut totam hic
-                veritatis saepe temporibus odit odio laudantium dolorum? Vel?
+                Are you a fashionista or a dressy, kicky, sassy person? If yes,
+                then what are you waiting for? KARMA '22 is here with 'VOGUE
+                FIESTA' Fashion show' ! Style is a way to say who you are
+                without having to speak. Create your own visual style. Let it be
+                unique for yourself and yet identifiable for others ! All
+                fashion lovers do participate and make sure you have registered.
               </p>
 
-              <p className={classes.para}>
+              {/* <p className={classes.para}>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Aliquid, excepturi.
-              </p>
+              </p> */}
 
               <Link to="/voguefiesta">
                 <button className={classes.btn}>View Details !</button>
