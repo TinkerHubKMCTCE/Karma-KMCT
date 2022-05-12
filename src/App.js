@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Ambassadar from "./components/Ambassadar/Ambassadar";
+import Alumni from "./components/Alumni/Alumni"
 import Carousel from "./components/Carousel/Carousel";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Carousel />
       <Ambassadar />
+      <Alumni />
       <Footer />
     </Fragment>
   );

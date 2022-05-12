@@ -28,9 +28,10 @@ const Ambassadar = () => {
         </div>
       </div>
 
-      <Form open={open} />
+      {open && <Form open={open} onClick={() => setOpen(!open)} />}
     </section>
   );
 };
 
 export default Ambassadar;
+  
