@@ -46,7 +46,7 @@ const Desafio = () => {
               irrelevant.
             </p>
 
-            <a href="https://pages.razorpay.com/pl_JTqaCQgO7vIKE6/view">
+            <a href="https://rzp.io/l/Desafio-Dance">
               <button className={classes.btn}>Register Now !</button>
             </a>
           </div>
