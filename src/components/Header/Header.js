@@ -34,7 +34,7 @@ const Header = () => {
             <li>Highlights</li>
             <li>
               <Link
-                to="culturals"
+                to="/culturals"
                 style={{ color: "white", textDecoration: "none" }}
               >
                 Culturals

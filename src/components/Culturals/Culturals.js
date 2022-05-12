@@ -22,15 +22,16 @@ const Culturals = () => {
             <h3 className={classes.heading}>Desafio - Dance Competiton</h3>
 
             <p className={classes.para}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
-              officiis tenetur facere voluptas, quisquam ut totam hic veritatis
-              saepe temporibus odit odio laudantium dolorum? Vel?
+              Dancers don't need wings to fly. Waiting for such an Opportunity?
+              Then here is the chance, KARMA '22 brings you the 'Desafio' dance
+              competition !! Grab your chance now, dance from your heart and let
+              your passion shine through !
             </p>
 
-            <p className={classes.para}>
+            {/* <p className={classes.para}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
               excepturi.
-            </p>
+            </p> */}
 
             <Link to="/desafio">
               <button className={classes.btn}>View Details !</button>

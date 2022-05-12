@@ -16,7 +16,7 @@ const Carousel1 = () => {
           showThumbs={false}
           showStatus={false}
           autoPlay={true}
-          interval={3000}
+          interval={2000}
           infiniteLoop={true}
         >
           <div className={classes.box}>
