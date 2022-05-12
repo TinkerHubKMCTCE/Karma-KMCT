@@ -15,7 +15,7 @@ const Ambassadar = () => {
           <p className={classes.para}>
             Leaders are born, if one have a strong spark in their heart. Here
             KARMA' 22 brings an opportunity to represent the college through "
-            CALL FOR CAMPUS AMBASSADOR " . Initiatives took by some are followed
+            CALL FOR CAMPUS AMBASSADOR ". Initiatives took by some are followed
             by others. Make it happen without wasting your time !
           </p>
 
