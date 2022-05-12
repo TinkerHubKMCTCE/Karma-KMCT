@@ -78,7 +78,7 @@ const Culturals = () => {
         <Spacing />
 
         {/* Aghaidh */}
-        <section className={classes.ambaSection}>
+        {/* <section className={classes.ambaSection}>
           <div className={classes.ambassadar}>
             <div className={classes.headingBox}>
               <h3 className={classes.heading}>Aghaidh - Face Painting</h3>
@@ -98,7 +98,7 @@ const Culturals = () => {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <Spacing />
       </section>
