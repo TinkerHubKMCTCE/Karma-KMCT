@@ -6,21 +6,22 @@ import { useState } from "react";
 
 const Ambassadar = () => {
   const [open, setOpen] = useState(false);
-  
+
   return (
     <section className={classes.ambaSection}>
       <div className={classes.ambassadar}>
         <div className={classes.headingBox}>
           <h3 className={classes.heading}>Karma 22 Ambassadar Program</h3>
           <p className={classes.para}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
-            officiis tenetur facere voluptas, quisquam ut totam hic veritatis
-            saepe temporibus odit odio laudantium dolorum? Vel?
+            Leaders are born, if one have a strong spark in their heart. Here
+            KARMA' 22 brings an opportunity to represent the college through "
+            CALL FOR CAMPUS AMBASSADOR " . Initiatives took by some are followed
+            by others. Make it happen without wasting your time !
           </p>
-          <p className={classes.para}>
+          {/* <p className={classes.para}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
             excepturi.
-          </p>
+          </p> */}
           <button className={classes.btn} onClick={() => setOpen(!open)}>
             Register Now !
           </button>
