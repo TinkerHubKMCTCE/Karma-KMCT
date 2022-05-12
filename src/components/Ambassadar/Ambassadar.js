@@ -18,10 +18,7 @@ const Ambassadar = () => {
             CALL FOR CAMPUS AMBASSADOR " . Initiatives took by some are followed
             by others. Make it happen without wasting your time !
           </p>
-          {/* <p className={classes.para}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
-            excepturi.
-          </p> */}
+
           <button className={classes.btn} onClick={() => setOpen(!open)}>
             Register Now !
           </button>
