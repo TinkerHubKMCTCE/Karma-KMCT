@@ -5,6 +5,7 @@ import Events from "./components/Events/Events";
 import Ambassadar from "./components/Ambassadar/Ambassadar";
 import Alumni from "./components/Alumni/Alumni"
 import ContactUs from "./components/ContactUs/ContactUs";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Ambassadar />
       <Alumni />
       <ContactUs />
+      <Footer/>
     </Fragment>
   );
 }
