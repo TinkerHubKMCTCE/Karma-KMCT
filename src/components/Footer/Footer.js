@@ -39,7 +39,9 @@ const Footer = () => {
         </div>
         <div className={classes.linkBox}>
           <ul className={classes.links}>
-            <li>Contact Us</li>
+            <a href="https://docs.google.com/document/d/1pp2-0qGvWY1rKCDeXt6nEyd7e2XwUqDufYCE8AYVIaM/edit?usp=sharing">
+              <li>Contact Us</li>
+            </a>
             <li>
               <a
                 href="https://docs.google.com/document/d/1cJfjOhoEfW_JhiMF-tUJXNWwRKxSIN-KrIlJCnh0EZ4/edit?usp=sharing"
