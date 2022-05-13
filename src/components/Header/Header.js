@@ -22,7 +22,11 @@ const Header = () => {
     >
       <div className={classes.elements}>
         <div className={classes.logobox}>
-          <img src="assets/header_logo.png" alt="/" className={classes.logo} />
+          <img
+            src="assets/Header/header_logo.png"
+            alt="/"
+            className={classes.logo}
+          />
         </div>
 
         <div className={classes.navbox}>
