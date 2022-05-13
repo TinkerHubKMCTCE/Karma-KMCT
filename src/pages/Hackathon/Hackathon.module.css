@@ -1,8 +1,8 @@
-.technical {
+.cultural {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 5rem 6rem;
-    grid-gap: 3rem;
+    gap: 3rem;
 }
 
 .card {
@@ -35,6 +35,7 @@
 
 .heading {
     font-size: 2.5rem;
+    text-align: center;
 }
 
 .btn {
@@ -42,7 +43,7 @@
     padding: .5rem 1.7rem;
     border: none;
     border-radius: 5px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: #fff;
     transition: all .3s;
@@ -51,7 +52,7 @@
 }
 
 @media screen and (max-width:480px) {
-    .technical {
+    .cultural {
         grid-template-columns: repeat(1, 1fr);
         gap: 4rem;
     }

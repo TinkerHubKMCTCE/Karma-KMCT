@@ -1,4 +1,4 @@
-const EventList = [
+const CulturalLists = [
     {   
         name: "desafio",
         id: 1,
@@ -15,27 +15,11 @@ const EventList = [
         rule8: "8. Judges can stop the dance in between if they feel it is irrelevant.",
         rule9: "",
         rule10: "",
-        paymentLink: "https://rzp.io/l/Desafio-Dance"
+        paymentLink: "https://rzp.io/l/Desafio-Dance",
+        redirectLink: "/events/cultural/desafio",
     },
     {
         id: 2,
-        name: "lightmusic",
-        para: "Music is the universal language of mankind. Where words fail, music speaks. 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with ' 𝐋𝐢𝐠𝐡𝐭 𝐌𝐮𝐬𝐢𝐜 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 '. Do participate and never miss a chance to show up your passion. Let your words speak through music !",
-        imgSrc: "/assets/cultural/lightmusic.png",
-        heading: "Light Music",
-        rule1: "1. Participant should choose a meaningful song of about 5 minutes duration.",
-        rule2: "2. The song should not be devotional, choral or from Films.",
-        rule3: "3. Use of single instrument other than organ by the participant is permitted.",
-        rule4: "4. Composition and overall impression",
-        rule5: "",
-        rule6: "",
-        rule7: "",
-        rule8: "",
-        rule9: "",
-        paymentLink: "https://pages.razorpay.com/Karma22LightMusic"
-    },
-    {
-        id: 3,
         name: "pencildrawing",
         para: "Are you ready to beat you boredom?and fly high in the world of imagination,then the opportunity is here,𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐋𝐀𝐏𝐈𝐙' 𝐏𝐞𝐧𝐜𝐢𝐥 𝐃𝐫𝐚𝐰𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 ,Let your minds step into world of imagination...let's be engaged for while lost in thoughts... Let your white papers be kissed by pencil..",
         imgSrc: "/assets/cultural/pencildrawing.png",
@@ -49,10 +33,11 @@ const EventList = [
         rule7: "7. A finished art should not contain any other materials.",
         rule8: "8. Each participants will receive a registration number after the registration, it should be written on the top left corner of the final art.",
         rule9: "",
-        paymentLink: "https://rzp.io/l/Pencil-Drawing"
+        paymentLink: "https://rzp.io/l/Pencil-Drawing",
+        redirectLink: "/events/cultural/pencildrawing"
     },
     {
-        id: 4,
+        id: 3,
         name: "fashionshow",
         para: "Are you a fashionista or a dressy, kicky, sassy person? If yes, then what are you waiting for? KARMA '22 is here with 'VOGUE FIESTA' Fashion show' ! Style is a way to say who you are without having to speak. Create your own visual style. Let it be unique for yourself and yet identifiable for others ! All fashion lovers do participate and make sure you have registered.",
         imgSrc: "/assets/cultural/fashionshow.png",
@@ -67,8 +52,27 @@ const EventList = [
         rule8: "8. List of Team members Shortlisted teams will be informed by mail.",
         rule9: "9. Background music should be sent by email to karmakmct2022@gmail.com as a new email named VF-BGM-[College Name]. Both the subject of the mail and the Background music should be named in this format.",
         rule10: "10. The deadline for the same shall be informed after confirmation of participation. Presenting banners, posters or other materials directly displaying the theme is prohibited.",
-        paymentLink: "https://rzp.io/l/Fashion-Show"
+        paymentLink: "https://rzp.io/l/Fashion-Show",
+        redirectLink: "/events/cultural/fashionshow"
+    },
+    {
+        id: 4,
+        name: "lightmusic",
+        para: "Music is the universal language of mankind. Where words fail, music speaks. 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with ' 𝐋𝐢𝐠𝐡𝐭 𝐌𝐮𝐬𝐢𝐜 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 '. Do participate and never miss a chance to show up your passion. Let your words speak through music !",
+        imgSrc: "/assets/cultural/lightmusic.png",
+        heading: "Light Music",
+        rule1: "1. Participant should choose a meaningful song of about 5 minutes duration.",
+        rule2: "2. The song should not be devotional, choral or from Films.",
+        rule3: "3. Use of single instrument other than organ by the participant is permitted.",
+        rule4: "4. Composition and overall impression",
+        rule5: "",
+        rule6: "",
+        rule7: "",
+        rule8: "",
+        rule9: "",
+        paymentLink: "https://pages.razorpay.com/Karma22LightMusic",
+        redirectLink: "/events/cultural/lightmusic"
     },
 ]
 
-export default EventList;
+export default CulturalLists;
