@@ -6,17 +6,18 @@
     display: flex;
 }
 
-.headingBox {
-    color: #fff;
-    flex-basis: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .imgBox {
     margin: 0 auto;
     padding: 0 4rem;
+}
+
+
+.headingBox {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
 }
 
 .heading {
@@ -30,7 +31,7 @@
 }
 
 .img {
-    width: 80%;
+    width: 85%;
 }
 
 .btn {
@@ -51,4 +52,11 @@
     cursor: pointer;
     background-image: linear-gradient(to top left, #09B326, #32B4ED);
     transition: all .3s;
+}
+
+@media screen and (max-width: 480px) {
+    .eventBox {
+        flex-direction: column;
+        gap: 4rem;
+    }
 }
