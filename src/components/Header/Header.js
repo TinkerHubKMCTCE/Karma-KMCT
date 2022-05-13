@@ -2,7 +2,7 @@ import { useState } from "react";
 import classes from "./Header.module.css";
 import logo from "./Grey-2.png";
 
-import { FiMenu, Ficlos } from "react-icons/fi";
+import { FiMenu } from "react-icons/fi";
 import { GrClose } from "react-icons/gr";
 import { Link } from "react-router-dom";
 
@@ -49,7 +49,11 @@ const Header = () => {
             <button className={classes.btn}>Buy Tickets</button>
           </Link>
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
-            {mobile ? <GrClose style={{color: "white"}} size={20} /> : <FiMenu size={20} />}
+            {mobile ? (
+              <GrClose style={{ color: "white" }} size={20} />
+            ) : (
+              <FiMenu size={20} />
+            )}
           </div>
         </div>
 
