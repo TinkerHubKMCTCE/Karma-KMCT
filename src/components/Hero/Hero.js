@@ -46,7 +46,11 @@ const Hero = () => {
     <section className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
-          <img src="assets/karma_logo.svg" alt="/" className={classes.logo} />
+          <img
+            src="assets/Hero/karma_logo.svg"
+            alt="/"
+            className={classes.logo}
+          />
           <h4 className={classes.caption}>What goes around comes around</h4>
           <p className={classes.date}>MAY 21-23, 2022</p>
         </div>
