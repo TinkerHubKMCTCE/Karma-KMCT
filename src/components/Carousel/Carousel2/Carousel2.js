@@ -4,7 +4,7 @@ import { Fragment } from "react";
 import image3 from "./Desafio.svg";
 import image4 from "./Vogue.svg";
 import image5 from "./LAPIZ.svg";
-import image6 from "./lightMusic.svg";
+import image6 from "./lightmusic.svg";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
