@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: myFirstFont;
     src: url(Origami.ttf);
-}
+} */
 
 .hero {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),url("/public/assets/hero.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),url("/public/assets/Hero/karma_logo.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

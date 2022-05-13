@@ -1,5 +1,5 @@
 import classes from "./Ambassadar.module.css";
-import Mobile from "./Mobile.svg";
+// import Mobile from "./Mobile.svg";
 import Form from "./Form/Form";
 
 import { useState } from "react";
@@ -25,7 +25,11 @@ const Ambassadar = () => {
           </button>
         </div>
         <div className={classes.imgBox}>
-          <img className={classes.img} src={Mobile} alt="Ambassador" />
+          <img
+            className={classes.img}
+            src="assets/Ambassador/Mobile.svg"
+            alt="Ambassador"
+          />
         </div>
       </Background>
 
@@ -35,4 +39,3 @@ const Ambassadar = () => {
 };
 
 export default Ambassadar;
-  

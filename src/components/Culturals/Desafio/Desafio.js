@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import classes from "./Common.module.css";
-import pic from "../Desafio/pic.png";
 import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 
@@ -55,7 +54,11 @@ const Desafio = () => {
             </a>
           </div>
           <div className={classes.imgBox}>
-            <img className={classes.img} src={pic} alt="Desafio" />
+            <img
+              className={classes.img}
+              src="assets/desafio.png"
+              alt="Desafio"
+            />
           </div>
         </div>
       </section>
