@@ -20,7 +20,6 @@ function App() {
       <Ambassadar />
       <Alumni />
       <ContactUs />
-      <Footer />
     </Fragment>
   );
 }

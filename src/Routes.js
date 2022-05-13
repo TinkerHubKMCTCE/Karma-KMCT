@@ -4,6 +4,7 @@ import React, { Fragment } from "react";
 import App from "./App";
 import EventPage from "./pages/EventPage/EventPage";
 import EventDetail from "./pages/EventDetail/EventDetail"
+import Header from "./components/Header/Header";
 // import Culturals from "./components/Culturals/Culturals";
 // import Desafio from "./components/Culturals/Desafio/Desafio";
 // import VogueFiesta from "./components/Culturals/VogueFiesta/VogueFiesta";
@@ -12,6 +13,7 @@ import EventDetail from "./pages/EventDetail/EventDetail"
 // import LightMusic from "./components/Culturals/LightMusic/LightMusic";
 import Cultural from "./pages/Cultural/Cultural";
 import Technical from "./pages/Technical/Technical"
+import Footer from "./components/Footer/Footer";
 
 const MyRoutes = () => {
   return (
@@ -32,6 +34,7 @@ const MyRoutes = () => {
           <Route path="/pencildrawing" element={<PencilDrawing />} />
           <Route path="/lightmusic" element={<LightMusic />} /> */}
         </Routes>
+        <Footer />
         </main>
     </Fragment>
   );
