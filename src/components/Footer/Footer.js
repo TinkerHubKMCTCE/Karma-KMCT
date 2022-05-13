@@ -20,20 +20,17 @@ const Footer = () => {
         <div className={classes.socialIcons}>
           <a
             className={classes.anchor}
-            href="/https://www.facebook.com/karma.kmct/"
+            href="https://www.facebook.com/karma.kmct/"
           >
             <FontAwesomeIcon className={classes.social} icon={faFacebook} />
           </a>
           <a
             className={classes.anchor}
-            href="/https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g"
+            href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g"
           >
             <FontAwesomeIcon className={classes.social} icon={faYoutube} />
           </a>
-          <a
-            className={classes.anchor}
-            href="/https://instagram.com/karma.kmct"
-          >
+          <a className={classes.anchor} href="https://instagram.com/karma.kmct">
             <FontAwesomeIcon className={classes.social} icon={faInstagram} />
           </a>
         </div>
