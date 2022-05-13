@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Ambassadar from "./components/Ambassadar/Ambassadar";
 import Alumni from "./components/Alumni/Alumni"
 import Carousel from "./components/Carousel/Carousel";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Carousel />
       <Ambassadar />
       <Alumni />
+      <ContactUs />
       <Footer />
     </Fragment>
   );
