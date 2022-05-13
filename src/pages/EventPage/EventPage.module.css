@@ -7,10 +7,11 @@
 }
 
 .btn {
-    background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
+    /* background-image: linear-gradient(to bottom right, #09B326, #32B4ED); */
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #09B326, #32B4ED);
+    border-image-slice: 1;
     padding: .6rem 3rem;
-    border: none;
-    border-radius: 9px;
     font-size: 2rem;
     font-weight: 400;
     color: #fff;
@@ -19,8 +20,18 @@
     list-style: none;
 }
 
+.btn:hover {
+    background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
+    border: none;
+}
+
+.active {
+    background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
+    border: none;
+}
+
 .btn:not(:last-child) {
-    margin-right: 5rem;
+    margin-right: 2rem;
 }
 
 @media screen and (max-width: 480px) {

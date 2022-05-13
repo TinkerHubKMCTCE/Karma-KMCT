@@ -52,7 +52,7 @@ const EventList = [
         paymentLink: "https://rzp.io/l/Pencil-Drawing"
     },
     {
-        id: 3,
+        id: 4,
         name: "fashionshow",
         para: "Are you a fashionista or a dressy, kicky, sassy person? If yes, then what are you waiting for? KARMA '22 is here with 'VOGUE FIESTA' Fashion show' ! Style is a way to say who you are without having to speak. Create your own visual style. Let it be unique for yourself and yet identifiable for others ! All fashion lovers do participate and make sure you have registered.",
         imgSrc: "/assets/cultural/fashionshow.png",
@@ -68,7 +68,7 @@ const EventList = [
         rule9: "9. Background music should be sent by email to karmakmct2022@gmail.com as a new email named VF-BGM-[College Name]. Both the subject of the mail and the Background music should be named in this format.",
         rule10: "10. The deadline for the same shall be informed after confirmation of participation. Presenting banners, posters or other materials directly displaying the theme is prohibited.",
         paymentLink: "https://rzp.io/l/Fashion-Show"
-    }
+    },
 ]
 
 export default EventList;

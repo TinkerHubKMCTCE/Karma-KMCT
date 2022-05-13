@@ -16,7 +16,7 @@ function App() {
       <Hero />
       <About />
       <Events />
-      <Carousel />
+      {/* <Carousel /> */}
       <Ambassadar />
       <Alumni />
       <ContactUs />
