@@ -11,8 +11,9 @@ const EventPage = () => {
         <Header />
             <Background>
                 <div className={classes.types}>
-                    <NavLink to="cultural" activeclassName={classes.active} className={classes.btn}>Cultural</NavLink>
-                    <NavLink to="technical" activeclassName={classes.active} className={classes.btn}>Technical</NavLink>
+                    <NavLink to="cultural" activeClassName={classes.active} className={classes.btn}>Cultural</NavLink>
+                    <NavLink to="technical" activeClassName={classes.active} className={classes.btn}>Technical</NavLink>
+                    <NavLink to="hackathon" activeClassName={classes.active} className={classes.btn}>Hackathon</NavLink>
                 </div>
 
                 <Outlet />

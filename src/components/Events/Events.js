@@ -6,6 +6,11 @@ const Events = () => {
     return (
         <section className={classes.events}>
             <Background className={classes.eventBox}>
+
+            <div className={classes.imgBox}>
+          <img className={classes.img} src="event.svg" alt="Ambassador" />
+        </div>
+
             <div className={classes.headingBox}>
           <h3 className={classes.heading}>Karma 22 Events</h3>
           <p className={classes.para}>
@@ -15,9 +20,6 @@ const Events = () => {
           <Link to="/events" className={classes.btn}>
             Explore our events
           </Link>
-        </div>
-        <div className={classes.imgBox}>
-          <img className={classes.img} src="assets/alumni.png" alt="Ambassador" />
         </div>
             </Background>
         </section>
