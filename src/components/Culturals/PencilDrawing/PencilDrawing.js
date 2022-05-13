@@ -59,7 +59,11 @@ const PencilDrawing = () => {
             <p className={classes.para}>2. Neatness</p>
             <p className={classes.para}>3. Visual appeal</p>
 
-            <a href="https://rzp.io/l/Pencil-Drawing">
+            <a
+              href="https://rzp.io/l/Pencil-Drawing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className={classes.btn}>Register Now !</button>
             </a>
           </div>

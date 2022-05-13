@@ -46,7 +46,11 @@ const Desafio = () => {
               irrelevant.
             </p>
 
-            <a href="https://rzp.io/l/Desafio-Dance">
+            <a
+              href="https://rzp.io/l/Desafio-Dance"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className={classes.btn}>Register Now !</button>
             </a>
           </div>
