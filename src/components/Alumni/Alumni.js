@@ -10,7 +10,7 @@ const Ambassadar = () => {
     <section className={classes.ambaSection}>
       <div className={classes.ambassadar}>
         <div className={classes.headingBox}>
-          <h3 className={classes.heading}>Karma 22 Alumni</h3>
+          <h3 className={classes.heading}>Halcyon - Alumni Meet</h3>
           <p className={classes.para}>
             "We maybe far apart but the bond between a student and alma mater
             always remains strong." <br></br>
@@ -27,7 +27,7 @@ const Ambassadar = () => {
         <div className={classes.imgBox}>
           <img
             className={classes.img}
-            src="assets/alumni.png"
+            src="assets/Alumni/alumni.png"
             alt="Ambassador"
           />
         </div>

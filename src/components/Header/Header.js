@@ -1,10 +1,11 @@
 import { useState } from "react";
 import classes from "./Header.module.css";
-import logo from "./Grey-2.png";
+// import logo from "./Grey-2.png";
 
 import { FiMenu } from "react-icons/fi";
 import { GrClose } from "react-icons/gr";
 import { Link } from "react-router-dom";
+import { Element } from "react-scroll";
 
 const Header = () => {
   const [scrolled, isScrolled] = useState(false);
@@ -21,7 +22,7 @@ const Header = () => {
     >
       <div className={classes.elements}>
         <div className={classes.logobox}>
-          <img src={logo} alt="/" className={classes.logo} />
+          <img src="assets/header_logo.png" alt="/" className={classes.logo} />
         </div>
 
         <div className={classes.navbox}>
@@ -62,7 +63,15 @@ const Header = () => {
 
           <ul className={classes.mobileNav}>
             <li>Home</li>
-            <li>About</li>
+            <Element
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              <li>About</li>
+            </Element>
             <li>Highlights</li>
             <li>Cultural</li>
             <li>Contact</li>
