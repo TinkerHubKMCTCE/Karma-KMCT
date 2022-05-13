@@ -29,7 +29,7 @@ const ContactUs = () => {
                     </div>
 
                     <div className={classes.mapBox}>
-                        <iframe className={classes.map} title="Kmct Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1956.153609468383!2d75.95371039076552!3d11.31224067999375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba643af748ee911%3A0x542a35d383bb1999!2sKMCT%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1652027577733!5m2!1sen!2sin" loading="lazy" style={{border: 0}} referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+                        <iframe className={classes.map} title="Kmct Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1956.153609468383!2d75.95371039076552!3d11.31224067999375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba643af748ee911%3A0x542a35d383bb1999!2sKMCT%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1652027577733!5m2!1sen!2sin" loading="lazy" style={{border: 0}}></iframe>
                     </div>
                 </div>
 

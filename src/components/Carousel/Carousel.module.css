@@ -12,13 +12,11 @@
     color: #fff;
 }
 
-.heading::before {
+.heading::after {
     content: '';
-    position: absolute;
-    bottom: 0; 
-    left: 0;
-    width: 250px;
-    height: 2px;
+    display: block;
+    width: 450px;
+    height: 5px;
     text-align: center;
     background-color: blue;
   }

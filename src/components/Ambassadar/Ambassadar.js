@@ -3,13 +3,14 @@ import Mobile from "./Mobile.svg";
 import Form from "./Form/Form";
 
 import { useState } from "react";
+import Background from "../../UI/Background";
 
 const Ambassadar = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <section className={classes.ambaSection}>
-      <div className={classes.ambassadar}>
+      <Background className={classes.ambassadar}>
         <div className={classes.headingBox}>
           <h3 className={classes.heading}>Karma 22 Ambassadar Program</h3>
           <p className={classes.para}>
@@ -26,7 +27,7 @@ const Ambassadar = () => {
         <div className={classes.imgBox}>
           <img className={classes.img} src={Mobile} alt="Ambassador" />
         </div>
-      </div>
+      </Background>
 
       {open && <Form open={open} onClick={() => setOpen(!open)} />}
     </section>

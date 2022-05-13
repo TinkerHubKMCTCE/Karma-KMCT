@@ -3,11 +3,7 @@
 }
 
 .ambassadar {
-    background-color: rgba(0, 0, 0, 0.432);
-    display: flex;
-    margin: 0 auto;
-    padding: 2rem 6rem;
-    border-radius: 12px;
+    display: flex; 
 }
 
 .headingBox {
