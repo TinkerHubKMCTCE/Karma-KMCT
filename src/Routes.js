@@ -3,12 +3,12 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import React, { Fragment } from "react";
 import App from "./App";
 import EventPage from "./pages/EventPage/EventPage";
-import Culturals from "./components/Culturals/Culturals";
-import Desafio from "./components/Culturals/Desafio/Desafio";
-import VogueFiesta from "./components/Culturals/VogueFiesta/VogueFiesta";
-import Aghaidh from "./components/Culturals/Aghaidh/Aghaidh";
-import PencilDrawing from "./components/Culturals/PencilDrawing/PencilDrawing";
-import LightMusic from "./components/Culturals/LightMusic/LightMusic";
+// import Culturals from "./components/Culturals/Culturals";
+// import Desafio from "./components/Culturals/Desafio/Desafio";
+// import VogueFiesta from "./components/Culturals/VogueFiesta/VogueFiesta";
+// import Aghaidh from "./components/Culturals/Aghaidh/Aghaidh";
+// import PencilDrawing from "./components/Culturals/PencilDrawing/PencilDrawing";
+// import LightMusic from "./components/Culturals/LightMusic/LightMusic";
 import Cultural from "./pages/Cultural/Cultural";
 import Technical from "./pages/Technical/Technical"
 
