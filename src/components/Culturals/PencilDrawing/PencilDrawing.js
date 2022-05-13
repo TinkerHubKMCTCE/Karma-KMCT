@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
 
-import classes from "../Desafio/Common.module.css";
+import classes from "../PencilDrawing/Common.module.css";
 import pic from "../PencilDrawing/pencil_drawing.png";
 
 const PencilDrawing = () => {

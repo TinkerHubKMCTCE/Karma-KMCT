@@ -122,6 +122,31 @@ const Culturals = () => {
         </section>
 
         <Spacing />
+
+        {/* Light Music */}
+
+        <section className={classes.ambaSection}>
+          <div className={classes.ambassadar}>
+            <div className={classes.headingBox}>
+              <h3 className={classes.heading}>Light Music</h3>
+              <p className={classes.para}>
+                Music is the universal language of mankind. Where words fail,
+                music speaks. 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with ' 𝐋𝐢𝐠𝐡𝐭 𝐌𝐮𝐬𝐢𝐜 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 '.
+                Do participate and never miss a chance to show up your passion.
+                Let your words speak through music !
+              </p>
+
+              <Link to="/lightmusic">
+                <button className={classes.btn}>View Details !</button>
+              </Link>
+            </div>
+            <div className={classes.imgBox}>
+              <img className={classes.img} src={Mobile} alt="Ambassador" />
+            </div>
+          </div>
+        </section>
+
+        <Spacing />
       </section>
       <Footer />
     </Fragment>
