@@ -6,21 +6,18 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
-// import footer_kmct from "./footer_kmct.svg";
-// import footer_karma from "./footer_karma.svg";
-
 const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.elements}>
         <div className={classes.logoBox}>
           <img
-            src="assets/footer_karma.svg"
+            src="assets/Footer/footer_karma.svg"
             alt="/"
             className={classes.footer_karma}
           />
           <img
-            src="assets/footer_kmct.svg"
+            src="assets/Footer/footer_kmct.svg"
             alt="/"
             className={classes.footer_kmct}
           />

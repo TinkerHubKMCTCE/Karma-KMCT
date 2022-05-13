@@ -2,7 +2,7 @@ const TechnicalLists = [
   {
     name: "robotics",
     id: 1,
-    imgSrc: "/assets/desafio.png",
+    imgSrc: "/assets/Cultural/desafio.png",
     heading: "Robotics - Robo Competiton",
     para: "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
     rule1: "1. No participants in group: min 4 and max 12 students.",
