@@ -4,9 +4,6 @@ const ContactUs = () => {
     return (
         <section className={classes.contact}>
             <div className={classes.contactBox}>
-                <div className={classes.headingBox}>
-                    <h2 className={classes.heading}>Contact us</h2>
-                </div>
                 
                 <div className={classes.contentBox}>
                 
