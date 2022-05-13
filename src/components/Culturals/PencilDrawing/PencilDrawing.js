@@ -25,6 +25,7 @@ const PencilDrawing = () => {
             </p>
 
             <h3 className={classes.heading}> Rules & Guidelines</h3>
+
             <p className={classes.para}>
               1. Entries must follow the competition theme.
             </p>
@@ -58,10 +59,15 @@ const PencilDrawing = () => {
             <p className={classes.para}>2. Neatness</p>
             <p className={classes.para}>3. Visual appeal</p>
 
-            <a href="https://rzp.io/l/Pencil-Drawing">
+            <a
+              href="https://rzp.io/l/Pencil-Drawing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className={classes.btn}>Register Now !</button>
             </a>
           </div>
+
           <div className={classes.imgBox}>
             <img className={classes.img} src={pic} alt="PencilDrawing" />
           </div>

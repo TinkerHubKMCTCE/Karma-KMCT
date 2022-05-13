@@ -69,7 +69,11 @@ const VogueFiesta = () => {
               of participation. Presenting banners, posters or other materials
               directly displaying the theme is prohibited.
             </p>
-            <a href="https://rzp.io/l/Fashion-Show">
+            <a
+              href="https://rzp.io/l/Fashion-Show"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className={classes.btn}>Register Now !</button>
             </a>
           </div>

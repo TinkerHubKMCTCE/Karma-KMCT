@@ -28,11 +28,6 @@ const Culturals = () => {
               your passion shine through !
             </p>
 
-            {/* <p className={classes.para}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
-              excepturi.
-            </p> */}
-
             <Link to="/desafio">
               <button className={classes.btn}>View Details !</button>
             </Link>
@@ -81,11 +76,6 @@ const Culturals = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
                 officiis tenetur facere voluptas, quisquam ut totam hic
                 veritatis saepe temporibus odit odio laudantium dolorum? Vel?
-              </p>
-
-              <p className={classes.para}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquid, excepturi.
               </p>
 
               <Link to="/aghaidh">

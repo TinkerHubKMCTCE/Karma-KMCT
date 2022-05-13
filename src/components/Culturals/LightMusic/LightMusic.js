@@ -39,7 +39,11 @@ const LightMusic = () => {
             <p className={classes.para}>
               4. Composition and overall impression
             </p>
-            <a href="https://pages.razorpay.com/Karma22LightMusic">
+            <a
+              href="https://pages.razorpay.com/Karma22LightMusic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className={classes.btn}>Register Now !</button>
             </a>
           </div>
