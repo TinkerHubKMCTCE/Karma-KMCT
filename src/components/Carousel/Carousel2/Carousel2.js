@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import image3 from "./Desafio.svg";
 import image4 from "./Vogue.svg";
 import image5 from "./LAPIZ.svg";
+import image6 from "./lightMusic.svg";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -31,10 +32,7 @@ const Carousel2 = () => {
                 <h3 className={classes.boxHeading1}>
                   Desafio - Dance Competition
                 </h3>
-                {/* <p className={classes.para}>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Deleniti, officia?
-                </p> */}
+
                 <div style={{ paddingTop: "1rem" }}></div>
 
                 <button className={classes.btn}>View More !</button>
@@ -55,7 +53,6 @@ const Carousel2 = () => {
             </Link>
 
             <Link to="/culturals" style={{ textDecoration: "none" }}>
-              {" "}
               <div className={classes.boxContent1}>
                 <img className={classes.boxImage1} src={image5} alt="" />
                 <h3 className={classes.boxHeading1}>
@@ -69,41 +66,22 @@ const Carousel2 = () => {
             </Link>
           </div>
 
-          {/* <div className={classes.box}>
+          <div className={classes.box}>
             <Link to="/culturals" style={{ textDecoration: "none" }}>
               <div className={classes.boxContent1}>
-                <img className={classes.boxImage1} src={image3} alt="" />
-                <h3 className={classes.boxHeading1}>Lorem Ipsum</h3>
-                <p className={classes.para}>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Deleniti, officia?
-                </p>
-              </div>
-            </Link>
+                <img
+                  className={classes.boxImage1}
+                  src={image6}
+                  alt="LightMusic"
+                />
+                <h3 className={classes.boxHeading1}>Light Music</h3>
 
-            <Link to="/culturals" style={{ textDecoration: "none" }}>
-              <div className={classes.boxContent1}>
-                <img className={classes.boxImage1} src={image4} alt="" />
-                <h3 className={classes.boxHeading1}>Lorem Ipsum</h3>
-                <p className={classes.para}>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Corporis, dignissimos.
-                </p>
-              </div>
-            </Link>
+                <div style={{ paddingTop: "1rem" }}></div>
 
-            <Link to="/culturals" style={{ textDecoration: "none" }}>
-              {" "}
-              <div className={classes.boxContent1}>
-                <img className={classes.boxImage1} src={image5} alt="" />
-                <h3 className={classes.boxHeading1}>Lorem Ipsum</h3>
-                <p className={classes.para}>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Corporis, dignissimos.
-                </p>
+                <button className={classes.btn}>View More !</button>
               </div>
             </Link>
-          </div> */}
+          </div>
         </Carousel>
       </div>
     </Fragment>
