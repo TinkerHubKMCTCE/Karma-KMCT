@@ -18,7 +18,7 @@ function App() {
       <Ambassadar />
       <Alumni />
       <ContactUs />
-      <Footer/>
+      {/* <Footer/> */}
     </Fragment>
   );
 }
