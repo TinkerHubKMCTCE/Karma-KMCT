@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
-import classes from "../Desafio/Common.module.css";
+import classes from "../PencilDrawing/Common.module.css";
 import pic from "../VogueFiesta/fashin _show.png";
 
 const VogueFiesta = () => {
@@ -21,10 +21,10 @@ const VogueFiesta = () => {
               for yourself and yet identifiable for others ! All fashion lovers
               do participate and make sure you have registered.
             </p>
-            <p className={classes.para}>
+            {/* <p className={classes.para}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
               excepturi.
-            </p>
+            </p> */}
 
             <h3 className={classes.heading}> Rules & Guidelines</h3>
             <p className={classes.para}>

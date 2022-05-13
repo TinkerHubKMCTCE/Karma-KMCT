@@ -60,11 +60,6 @@ const Culturals = () => {
                 fashion lovers do participate and make sure you have registered.
               </p>
 
-              {/* <p className={classes.para}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquid, excepturi.
-              </p> */}
-
               <Link to="/voguefiesta">
                 <button className={classes.btn}>View Details !</button>
               </Link>
@@ -99,6 +94,32 @@ const Culturals = () => {
             </div>
           </div>
         </section> */}
+
+        {/* Pencil Drawing */}
+
+        <section className={classes.ambaSection}>
+          <div className={classes.ambassadar}>
+            <div className={classes.headingBox}>
+              <h3 className={classes.heading}>
+                LAPIZ - Pencil Drawing Competition
+              </h3>
+              <p className={classes.para}>
+                Are you ready to beat you boredom?and fly high in the world of
+                imagination,then the opportunity is here,𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you
+                '𝐋𝐀𝐏𝐈𝐙' 𝐏𝐞𝐧𝐜𝐢𝐥 𝐃𝐫𝐚𝐰𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 ,Let your minds step into
+                world of imagination...let's be engaged for while lost in
+                thoughts... Let your white papers be kissed by pencil..
+              </p>
+
+              <Link to="/pencildrawing">
+                <button className={classes.btn}>View Details !</button>
+              </Link>
+            </div>
+            <div className={classes.imgBox}>
+              <img className={classes.img} src={Mobile} alt="Ambassador" />
+            </div>
+          </div>
+        </section>
 
         <Spacing />
       </section>

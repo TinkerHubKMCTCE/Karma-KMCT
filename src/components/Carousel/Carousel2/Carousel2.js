@@ -3,7 +3,7 @@ import { Fragment } from "react";
 
 import image3 from "./Desafio.svg";
 import image4 from "./Vogue.svg";
-import image5 from "./Aghaidh.svg";
+import image5 from "./LAPIZ.svg";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -58,7 +58,9 @@ const Carousel2 = () => {
               {" "}
               <div className={classes.boxContent1}>
                 <img className={classes.boxImage1} src={image5} alt="" />
-                <h3 className={classes.boxHeading1}>Aghaidh - Face Painting</h3>
+                <h3 className={classes.boxHeading1}>
+                  LAPIZ - Pencil Drawing Competition
+                </h3>
 
                 <div style={{ paddingTop: "1rem" }}></div>
 
