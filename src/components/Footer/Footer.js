@@ -39,7 +39,10 @@ const Footer = () => {
         </div>
         <div className={classes.linkBox}>
           <ul className={classes.links}>
-            <a href="https://docs.google.com/document/d/1pp2-0qGvWY1rKCDeXt6nEyd7e2XwUqDufYCE8AYVIaM/edit?usp=sharing">
+            <a
+              href="https://docs.google.com/document/d/1pp2-0qGvWY1rKCDeXt6nEyd7e2XwUqDufYCE8AYVIaM/edit?usp=sharing"
+              style={{ color: "white", textDecoration: "none" }}
+            >
               <li>Contact Us</li>
             </a>
             <li>

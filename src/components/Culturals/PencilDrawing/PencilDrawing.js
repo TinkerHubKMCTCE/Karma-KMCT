@@ -25,6 +25,7 @@ const PencilDrawing = () => {
             </p>
 
             <h3 className={classes.heading}> Rules & Guidelines</h3>
+
             <p className={classes.para}>
               1. Entries must follow the competition theme.
             </p>
@@ -62,6 +63,7 @@ const PencilDrawing = () => {
               <button className={classes.btn}>Register Now !</button>
             </a>
           </div>
+
           <div className={classes.imgBox}>
             <img className={classes.img} src={pic} alt="PencilDrawing" />
           </div>
