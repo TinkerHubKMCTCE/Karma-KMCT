@@ -17,7 +17,7 @@ const Ambassadar = () => {
             <br></br>Let's join together and celebrate a day with all the
             familiar faces you must have missed for long!!!<br></br> _𝚁𝚎𝚗𝚎𝚠 𝚢𝚘𝚞𝚛
             𝚏𝚛𝚒𝚎𝚗𝚍𝚜𝚑𝚒𝚙𝚜 <br></br>_𝚁𝚎𝚌𝚘𝚞𝚗𝚝 𝚖𝚎𝚖𝚘𝚛𝚒𝚎𝚜 <br></br>_𝙴𝚗𝚕𝚒𝚟𝚎𝚗 𝚝𝚑𝚎
-            𝚗𝚘𝚜𝚝𝚊𝚕𝚐𝚒𝚊 <br></br>_𝚂𝚑𝚊𝚛𝚎 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎𝚜 _𝚝𝚘𝚐𝚎𝚝𝚑𝚎𝚛
+            𝚗𝚘𝚜𝚝𝚊𝚕𝚐𝚒𝚊 <br></br>_𝚂𝚑𝚊𝚛𝚎 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎𝚜 <br></br>_𝚝𝚘𝚐𝚎𝚝𝚑𝚎𝚛
           </p>
 
           <button className={classes.btn} onClick={() => setOpen(!open)}>
