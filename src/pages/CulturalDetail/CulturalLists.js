@@ -197,6 +197,44 @@ const CulturalLists = [
     paymentLink: "https://rzp.io/l/Karma-Treasure-Hunt",
     redirectLink: "/events/cultural/treasurehunt",
   },
+  {
+    id: 10,
+    name: "mrmrskarma",
+    para: "Here..,KARMA'22 pave a way to the most challenging crown  MR & MS KARMA . Fella of KMCT! Get ready and knit your intelligence, creativity, persona on single thread to crush your rival and Hit your target!",
+    imgSrc: "/assets/Cultural/mrkarma.png",
+    heading: "Mr & Ms Karma",
+    rule1: "",
+    rule2: "",
+    rule3: "",
+    paymentLink: "",
+    redirectLink: "/events/cultural/mrmrskarma",
+  },
+  {
+    id: 11,
+    name: "troll",
+    para: "Trolls look for a reasons to hate but really what they are mad at is the fact that they are not included in anything ever ! While reading some trolls we can relate to it so much. Are you ready to make some funny creative trolls? Then 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with '𝐓𝐑𝐎𝐋𝐋 𝐈𝐓 𝐔𝐏!' 𝐓𝐫𝐨𝐥𝐥 𝐌𝐚𝐤𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Troll it up and make it fun !!",
+    imgSrc: "/assets/Cultural/troll.png",
+    heading: "𝐓𝐑𝐎𝐋𝐋 𝐈𝐓 𝐔𝐏",
+    rule1: "1. A participant can submit only ONE troll/meme",
+    rule2:
+      "2. Each candidate is requested to send his/her entry to the email ID trollkarma22@gmail.com",
+    rule3: "3. Include your name and instagram ID with your email",
+    rule4: "4. Add a caption to your troll/meme",
+    rule5:
+      "5. Submitted trolls/memes will be posted on @trollkmctce instagram page.",
+    rule6: "6. Trolls/memes submitted should be in jpeg format.",
+    rule7: "7. The submission must be the submitting entrants original work.",
+    rule8:
+      "8. Do not submit trolls/memes that are abusive or offensive in nature",
+    rule9: "9. Please keep a good resolution in your submission",
+    rule10: "10. Trolls must be submitted in instagram supported dimensions.",
+    rule11:
+      "11. Trolls that are published before by any individuals or institutions are not allowed in the contest",
+    rule12: "12. No submission will be accepted after the deadline.",
+
+    paymentLink: "https://rzp.io/l/Karma-troll",
+    redirectLink: "/events/cultural/troll",
+  },
 ];
 
 export default CulturalLists;
