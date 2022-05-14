@@ -5,8 +5,10 @@ import { FiMenu } from "react-icons/fi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import Dropdown from "./Dropdown";
+import { HashLink } from "react-router-hash-link";
 
 const Scroll = require("react-scroll");
 
@@ -42,11 +44,11 @@ const Header = () => {
           <ul className={classes.nav}>
             <li className={classes.navLink}>
               <Drop activeClass={classes.active} to="home" spy={true} smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
-                <Link className={classes.homeLink} to="/">Home</Link>
+                <HashLink className={classes.homeLink} to="/#home">Home</HashLink>
               </Drop>
             </li>
             <li className={classes.navLink}><Drop activeClass={classes.active} to="about" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
-                About
+                <HashLink className={classes.homeLink} to="/#about">About</HashLink>
               </Drop></li>
             <li
               className={`${classes.dropLink}`}
@@ -61,10 +63,10 @@ const Header = () => {
               />
             </li>
             <li className={classes.navLink}><Drop activeClass={classes.active} to="ambassador" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
-                Register
+            <HashLink className={classes.homeLink} to="/#ambassador">Register</HashLink>
               </Drop></li>
             <li className={classes.navLink}><Drop activeClass={classes.active} to="contact" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
-                Contact
+            <HashLink className={classes.homeLink} to="/#contact">Contact</HashLink>
               </Drop></li>
           </ul>
 
