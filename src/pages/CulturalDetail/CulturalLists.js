@@ -83,28 +83,78 @@ const CulturalLists = [
     rule7: "",
     rule8: "",
     rule9: "",
-    paymentLink: "https://pages.razorpay.com/Karma22LightMusic",
+    paymentLink: "https://rzp.io/l/Karma22LightMusic",
     redirectLink: "/events/cultural/lightmusic",
   },
   {
     id: 5,
     name: "facepainting",
-    para: "Are you an artist!.. then 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 Is here with an opportunity to color your college life.  Join \"𝐀𝐆𝐇𝐀𝐈𝐃\" 𝐅𝐚𝐜𝐞 𝐏𝐚𝐢𝐧𝐭𝐢𝐧𝐠.Throw different colors and make your snap different to win exciting prizes!",
+    para: 'Are you an artist!.. then 𝐊𝐀𝐑𝐌𝐀\'𝟐𝟐 Is here with an opportunity to color your college life.  Join "𝐀𝐆𝐇𝐀𝐈𝐃" 𝐅𝐚𝐜𝐞 𝐏𝐚𝐢𝐧𝐭𝐢𝐧𝐠.Throw different colors and make your snap different to win exciting prizes!',
     imgSrc: "/assets/cultural/facepainting.png",
     heading: "𝐀𝐆𝐇𝐀𝐈𝐃 - Face Painting",
-    rule1:
-      "1. A theme based face painting competition.",
+    rule1: "1. A theme based face painting competition.",
     rule2: "2. Two members per team.",
-    rule3:
-      "3. It is an open event.",
+    rule3: "3. It is an open event.",
     rule4: "4. Paints will be provided.",
     rule5: "5. Participants are required to bring their own brushes.",
     rule6: "6. Maximum time limit - 60 minutes.",
     rule7: "",
     rule8: "",
     rule9: "",
-    paymentLink: "https://pages.razorpay.com/Karma22LightMusic",
+    paymentLink: "https://rzp.io/l/FacePainting",
     redirectLink: "/events/cultural/facepainting",
+  },
+  {
+    id: 6,
+    name: "mehendi",
+    para: " If you have a knack for doodling beautiful patterns and amazing works of art then this mehandi competition is right up your alley, 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐀𝐥𝐡𝐞𝐧𝐚' 𝐌𝐞𝐡𝐚𝐧𝐝𝐢 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Sign up and let the world see your creativity.",
+    imgSrc: "/assets/cultural/mehendi.png",
+    heading: "𝐀𝐭𝐡𝐞𝐧𝐚 - Mehendi Competition",
+    rule1: "1. Spot registration are allowed.",
+    rule2:
+      "2. Individual, as well as two-person registrations are accepted, ie, can put mehendi on oneself or on someone else.",
+    rule3: "3. Mehendi can be applied only on the hand.",
+    rule4: "4. Mehendi cones will be provided at the venue.",
+    rule5: "5. Participants are not required to bring anything for the event.",
+    rule6: "6. Participants can bring along a design reference, if they wish.",
+    rule7: "7. Reference design can't be used once the event has started.",
+    rule8: "8. Time limit: 60 minutes.",
+    rule9: "",
+    paymentLink: "https://rzp.io/l/KarmaMehendi",
+    redirectLink: "/events/cultural/mehendi",
+  },
+  {
+    id: 7,
+    name: "photography",
+    para: "\"A good photographer must love life more than they love photography\" Are you such a photographer?,then your chance is here!! 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐂𝐀𝐏𝐓𝐔𝐑𝐄' 𝐒𝐩𝐨𝐭 𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐲 𝐂𝐨𝐧𝐭𝐞𝐬𝐭,grab your chance now!",
+    imgSrc: "/assets/cultural/photography.png",
+    heading: "𝐂𝐀𝐏𝐓𝐔𝐑𝐄 - 𝐒𝐩𝐨𝐭 𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐲 𝐂𝐨𝐧𝐭𝐞𝐬𝐭",
+    rule1:
+      "1. CAPTURE ,The Photography Contest of KARMA  will take place fram 21th May 2022 to 23 May 2022 and is open to everyone regardless of profession or age. ",
+    rule2:
+      "2. Entries are to be sent to capturekarma@gmail.com in JPEG,PNG format and The maximum size limit of each entry is 10MB.",
+    rule3:
+      "3. The competition will consist of a single round, divided into 2 themes as follows:",
+    rule4: "    - NATURE & CELEBRATIONS",
+    rule5: "    - PERSPECTIVE ",
+    rule6: "    - INVEST IN OUR PLANET",
+    rule7:
+      "4. Each submitted image or entry must be the original work of the participant.    ",
+    rule8: "5. Only one entry in each category will be allowed per person.",
+    rule9:
+      "6. The entries must be submitted on or before the 23 of May, 2022. Any mail sent later, will not be accepted.",
+    rule10:
+      "The participant should retain  the copyright to the imoge entered for the competition.",
+    rule11:
+      "Submitted images should be in JPEG/PNG format and at least 1,600 pixels wide for horizontal images or 160D pixels toll for vertical images.",
+    rule12:
+      " Digital manipulation that distorts the reality of the images will not be allowed. Only basic enhancements such as sharpening, contrast adjustment, or simple cropping will be allowed. Failure  to the image specifications or format will lead to disqualification.",
+    rule13:
+      "The title for the entry and description is Optional and will corry no extra marks.",
+    rule14:
+      "The image for the competition must be uploaded by the contestants with the following details specified in the email, Name of the institution, Nome of the contestant, Mobile number.",
+    paymentLink: "https://rzp.io/l/Karma-Photography",
+    redirectLink: "/events/cultural/photography",
   },
 ];
 
