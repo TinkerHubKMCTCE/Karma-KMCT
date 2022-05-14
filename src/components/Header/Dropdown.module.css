@@ -1,24 +1,24 @@
 .dropdown {
     width: 15rem;
     position: absolute;
-    top: 65px;
+    top: 75px;
     text-align: start;
-    background: rgba(0, 0, 0, 0.705);
+    background: rgba(255, 255, 255, 0.849);
     border-radius: 1rem;
 }
 
-.dropdown li {
+.drops {
     cursor: pointer;
-    color: #fff;
     list-style: none;
-}
+} 
 
 .links {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color: #fff;
+    color: black;
+    opacity: 80%;
     padding: 10px;
 }
 
@@ -26,10 +26,9 @@
     .dropdown {
         width: 30rem;
         position: absolute;
-        top: 195px;
-        right: 70px;
+        top: 125px;
+        right: 55px;
         text-align: start;
-        background: rgba(32, 32, 32, 0.356);
-        border-radius: 1rem;
+        border-radius: 9px;
     }
 }

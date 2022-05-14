@@ -3,9 +3,10 @@
     width: 95%;
     left: 50%;
     transform: translate(-50%);
-    padding: 2.5rem 2.5rem;
+    padding: 3.3rem 2.5rem;
     color: #fff;
     z-index: 100;
+    transition: all .4s ease-in-out;
 }
 
 .scrolledHeader {
@@ -14,11 +15,12 @@
     top: 3%;
     left: 50%;
     transform: translate(-50%);
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.932);
     padding: 2rem;
     color: #fff;
     z-index: 100;
     border-radius: 15px;
+    transition: all .4s ease-in-out;
 }
 
 .elements {
@@ -34,7 +36,7 @@
 }
 
 .logo {
-    width: 20%;
+    width: 25%;
 }
 
 .hamburger {
@@ -83,15 +85,24 @@
     transform-origin: bottom left;
   }
 
-  .navLink:active:after {
+  .active {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
 
   .dropLink {
-      width: 8.2rem;
+      width: 8.5rem;
       display: inline-block;
       text-align: center;
+      align-items: center;
+    text-decoration: none;
+    margin-right: 3rem;
+    cursor: pointer;
+      background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+    -webkit-background-clip: text;
+	/* -webkit-text-fill-color: transparent; */
+    color: transparent;
+    font-weight: 700;
   }
 
 .btn {
@@ -119,7 +130,26 @@
     margin-bottom: 2rem;
 }
 
+.mobileNav li:nth-child(4) {
+    margin-top: 2rem;
+}
+
+.mobLink {
+    display: inline;
+    padding: 2rem;
+    font-size: 2.7rem;
+    background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+    -webkit-background-clip: text;
+	/* -webkit-text-fill-color: transparent; */
+    color: transparent;
+    font-weight: 700;
+}
+
 @media screen and (max-width: 480px) {
+    .logo {
+        width: 30%;
+    }
+    
     .nav {
         display: none;
     }
@@ -143,6 +173,7 @@
 
     .hamburger {
         display: inline-block;
+        margin-right: .5rem;
     }
 
     .none {
@@ -164,13 +195,13 @@
     .mobileBox {
         width: 95%;
         position: absolute;
-        top: 10rem;
+        top: 12rem;
         left: 0;
         right: 0;
         margin: auto;
         display: flex;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.603);
+        background-color: rgba(0, 0, 0, 0.89);
         border-radius: 10px;
         padding: 1.3rem 2rem;
         text-align: center;
