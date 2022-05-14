@@ -43,11 +43,11 @@ const Header = () => {
         <div className={classes.navbox}>
           <ul className={classes.nav}>
             <li className={classes.navLink}>
-              <Drop activeClass={classes.active} to="home" spy={true} smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
+              <Drop activeClass={classes.active} to="home" spy="true" smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
                 <HashLink className={classes.homeLink} to="/#home">Home</HashLink>
               </Drop>
             </li>
-            <li className={classes.navLink}><Drop activeClass={classes.active} to="about" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
+            <li className={classes.navLink}><Drop activeClass={classes.active} to="about" spy="true" smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
                 <HashLink className={classes.homeLink} to="/#about">About</HashLink>
               </Drop></li>
             <li
@@ -62,10 +62,10 @@ const Header = () => {
                 fade
               />
             </li>
-            <li className={classes.navLink}><Drop activeClass={classes.active} to="ambassador" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
+            <li className={classes.navLink}><Drop activeClass={classes.active} to="ambassador" spy="true" smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
             <HashLink className={classes.homeLink} to="/#ambassador">Register</HashLink>
               </Drop></li>
-            <li className={classes.navLink}><Drop activeClass={classes.active} to="contact" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
+            <li className={classes.navLink}><Drop activeClass={classes.active} to="contact" spy="true" smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
             <HashLink className={classes.homeLink} to="/#contact">Contact</HashLink>
               </Drop></li>
           </ul>
@@ -86,26 +86,26 @@ const Header = () => {
         </div>
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
-          <Link to="/">
+          <Drop to="/">
             <button className={classes.btn}>Buy Tickets</button>
-          </Link>
+          </Drop>
 
           <ul className={classes.mobileNav}>
             <li>
-              <Link onClick={() => setMobile(!mobile)} activeClass={classes.active} to="home" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
-                Home
-              </Link>
+              <Drop onClick={() => setMobile(!mobile)} activeClass={classes.active} to="home" spy="true" smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
+              <HashLink className={classes.homeLink} to="/#home">Home</HashLink>
+              </Drop>
             </li>
-            <li><Link onClick={() => setMobile(!mobile)} activeClass={classes.active} to="about" spy={true} smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
-                About
-              </Link></li>
+            <li><Drop onClick={() => setMobile(!mobile)} activeClass={classes.active} to="about" spy="true" smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
+            <HashLink className={classes.homeLink} to="/#about">About</HashLink>
+              </Drop></li>
             <li className={`${classes.mobLink}`} onClick={() => setDrop(!drop)}>{drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events<FontAwesomeIcon size="sm" style={{display: "inline-block", marginLeft: ".3rem", color: "white"}} icon={faArrowDown} fade /></li>
-            <li><Link onClick={() => setMobile(!mobile)} activeClass={classes.active} to="ambassador" spy={true} smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
-                Register
-              </Link></li>
-              <li><Link onClick={() => setMobile(!mobile)} activeClass={classes.active} to="contact" spy={true} smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
-                Contact
-              </Link></li>
+            <li><Drop onClick={() => setMobile(!mobile)} activeClass={classes.active} to="ambassador" spy="true" smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
+            <HashLink className={classes.homeLink} to="/#ambassador">Register</HashLink>
+              </Drop></li>
+              <li><Drop onClick={() => setMobile(!mobile)} activeClass={classes.active} to="contact" spy="true" smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
+              <HashLink className={classes.homeLink} to="/#contact">Contact</HashLink>
+              </Drop></li>
           </ul>
         </div>
       </div>
