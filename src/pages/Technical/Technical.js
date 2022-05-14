@@ -6,148 +6,25 @@ const Technical = () => {
   console.log(TechnicalLists);
   return (
     <div className={classes.technical}>
-
-{TechnicalLists.map((list) => {
-            return (
-            <div className={classes.card}>
-                <div className={classes.imgBox}>
-                    <img className={classes.img} src={list.imgSrc} alt="cultural event" />
-                </div>
-                <div className={classes.textBox}>
-                <h3 className={classes.heading}>{list.heading}</h3>
-                <Link className={classes.btn} to={list.redirectLink}>View More</Link>
-                </div>
+      {TechnicalLists.map((list) => {
+        return (
+          <div className={classes.card}>
+            <div className={classes.imgBox}>
+              <img
+                className={classes.img}
+                src={list.imgSrc}
+                alt="cultural event"
+              />
             </div>
-            )
-        })}
-
-      {/* <div className={classes.card}>
-        <div className={classes.imgBox}>
-          <img
-            className={classes.img}
-            src="/assets/technical/technical.jpg"
-            alt="technical event"
-          />
-        </div>
-        <div className={classes.textBox}>
-          <h3 className={classes.heading}>Lorem Ipsum</h3>
-          <Link className={classes.btn} to="/events/technical/robotics">
-            View More
-          </Link>
-        </div>
-      </div>
-
-      <div className={classes.card}>
-        <div className={classes.imgBox}>
-          <img
-            className={classes.img}
-            src="/assets/technical/technical.jpg"
-            alt="technical event"
-          />
-        </div>
-        <div className={classes.textBox}>
-          <h3 className={classes.heading}>Lorem Ipsum</h3>
-          <Link className={classes.btn} to="details">
-            View More
-          </Link>
-        </div>
-      </div>
-
-      <div className={classes.card}>
-        <div className={classes.imgBox}>
-          <img
-            className={classes.img}
-            src="/assets/technical/technical.jpg"
-            alt="technical event"
-          />
-        </div>
-        <div className={classes.textBox}>
-          <h3 className={classes.heading}>Lorem Ipsum</h3>
-          <Link className={classes.btn} to="details">
-            View More
-          </Link>
-        </div>
-      </div>
-
-      <div className={classes.card}>
-        <div className={classes.imgBox}>
-          <img
-            className={classes.img}
-            src="/assets/technical/technical.jpg"
-            alt="technical event"
-          />
-        </div>
-        <div className={classes.textBox}>
-          <h3 className={classes.heading}>Lorem Ipsum</h3>
-          <Link className={classes.btn} to="details">
-            View More
-          </Link>
-        </div>
-      </div>
-
-      <div className={classes.card}>
-        <div className={classes.imgBox}>
-          <img
-            className={classes.img}
-            src="/assets/technical/technical.jpg"
-            alt="technical event"
-          />
-        </div>
-        <div className={classes.textBox}>
-          <h3 className={classes.heading}>Lorem Ipsum</h3>
-          <Link className={classes.btn} to="details">
-            View More
-          </Link>
-        </div>
-      </div>
-
-      <div className={classes.card}>
-        <div className={classes.imgBox}>
-          <img
-            className={classes.img}
-            src="/assets/technical/technical.jpg"
-            alt="technical event"
-          />
-        </div>
-        <div className={classes.textBox}>
-          <h3 className={classes.heading}>Lorem Ipsum</h3>
-          <Link className={classes.btn} to="details">
-            View More
-          </Link>
-        </div>
-      </div>
-
-      <div className={classes.card}>
-        <div className={classes.imgBox}>
-          <img
-            className={classes.img}
-            src="/assets/technical/technical.jpg"
-            alt="technical event"
-          />
-        </div>
-        <div className={classes.textBox}>
-          <h3 className={classes.heading}>Lorem Ipsum</h3>
-          <Link className={classes.btn} to="details">
-            View More
-          </Link>
-        </div>
-      </div>
-
-      <div className={classes.card}>
-        <div className={classes.imgBox}>
-          <img
-            className={classes.img}
-            src="/assets/technical/technical.jpg"
-            alt="technical event"
-          />
-        </div>
-        <div className={classes.textBox}>
-          <h3 className={classes.heading}>Lorem Ipsum</h3>
-          <Link className={classes.btn} to="details">
-            View More
-          </Link>
-        </div>
-      </div> */}
+            <div className={classes.textBox}>
+              <h3 className={classes.heading}>{list.heading}</h3>
+              <Link className={classes.btn} to={list.redirectLink}>
+                View More
+              </Link>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };

@@ -46,7 +46,7 @@ const Hero = () => {
     <section id="home" className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
-         <h1 className={classes.heading}>Karma 22</h1>
+          <h1 className={classes.heading}>Karma 22</h1>
           <h4 className={classes.caption}>What goes around comes around</h4>
           <p className={classes.date}>MAY 21-23, 2022</p>
         </div>

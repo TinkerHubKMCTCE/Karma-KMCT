@@ -1,11 +1,11 @@
 import classes from "./Form.module.css";
 import { useState } from "react";
 import Backdrop from "@mui/material/Backdrop";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faXmark } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Form = (props) => {
-    const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
   const [fullName, setfullName] = useState("");
   const [college, setCollege] = useState("");
   const [mail, setMail] = useState("");
@@ -52,46 +52,46 @@ const Form = (props) => {
         <div className={classes.bkdHeadingBox}>
           <h3 className={classes.bkdHeading}>Register for Campus Ambassador</h3>
           <div onClick={props.onClick} className={classes.close}>
-          <FontAwesomeIcon icon={faXmark} size="3x" />
+            <FontAwesomeIcon icon={faXmark} size="3x" />
           </div>
         </div>
 
         <form onSubmit={sheetSubmit}>
-        <div className={classes.inputBox}>
-        <input
-            placeholder="Full Name"
-            type="text"
-            className={classes.input}
-            onChange={nameHandler}
-            value={fullName}
-            required
-          />
-          <input
-            placeholder="College"
-            type="text"
-            className={classes.input}
-            onChange={collegeHandler}
-            value={college}
-            required
-          />
-          <input
-            placeholder="Email"
-            type="email"
-            className={classes.input}
-            onChange={mailHandler}
-            value={mail}
-            required
-          />
-          <input
-            placeholder="Phone number"
-            type="text"
-            className={classes.input}
-            onChange={numberHandler}
-            value={number}
-            required
-          />
-        </div>
-         
+          <div className={classes.inputBox}>
+            <input
+              placeholder="Full Name"
+              type="text"
+              className={classes.input}
+              onChange={nameHandler}
+              value={fullName}
+              required
+            />
+            <input
+              placeholder="College"
+              type="text"
+              className={classes.input}
+              onChange={collegeHandler}
+              value={college}
+              required
+            />
+            <input
+              placeholder="Email"
+              type="email"
+              className={classes.input}
+              onChange={mailHandler}
+              value={mail}
+              required
+            />
+            <input
+              placeholder="Phone number"
+              type="text"
+              className={classes.input}
+              onChange={numberHandler}
+              value={number}
+              required
+            />
+          </div>
+
           <button className={classes.btn1} onClick={() => setOpen(!open)}>
             Sign Up
           </button>
