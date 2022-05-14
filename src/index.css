@@ -24,4 +24,5 @@ body {
   background-size: cover;
   background-attachment: fixed;
   scroll-behavior: smooth;
+  height: 100vh;
 }
