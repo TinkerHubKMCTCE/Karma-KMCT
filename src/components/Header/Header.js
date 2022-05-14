@@ -1,13 +1,11 @@
 import { useState } from "react";
 import classes from "./Header.module.css";
-// import logo from "./Grey-2.png";
 
 import { FiMenu } from "react-icons/fi";
-import { GrClose } from "react-icons/gr";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
-import { Element } from "react-scroll";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 import Dropdown from "./Dropdown";
 
 const Header = () => {
@@ -36,24 +34,42 @@ const Header = () => {
         <div className={classes.navbox}>
           <ul className={classes.nav}>
             <li className={classes.navLink}>
-              <Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link></li>
-            <li className={classes.navLink}>About</li>
-            <li className={classes.navLink}>Highlights</li>
-            <li className={`${classes.navLink} ${classes.dropLink}`} onClick={() => setDrop(!drop)}>{drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events<FontAwesomeIcon size="sm" style={{display: "inline-block", marginLeft: ".3rem"}} icon={faArrowDown} fade /></li>
-            <li className={classes.navLink}>Contact</li>
+              <Link activeClass={classes.active} to="home" spy={true} smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
+                Home
+              </Link>
+            </li>
+            <li className={classes.navLink}><Link activeClass={classes.active} to="about" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
+                About
+              </Link></li>
+            <li
+              className={`${classes.dropLink}`}
+              onClick={() => setDrop(!drop)}
+            >
+              {drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events
+              <FontAwesomeIcon
+                size="sm"
+                style={{ display: "inline-block", marginLeft: ".3rem" , color: "white"}}
+                icon={faArrowDown}
+                fade
+              />
+            </li>
+            <li className={classes.navLink}><Link activeClass={classes.active} to="ambassador" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
+                Register
+              </Link></li>
+            <li className={classes.navLink}><Link activeClass={classes.active} to="contact" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
+                Contact
+              </Link></li>
           </ul>
-          
-          {/* <div></div> */}
 
-          <Link to="">
+         {/* Mobile Page */}
+
+          <Link to="/">
             <button className={classes.btn}>Buy Tickets</button>
           </Link>
 
-
-
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
             {mobile ? (
-              <GrClose style={{ color: "white" }} size={20} />
+              <FontAwesomeIcon icon={faXmark} style={{ color: "white" }} size="3x" />
             ) : (
               <FiMenu size={20} />
             )}
@@ -61,22 +77,26 @@ const Header = () => {
         </div>
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
-          <button className={classes.btn1}>Buy Tickets</button>
+          <Link to="/">
+            <button className={classes.btn}>Buy Tickets</button>
+          </Link>
 
           <ul className={classes.mobileNav}>
-            <li>Home</li>
-            <Element
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <li>About</li>
-            </Element>
-            <li>Highlights</li>
-            <li className={`${classes.navLink} ${classes.dropLink}`} onClick={() => setDrop(!drop)}>{drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events<FontAwesomeIcon size="sm" style={{display: "inline-block", marginLeft: ".3rem"}} icon={faArrowDown} fade /></li>
-            <li>Contact</li>
+            <li>
+              <Link onClick={() => setMobile(!mobile)} activeClass={classes.active} to="home" spy={true} smooth={true} offset={-120} duration={600} style={{ color: "white", textDecoration: "none" }}>
+                Home
+              </Link>
+            </li>
+            <li><Link onClick={() => setMobile(!mobile)} activeClass={classes.active} to="about" spy={true} smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
+                About
+              </Link></li>
+            <li className={`${classes.mobLink}`} onClick={() => setDrop(!drop)}>{drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events<FontAwesomeIcon size="sm" style={{display: "inline-block", marginLeft: ".3rem", color: "white"}} icon={faArrowDown} fade /></li>
+            <li><Link onClick={() => setMobile(!mobile)} activeClass={classes.active} to="ambassador" spy={true} smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
+                Register
+              </Link></li>
+              <li><Link onClick={() => setMobile(!mobile)} activeClass={classes.active} to="contact" spy={true} smooth={true} offset={-100} duration={600} style={{ color: "white", textDecoration: "none" }}>
+                Contact
+              </Link></li>
           </ul>
         </div>
       </div>
