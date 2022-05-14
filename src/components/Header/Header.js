@@ -1,13 +1,11 @@
 import { useState } from "react";
 import classes from "./Header.module.css";
-// import logo from "./Grey-2.png";
 
 import { FiMenu } from "react-icons/fi";
 import { GrClose } from "react-icons/gr";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import { Element } from "react-scroll";
 import Dropdown from "./Dropdown";
 
 const Header = () => {
@@ -36,20 +34,32 @@ const Header = () => {
         <div className={classes.navbox}>
           <ul className={classes.nav}>
             <li className={classes.navLink}>
-              <Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link></li>
+              <Link to="/" style={{ color: "white", textDecoration: "none" }}>
+                Home
+              </Link>
+            </li>
             <li className={classes.navLink}>About</li>
             <li className={classes.navLink}>Highlights</li>
-            <li className={`${classes.navLink} ${classes.dropLink}`} onClick={() => setDrop(!drop)}>{drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events<FontAwesomeIcon size="sm" style={{display: "inline-block", marginLeft: ".3rem"}} icon={faArrowDown} fade /></li>
+            <li
+              className={`${classes.navLink} ${classes.dropLink}`}
+              onClick={() => setDrop(!drop)}
+            >
+              {drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events
+              <FontAwesomeIcon
+                size="sm"
+                style={{ display: "inline-block", marginLeft: ".3rem" }}
+                icon={faArrowDown}
+                fade
+              />
+            </li>
             <li className={classes.navLink}>Contact</li>
           </ul>
-          
+
           {/* <div></div> */}
 
           <Link to="/">
             <button className={classes.btn}>Buy Tickets</button>
           </Link>
-
-
 
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
             {mobile ? (
@@ -78,7 +88,7 @@ const Header = () => {
                 to="/events/cultural"
                 style={{ color: "white", textDecoration: "none" }}
               >
-                Culturals
+                Events
               </Link>
             </li>
             <li>Contact</li>
