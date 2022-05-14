@@ -44,7 +44,11 @@ const CulturalDetail = () => {
           <p className={classes.para}>{culturalDetail[0].rule14}</p>
           <p className={classes.para}>{culturalDetail[0].rule15}</p>
 
-          <a href={culturalDetail[0].paymentLink}>
+          <a
+            href={culturalDetail[0].paymentLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className={classes.btn}>Register Now !</button>
           </a>
         </div>

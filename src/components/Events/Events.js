@@ -22,7 +22,12 @@ const Events = () => {
             unde at esse?
           </p>
 
-          <Link to="/events" className={classes.btn}>
+          <Link
+            to="/events"
+            className={classes.btn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Explore our events
           </Link>
         </div>
