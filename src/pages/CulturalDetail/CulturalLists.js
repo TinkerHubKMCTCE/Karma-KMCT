@@ -186,7 +186,7 @@ const CulturalLists = [
   {
     id: 10,
     name: "treasurehunt",
-    para: "Remember, writing poetry is like making love; one will never know whether one's own pleasure is shared\".Are you an enthusiastic writer? Then here is an opportunity for you, 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐒𝐡𝐚𝐢𝐫𝐢' 𝐏𝐨𝐞𝐦 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Opportunities are like sunrisers, if you wait too long you miss them.So without wasting your time do participate and show your kind of talent!!",
+    para: 'Are you seeking for an opportunity to earn exciting prizes, here your wait is over! 𝐊𝐀𝐑𝐌𝐀\'𝟐𝟐 comes up with "𝐓𝐑𝐄𝐀𝐒𝐔𝐑𝐄 𝐇𝐔𝐍𝐓". Put your full potential, enjoy the moment and hit the treasure.',
     imgSrc: "/assets/Cultural/treasurehunt.png",
     heading: "𝐓𝐑𝐄𝐀𝐒𝐔𝐑𝐄 𝐇𝐔𝐍𝐓",
     rule1: "1. The event will be conducted as a team event.",
