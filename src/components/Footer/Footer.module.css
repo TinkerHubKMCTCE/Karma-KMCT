@@ -55,6 +55,10 @@
     margin-bottom: 12px;
 }
 
+.contactNo:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
 ul li a {
     text-decoration: none;
     cursor: pointer;

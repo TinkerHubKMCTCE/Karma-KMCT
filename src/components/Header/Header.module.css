@@ -80,6 +80,10 @@
     transition: transform 0.25s ease-in-out;
   }
 
+  .homeLink {
+      color: inherit;
+  }
+
   .navLink:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;

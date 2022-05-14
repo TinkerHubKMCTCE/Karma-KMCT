@@ -21,7 +21,8 @@ const Footer = () => {
               <p>NITC - P.O</p>
               <p>Kozhikode - 673601</p>
               <p className={classes.email}>karmakmct22@gmail.com</p>
-              <p>0495 2289227</p>
+              <p className={classes.contactNo}>Shamsudheen C - 7012 824 370</p>
+              <p className={classes.contactNo}>Sithara beegam - 8592 002 134</p>
             </div>
 
             <div className={`${classes.col} ${classes.links}`}>
