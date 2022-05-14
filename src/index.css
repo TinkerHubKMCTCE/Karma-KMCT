@@ -22,4 +22,5 @@ body {
   background: url(/public/assets/Desktop-3.png);
   background-size: cover;
   background-attachment: fixed;
+  scroll-behavior: smooth;
 }
