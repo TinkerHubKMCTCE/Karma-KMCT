@@ -1,15 +1,17 @@
 .cultural {
-    width: 100%;
+    width: 90%;
+    margin: 5rem auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    padding: 5rem 6rem;
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 3rem 6rem;
+    grid-gap: 2.5rem;
 }
 
 .card {
     margin: 0 auto;
     width: 32rem;
     color: #fff;
+    box-shadow: 0 8px 7px 0px rgba(0,0,0,0.2);
 }
 
 .imgBox {
@@ -53,10 +55,6 @@
 }
 
 @media screen and (max-width:480px) {
-    .cultural {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
-
     .btn {
         font-size: 1.7rem;
         padding: .8rem 2.6rem;
