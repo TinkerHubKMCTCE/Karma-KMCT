@@ -1,7 +1,7 @@
 const CulturalLists = [
   {
-    name: "desafio",
     id: 1,
+    name: "desafio",
     imgSrc: "/assets/cultural/desafio.png",
     heading: "Desafio - Dance Competiton",
     para: "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
@@ -16,8 +16,7 @@ const CulturalLists = [
     rule7: "7. There should be only one entry in front of each college.",
     rule8:
       "8. Judges can stop the dance in between if they feel it is irrelevant.",
-    rule9: "",
-    rule10: "",
+
     paymentLink: "https://rzp.io/l/Desafio-Dance",
     redirectLink: "/events/cultural/desafio",
   },
@@ -36,7 +35,7 @@ const CulturalLists = [
     rule7: "7. A finished art should not contain any other materials.",
     rule8:
       "8. Each participants will receive a registration number after the registration, it should be written on the top left corner of the final art.",
-    rule9: "",
+
     paymentLink: "https://rzp.io/l/Pencil-Drawing",
     redirectLink: "/events/cultural/pencildrawing",
   },
@@ -63,6 +62,7 @@ const CulturalLists = [
       "9. Background music should be sent by email to karmakmct2022@gmail.com as a new email named VF-BGM-[College Name]. Both the subject of the mail and the Background music should be named in this format.",
     rule10:
       "10. The deadline for the same shall be informed after confirmation of participation. Presenting banners, posters or other materials directly displaying the theme is prohibited.",
+
     paymentLink: "https://rzp.io/l/Fashion-Show",
     redirectLink: "/events/cultural/fashionshow",
   },
@@ -78,11 +78,7 @@ const CulturalLists = [
     rule3:
       "3. Use of single instrument other than organ by the participant is permitted.",
     rule4: "4. Composition and overall impression",
-    rule5: "",
-    rule6: "",
-    rule7: "",
-    rule8: "",
-    rule9: "",
+
     paymentLink: "https://rzp.io/l/Karma22LightMusic",
     redirectLink: "/events/cultural/lightmusic",
   },
@@ -98,9 +94,7 @@ const CulturalLists = [
     rule4: "4. Paints will be provided.",
     rule5: "5. Participants are required to bring their own brushes.",
     rule6: "6. Maximum time limit - 60 minutes.",
-    rule7: "",
-    rule8: "",
-    rule9: "",
+
     paymentLink: "https://rzp.io/l/FacePainting",
     redirectLink: "/events/cultural/facepainting",
   },
@@ -119,7 +113,7 @@ const CulturalLists = [
     rule6: "6. Participants can bring along a design reference, if they wish.",
     rule7: "7. Reference design can't be used once the event has started.",
     rule8: "8. Time limit: 60 minutes.",
-    rule9: "",
+
     paymentLink: "https://rzp.io/l/KarmaMehendi",
     redirectLink: "/events/cultural/mehendi",
   },
@@ -153,6 +147,7 @@ const CulturalLists = [
       "The title for the entry and description is Optional and will corry no extra marks.",
     rule14:
       "The image for the competition must be uploaded by the contestants with the following details specified in the email, Name of the institution, Nome of the contestant, Mobile number.",
+
     paymentLink: "https://rzp.io/l/Karma-Photography",
     redirectLink: "/events/cultural/photography",
   },
@@ -168,8 +163,25 @@ const CulturalLists = [
       "2. Participants are not allowed to hold any writing tools and paper.",
     rule3:
       "3. Each participant will be given 30 seconds to think and spell each word.",
+
     paymentLink: "https://rzp.io/l/Karma-SpellBee",
     redirectLink: "/events/cultural/spellbee",
+  },
+  {
+    id: 9,
+    name: "poemwriting",
+    para: "Remember, writing poetry is like making love; one will never know whether one's own pleasure is shared\".Are you an enthusiastic writer? Then here is an opportunity for you, 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐒𝐡𝐚𝐢𝐫𝐢' 𝐏𝐨𝐞𝐦 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Opportunities are like sunrisers, if you wait too long you miss them.So without wasting your time do participate and show your kind of talent!!",
+    imgSrc: "/assets/cultural/poemwriting.png",
+    heading: "𝐒𝐡𝐚𝐢𝐫𝐢 - 𝐏𝐨𝐞𝐦 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧",
+    rule1: "1. A theme based face painting competition.",
+    rule2: "2. Two members per team.",
+    rule3: "3. It is an open event.",
+    rule4: "4. Paints will be provided.",
+    rule5: "5. Participants are required to bring their own brushes.",
+    rule6: "6. Maximum time limit - 60 minutes.",
+
+    paymentLink: "https://rzp.io/l/Karma-PoemWriting",
+    redirectLink: "/events/cultural/poemwriting",
   },
 ];
 
