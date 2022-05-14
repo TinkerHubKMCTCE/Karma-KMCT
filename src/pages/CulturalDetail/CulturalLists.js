@@ -203,9 +203,7 @@ const CulturalLists = [
     para: "Here..,KARMA'22 pave a way to the most challenging crown  MR & MS KARMA . Fella of KMCT! Get ready and knit your intelligence, creativity, persona on single thread to crush your rival and Hit your target!",
     imgSrc: "/assets/Cultural/mrkarma.png",
     heading: "Mr & Ms Karma",
-    rule1: "",
-    rule2: "",
-    rule3: "",
+
     paymentLink: "",
     redirectLink: "/events/cultural/mrmrskarma",
   },
@@ -232,7 +230,7 @@ const CulturalLists = [
       "11. Trolls that are published before by any individuals or institutions are not allowed in the contest",
     rule12: "12. No submission will be accepted after the deadline.",
 
-    paymentLink: "https://rzp.io/l/Karma-troll",
+    paymentLink: "https://rzp.io/l/Karma-Troll",
     redirectLink: "/events/cultural/troll",
   },
 ];
