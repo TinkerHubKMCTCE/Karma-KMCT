@@ -156,6 +156,21 @@ const CulturalLists = [
     paymentLink: "https://rzp.io/l/Karma-Photography",
     redirectLink: "/events/cultural/photography",
   },
+  {
+    id: 8,
+    name: "spellbee",
+    para: ' Here 𝐊𝐀𝐑𝐌𝐀\'𝟐𝟐 brings you a chance to out show your vocabulary talents! Through "𝐒𝐏𝐄𝐋𝐋 𝐁𝐄𝐄".Strike the spell and hit the word. do register to accomplish your goal!!',
+    imgSrc: "/assets/cultural/spellbee.png",
+    heading: "Spell Bee",
+    rule1:
+      "1. During the contest, each   participant will have to spell out 10 (ten) words given by the pronouncer.",
+    rule2:
+      "2. Participants are not allowed to hold any writing tools and paper.",
+    rule3:
+      "3. Each participant will be given 30 seconds to think and spell each word.",
+    paymentLink: "https://rzp.io/l/Karma-SpellBee",
+    redirectLink: "/events/cultural/spellbee",
+  },
 ];
 
 export default CulturalLists;
