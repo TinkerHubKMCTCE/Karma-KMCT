@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import classes from "./Dropdown.module.css"
+import classes from "./Dropdown.module.css";
 
 const Dropdown = (props) => {
     return(

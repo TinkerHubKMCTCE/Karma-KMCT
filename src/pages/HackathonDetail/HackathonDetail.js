@@ -1,25 +1,27 @@
 import { useParams } from "react-router-dom";
-import classes from "./HackathonDetail.module.css"
+import classes from "./HackathonDetail.module.css";
 import Background from "../../UI/Background";
-import hackathonLists from "./hackathonLists"
+import hackathonLists from "./hackathonLists";
 
 const HackathonDetail = () => {
+  const params = useParams();
+  console.log(params.id);
 
-    const params = useParams();
-    console.log(params.id);
+  const hackathon = hackathonLists.filter((event) => params.id === event.name);
 
-    const hackathon = hackathonLists.filter((event) => params.id === event.name)
+  // const filteredDetail = CulturalLists.filter((event) => params.id === event.name)
+  // console.log(filteredDetail[0].name);
 
-    // const filteredDetail = CulturalLists.filter((event) => params.id === event.name)
-    // console.log(filteredDetail[0].name);
-
-    return (
-              <section className={classes.ambaSection}>
-                <Background className={classes.ambassadar}>
-
-                    <div className={classes.imgBox}>
-                        <img className={classes.img} src={hackathon[0].imgSrc} alt="Desafio" />
-                    </div>
+  return (
+    <section className={classes.ambaSection}>
+      <Background className={classes.ambassadar}>
+        <div className={classes.imgBox}>
+          <img
+            className={classes.img}
+            src={hackathon[0].imgSrc}
+            alt="Desafio"
+          />
+        </div>
 
                     <div className={classes.headingBox}>
                         <h3 className={classes.heading}>{hackathon[0].heading}</h3>
