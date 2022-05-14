@@ -1,16 +1,12 @@
 .eventPage {
-    padding: 2rem 1.5rem;
+    /* padding: 2rem 1.5rem; */
+    border-radius: none;
     width: 100%;
 }
 
 .types {
-    width: 100%;
-    /* display: flex; */
-    gap: 4rem;
     padding: 8rem 6rem;
     text-align: center;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .btn {
