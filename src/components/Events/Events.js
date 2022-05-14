@@ -17,9 +17,7 @@ const Events = () => {
         <div className={classes.headingBox}>
           <h3 className={classes.heading}>Karma 22 Events</h3>
           <p className={classes.para}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            consectetur officia recusandae architecto cumque placeat tenetur hic
-            unde at esse?
+          The programme includes a variety of activities, including technical, non-technical, hackathons, and project contests. The event is significant in the fields of creativity motivation and technological innovation skills among the new age laureates.
           </p>
 
           <Link

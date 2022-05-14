@@ -26,35 +26,12 @@ const HackathonDetail = () => {
                         <p className={classes.para}>
                        {hackathon[0].para}
                         </p>
-                        <h3 className={classes.heading}> Rules & Guidelines</h3>
-                        <p className={classes.para}>
-                        {hackathon[0].rule1}
-                        </p>
-                        <p className={classes.para}> {hackathon[0].rule2}</p>
-                        <p className={classes.para}>
-                        {hackathon[0].rule3}
-                        </p>
-                        <p className={classes.para}>
-                        {hackathon[0].rule4}
-                        </p>
-                        <p className={classes.para}>
-                        {hackathon[0].rule5}
-                        </p>
-                        <p className={classes.para}>
-                        {hackathon[0].rule6}
-                        </p>
-                        <p className={classes.para}>
-                        {hackathon[0].rule7}
-                        </p>
-                        <p className={classes.para}>
-                        {hackathon[0].rule8}
-                        </p>
-                        <p className={classes.para}>
-                        {hackathon[0].rule9}
-                        </p>
-                        <p className={classes.para}>
-                        {hackathon[0].rule10}
-                        </p>
+                        <h3 className={classes.heading}>Learning Outcomes</h3>
+
+                        {hackathon[0].rules.map((map) => {
+                            return <p className={classes.para}>{map}</p>
+                        })}
+                        
             
                         <a href={hackathon[0].paymentLink}>
                         <button className={classes.btn}>Register Now !</button>
