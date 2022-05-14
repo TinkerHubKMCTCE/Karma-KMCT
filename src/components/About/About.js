@@ -1,5 +1,4 @@
 import classes from "./About.module.css";
-// import ellipse from "./Group 10.png";
 
 const About = () => {
   return (
@@ -28,7 +27,11 @@ const About = () => {
         </div>
 
         <div className={classes.composition}>
-          <img className={classes.images} src="assets/ellipse.png" alt="" />
+          <img
+            className={classes.images}
+            src="assets/About/ellipse.png"
+            alt=""
+          />
         </div>
       </div>
     </section>
