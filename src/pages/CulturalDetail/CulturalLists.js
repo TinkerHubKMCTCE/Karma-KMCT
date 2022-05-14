@@ -101,8 +101,27 @@ const CulturalLists = [
     rule7: "",
     rule8: "",
     rule9: "",
-    paymentLink: "https://rzp.io/l/Face-Painting",
+    paymentLink: "https://rzp.io/l/FacePainting",
     redirectLink: "/events/cultural/facepainting",
+  },
+  {
+    id: 6,
+    name: "mehendi",
+    para: " If you have a knack for doodling beautiful patterns and amazing works of art then this mehandi competition is right up your alley, 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐀𝐥𝐡𝐞𝐧𝐚' 𝐌𝐞𝐡𝐚𝐧𝐝𝐢 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Sign up and let the world see your creativity.",
+    imgSrc: "/assets/cultural/mehendi.png",
+    heading: "𝐀𝐭𝐡𝐞𝐧𝐚 - Mehendi Competition",
+    rule1: "1. Spot registration are allowed.",
+    rule2:
+      "2. Individual, as well as two-person registrations are accepted, ie, can put mehendi on oneself or on someone else.",
+    rule3: "3. Mehendi can be applied only on the hand.",
+    rule4: "4. Mehendi cones will be provided at the venue.",
+    rule5: "5. Participants are not required to bring anything for the event.",
+    rule6: "6. Participants can bring along a design reference, if they wish.",
+    rule7: "7. Reference design can't be used once the event has started.",
+    rule8: "8. Time limit: 60 minutes.",
+    rule9: "",
+    paymentLink: "https://rzp.io/l/Mehendi",
+    redirectLink: "/events/cultural/mehendi",
   },
 ];
 
