@@ -1,0 +1,62 @@
+{
+  "collisionBounds": {
+    "CollisionBoundsColorGammaA": 76,
+    "CollisionBounds FadeDistance": 0.30000001192092896
+  },
+  "compositor": {
+    "renderTarget Multiplier": 1.3999999761581421
+  },
+  "driver vridge": {
+    "fakeSensorEnabled": true,
+    "hmdMode": 1,
+    "renderScale": 0,
+    "windowHeight": 1440,
+    "windowWidth": 2560
+  },
+  "keyboard": {
+    "Tutorial Completions": 1
+  },
+  "psmove": {
+    "circle": "a",
+    "cross": "button_8",
+    "meters_per_touchpad_units": 0.075000002980232239,
+    "move": "touchpad",
+    "ps": "system",
+    "rumble_suppressed": true,
+    "select": "button_9",
+    "square": "grip",
+    "start": "button 10",
+    "triangle": "application_menu",
+    "trigger": "trigger",
+
+    "use_spatial_offset_after_touchpad press_as_touchpad_axis": true
+  },
+  "psnavi_button": {
+    "circle": "application_menu",
+    "cross": "system",
+    "11": "grip",
+    "12": "trigger",
+    "13": "touchpad",
+    "trigger": "trigger"
+  },
+  "psnavi touchpad": {
+    "dpad_down": "touchpad_down",
+    "dpad left": "touchpad_left ",
+    "dpad right": "touchpa_right",
+    "dpad up": "touchpad up"
+  },
+
+  "steamvr": {
+    "activateMultipleDrivers": true,
+    "allowInterleavedReprojection": false,
+    "defaultMirrorView": 1,
+    "directMode EdidVid": 53822,
+    "mirrorViewGeometry": "920 153 1249 1326",
+    "supersampleScale": 1.5
+  },
+  "walkinvr": {
+    "controllers": "2,3",
+    "psmove_controller0": "1-0-0",
+    "psmove_controller1": "2-0-0"
+  }
+}

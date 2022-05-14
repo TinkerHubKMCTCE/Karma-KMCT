@@ -183,6 +183,20 @@ const CulturalLists = [
     paymentLink: "https://rzp.io/l/Karma-PoemWriting",
     redirectLink: "/events/cultural/poemwriting",
   },
+  {
+    id: 10,
+    name: "treasurehunt",
+    para: "Remember, writing poetry is like making love; one will never know whether one's own pleasure is shared\".Are you an enthusiastic writer? Then here is an opportunity for you, 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐒𝐡𝐚𝐢𝐫𝐢' 𝐏𝐨𝐞𝐦 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Opportunities are like sunrisers, if you wait too long you miss them.So without wasting your time do participate and show your kind of talent!!",
+    imgSrc: "/assets/Cultural/treasurehunt.png",
+    heading: "𝐓𝐑𝐄𝐀𝐒𝐔𝐑𝐄 𝐇𝐔𝐍𝐓",
+    rule1: "1. The event will be conducted as a team event.",
+    rule2: "2. Maximum 4 members are allowed in a team.",
+    rule3:
+      "3. Rest of the instructions will be given at the start of the event.",
+
+    paymentLink: "https://rzp.io/l/Karma-Treasure-Hunt",
+    redirectLink: "/events/cultural/treasurehunt",
+  },
 ];
 
 export default CulturalLists;
