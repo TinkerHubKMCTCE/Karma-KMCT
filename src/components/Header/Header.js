@@ -45,7 +45,7 @@ const Header = () => {
           
           {/* <div></div> */}
 
-          <Link to="">
+          <Link to="/">
             <button className={classes.btn}>Buy Tickets</button>
           </Link>
 
@@ -61,21 +61,26 @@ const Header = () => {
         </div>
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
-          <button className={classes.btn1}>Buy Tickets</button>
+          <Link to="/">
+            <button className={classes.btn}>Buy Tickets</button>
+          </Link>
 
           <ul className={classes.mobileNav}>
-            <li>Home</li>
-            <Element
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <li>About</li>
-            </Element>
+            <li>
+              <Link to="/" style={{ color: "white", textDecoration: "none" }}>
+                Home
+              </Link>
+            </li>
+            <li>About</li>
             <li>Highlights</li>
-            <li>Cultural</li>
+            <li>
+              <Link
+                to="/events/cultural"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Culturals
+              </Link>
+            </li>
             <li>Contact</li>
           </ul>
         </div>
