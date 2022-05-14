@@ -1,85 +1,115 @@
 .footer {
     width: 100%;
-}
-
-.elements {
-    background-color: #393737;
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2rem 7rem;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-.logoBox {
-    display: flex;
-    justify-content: center;
-}
-
-    .footer_karma {
-        width: 25%;
-        margin-right: 4rem;
-    }
-
-    .footer_kmct {
-        width: 25%;
-    }
-
-.linkBox {
-    display: flex;
-}
-
-.links {
-    list-style: none;
+    display: block;
+    overflow: hidden;
+    background: linear-gradient(to right, #00093c, #191919);
     color: #fff;
-    font-size: 1.3rem;
-    font-weight: 500;
+    padding: 2rem 3rem;
+    border-top-left-radius: 50px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
-.socialIcons {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
+.col {
+    flex-basis: 25%;
+    padding: 1.3rem;
 }
 
-.anchor {
+.karma {
+    padding-bottom: 2rem;
+    width: 22rem;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 4rem;
+}
+
+.para {
+    color: #ccc;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.email {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+}
+
+.links {
+    flex-basis: 15%;
+}
+
+.col ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: #ccc;
+}
+
+.icons {
+    font-size: 4rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+.socialIcons a {
     text-decoration: none;
     color: #fff;
-    list-style: none;
 }
 
-.anchor:hover {
-    color: rgb(214, 214, 214);
+.icons:hover {
+    color: #ccc;
 }
 
-.social {
-    font-size: 3rem;
+.hr {
+    width: 95%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 2rem auto;
 }
 
 .copyright {
-    padding: .7rem 1rem;
-    background-image: linear-gradient(90deg, #2EB4DE 0.83%, #0FB472 98.65%);
     text-align: center;
-    color: #fff;
+    color: #ccc;
 }
 
 @media screen and (max-width: 480px) {
-   .links {
-       font-size: 1.2rem;
-   }
-   .footer_karma {
-    width: 30%;
-}
+    .col {
+        flex-basis: 25%;
+        padding: 1rem;
+    }
 
-.footer_kmct {
-    width: 30%;
-}
+    .col:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+
+    .col:nth-child(2) {
+        margin-bottom: 1.5rem;
+    }
+
+    .para {
+        font-size: 1.3rem;
+    }
+
+    .col:nth-child(2), .col:nth-child(3), .col:nth-child(4) {
+        flex-basis: 100%;
+    }
 }
