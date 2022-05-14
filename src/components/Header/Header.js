@@ -75,7 +75,7 @@ const Header = () => {
               <li>About</li>
             </Element>
             <li>Highlights</li>
-            <li>Cultural</li>
+            <li className={`${classes.navLink} ${classes.dropLink}`} onClick={() => setDrop(!drop)}>{drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events<FontAwesomeIcon size="sm" style={{display: "inline-block", marginLeft: ".3rem"}} icon={faArrowDown} fade /></li>
             <li>Contact</li>
           </ul>
         </div>
