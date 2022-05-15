@@ -2,9 +2,11 @@
     width: 15rem;
     position: absolute;
     top: 75px;
+    right: 355px;
     text-align: start;
-    background: rgba(255, 255, 255, 0.849);
-    border-radius: 1rem;
+    background: #040303;
+    border-radius: 5px;
+    padding: .5rem .7rem;
 }
 
 .drops {
@@ -17,9 +19,17 @@
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color: black;
+    color: #fff;
     opacity: 80%;
     padding: 10px;
+    transition: all.5s;
+}
+
+.links:hover {
+    background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all.5s;
 }
 
 @media only screen and (max-width: 480px) {

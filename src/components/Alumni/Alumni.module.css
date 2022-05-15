@@ -16,13 +16,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-basis: 50%;
 }
 
 .imgBox {
     flex: 1;
     margin: 0 auto;
     padding: 0 4rem;
+    flex-basis: 70%;
 }
 
 .heading {
@@ -31,8 +31,10 @@
 }
 
 .para {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 2.5rem;
+    font-weight: 300;
+    color: rgb(236, 235, 235);
 }
 
 .img {
