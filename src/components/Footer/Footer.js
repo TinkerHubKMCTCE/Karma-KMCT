@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
 import Link from "react-scroll/modules/components/Link";
+import Logo from "./header_logo.png"
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
         <div className={classes.col}>
           <img
             className={classes.karma}
-            src="assets/Footer/footer_karma.svg"
+            src={Logo}
             alt="Karma logo"
           />
           <p className={classes.para}>

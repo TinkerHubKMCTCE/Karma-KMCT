@@ -1,5 +1,6 @@
 import { useState } from "react";
 import classes from "./Header.module.css";
+import Logo from "./header_logo.png"
 
 import { FiMenu } from "react-icons/fi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -39,7 +40,7 @@ const Header = () => {
           >
             <Link to="/">
               <img
-                src="assets/Header/header_logo.png"
+                src={Logo}
                 alt="/"
                 className={classes.logo}
               />

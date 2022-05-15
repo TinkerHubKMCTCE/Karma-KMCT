@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  animation: trans 1s linear 5s 1 normal forwards;
+  animation: trans 1s linear 2s 1 normal forwards;
   /* animation-delay: 5s; */
   z-index: 999999;
 }
