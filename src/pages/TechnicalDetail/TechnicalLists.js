@@ -14,7 +14,7 @@ const TechnicalLists = [
       "3. Working with color, text and visualize designs and apply them in a composition.",
       "4. Getting a hands-on experience by working on various components and prototypes.",
     ],
-    paymentLink: "https://rzp.io",
+    paymentLink: "https://rzp.io/l/Karma-Figma",
     redirectLink: "/events/technical/figmaworkshop",
   },
 ];

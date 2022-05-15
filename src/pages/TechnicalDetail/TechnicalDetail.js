@@ -30,7 +30,11 @@ const TechnicalDetail = () => {
           {technical[0].rules.map((map) => {
             return <p className={classes.para}>{map}</p>;
           })}
-          <a href={technical[0].paymentLink}>
+          <a
+            href={technical[0].paymentLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className={classes.btn}>Register Now !</button>
           </a>
         </div>
