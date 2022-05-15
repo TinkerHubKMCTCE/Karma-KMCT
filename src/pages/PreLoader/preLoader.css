@@ -18,6 +18,7 @@
   height: 300px;
   animation: logo 5s;
   opacity: 0;
+  margin-bottom: 3rem;
 }
 .preLoaderheading {
   font-family: myFirstFont;

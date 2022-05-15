@@ -1,10 +1,10 @@
 import React from 'react'
 import './preLoader.css'
-import Logo from './karma22logo.png'
+
 function PreLoader() {
     return (
         <div className='preLoader' >
-            <img className='preLoaderLogo' src={Logo} />
+            <img className='preLoaderLogo' src="assets/Header/Preloader.svg" alt='preloader' />
             <h1 className='preLoaderheading'>Karma 22</h1>
         </div>
     )
