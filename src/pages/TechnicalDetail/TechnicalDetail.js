@@ -20,6 +20,7 @@ const TechnicalDetail = () => {
             alt="Desafio"
           />
         </div>
+<<<<<<< HEAD
                     <div className={classes.headingBox}>
                         <h3 className={classes.heading}>{technical[0].heading}</h3>
                         <p className={classes.para}>
@@ -45,5 +46,29 @@ const TechnicalDetail = () => {
               </section>
           );
 }
+=======
+        <div className={classes.headingBox}>
+          <h3 className={classes.heading}>{technical[0].heading}</h3>
+          <p className={classes.para}>{technical[0].headingPara}</p>
+          <h3 className={classes.heading}>Certification</h3>
+          <p className={classes.para}>{technical[0].certiPara}</p>
+          <h3 className={classes.heading}>Learning Outcomes</h3>
+
+          {technical[0].rules.map((map) => {
+            return <p className={classes.para}>{map}</p>;
+          })}
+          <a
+            href={technical[0].paymentLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className={classes.btn}>Register Now !</button>
+          </a>
+        </div>
+      </Background>
+    </section>
+  );
+};
+>>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
 
 export default TechnicalDetail;

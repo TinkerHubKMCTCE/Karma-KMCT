@@ -7,18 +7,26 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
 import Link from "react-scroll/modules/components/Link";
+<<<<<<< HEAD
 import Logo from "./header_logo.png"
+=======
+import Logo from "./header_logo.png";
+>>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
 
 const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.row}>
         <div className={classes.col}>
+<<<<<<< HEAD
           <img
             className={classes.karma}
             src={Logo}
             alt="Karma logo"
           />
+=======
+          <img className={classes.karma} src={Logo} alt="Karma logo" />
+>>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
           <p className={classes.para}>
             Annual national level techno managerial cultural extravaganza of the
             KMCT College of Engineering. Karma enables brilliant minds to
@@ -95,13 +103,25 @@ const Footer = () => {
         <div className={classes.col}>
           <h3>Follow us on</h3>
           <div className={classes.socialIcons}>
-            <a href="https://instagram.com/karma.kmct">
+            <a
+              href="https://instagram.com/karma.kmct"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon className={classes.icons} icon={faInstagram} />
             </a>
-            <a href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g">
+            <a
+              href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon className={classes.icons} icon={faYoutube} />
             </a>
-            <a href="https://www.facebook.com/karma.kmct/">
+            <a
+              href="https://www.facebook.com/karma.kmct/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon className={classes.icons} icon={faFacebook} />
             </a>
           </div>

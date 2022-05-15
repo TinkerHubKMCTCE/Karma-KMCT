@@ -10,6 +10,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 import Dropdown from "./Dropdown";
 import { HashLink } from "react-router-hash-link";
+import Logo from "./header_logo.png";
 
 const Scroll = require("react-scroll");
 
@@ -39,11 +40,15 @@ const Header = () => {
             duration={600}
           >
             <Link to="/">
+<<<<<<< HEAD
               <img
                 src={Logo}
                 alt="/"
                 className={classes.logo}
               />
+=======
+              <img src={Logo} alt="/" className={classes.logo} />
+>>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
             </Link>
           </Drop>
         </div>
