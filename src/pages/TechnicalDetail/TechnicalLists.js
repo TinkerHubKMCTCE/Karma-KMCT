@@ -110,13 +110,6 @@ const TechnicalLists = [
       "5. Getting a hands-on experience by working on various components and prototypes.",
       "6. Discovering how to use Figma for any UX Design project.",
     ],
-<<<<<<< HEAD
-    regFee: "50",
-    contact1: "",
-    contact2: "",
-    paymentLink: "https://rzp.io",
-    redirectLink: "/events/technical/figmaworkshop",
-=======
 
     paymentLink: "https://rzp.io/l/Karma-Figma",
     redirectLink: "/events/technical/figma",
@@ -156,9 +149,12 @@ const TechnicalLists = [
       "5. To use tools like Redmine Project Management System, SVN Source Code Managaement System and Mantis Bug Tracking System etc.",
     ],
 
+    regFee: "50",
+    contact1: "",
+    contact2: "",
+
     paymentLink: "https://rzp.io/l/Karma-Web",
     redirectLink: "/events/technical/web",
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
   },
 ];
 

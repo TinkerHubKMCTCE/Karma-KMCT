@@ -1,13 +1,5 @@
 const hackathonLists = [
   {
-<<<<<<< HEAD
-    name: "designhackathon",
-    id: 1,
-    imgSrc: "/assets/Workshops/figma.png",
-    heading: "hello - Robo Competiton",
-    Headingpara: "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
-    certiPara: "On successful completion of this 2-day Workshop, you will earn yourself a Certification in Figma Fundamentals.",
-=======
     name: "design-hackathon",
     id: 1,
     imgSrc: "/assets/Hackathon/design.png",
@@ -16,7 +8,6 @@ const hackathonLists = [
     //   "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
     certiPara:
       "On successful completion of this 2-day Workshop, you will earn yourself a Certification in Figma Fundamentals.",
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
     rules: [
       "1. Understanding of Figma and the basic tools used.",
       "2. Learning how to draw and make advanced icons, illustrations using these tools.",
@@ -27,11 +18,7 @@ const hackathonLists = [
     contact1: "",
     contact2: "",
     paymentLink: "https://rzp.io",
-<<<<<<< HEAD
-    redirectLink: "/events/hackathon/designhackathon",
-=======
     redirectLink: "/events/hackathon/design",
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
   },
 ];
 

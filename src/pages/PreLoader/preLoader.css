@@ -1,40 +1,4 @@
 .preLoader {
-<<<<<<< HEAD
-  position: absolute;
-
-  background-color: black;
-  height: 100%!important;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  animation: trans 1s linear 2s 1 normal forwards;
-  /* animation-delay: 5s; */
-  z-index: 999999;
-}
-
-.preLoaderLogo {
-  /* width: 100%; */
-  height: 300px;
-  animation: logo 5s;
-  opacity: 0;
-  margin-bottom: 3rem;
-}
-.preLoaderheading {
-  font-family: myFirstFont;
-  font-size: 10rem;
-  font-weight: bolder;
-  display: inline-block;
-  background-image: linear-gradient(to bottom, #09b326, #32b4ed);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: logo 5s;
-  opacity: 0;
-}
-@keyframes logo {
-  0% {
-=======
     position: absolute;
   
     background-color: black;
@@ -64,7 +28,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: logo 5s;
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
     opacity: 0;
   }
   @keyframes logo {
@@ -79,23 +42,6 @@
       opacity: 0;
     }
   }
-<<<<<<< HEAD
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes trans {
-  from {
-    margin-top: 0;
-    opacity: 1;
-  }
-
-  to {
-    margin-top: -100vh;
-    opacity: 0;
-  }
-}
-=======
   @keyframes trans {
     from {
       margin-top: 0;
@@ -107,4 +53,3 @@
       opacity: 0;
     }
   }
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
