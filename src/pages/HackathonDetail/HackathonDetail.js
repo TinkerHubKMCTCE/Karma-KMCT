@@ -23,32 +23,6 @@ const HackathonDetail = () => {
           />
         </div>
 
-<<<<<<< HEAD
-                    <div className={classes.headingBox}>
-                        <h3 className={classes.heading}>{hackathon[0].heading}</h3>
-                        <p className={classes.para}>
-                       {hackathon[0].Headingpara}
-                        </p>
-                        <h3 className={classes.heading}>Learning Outcomes</h3>
-
-                        {hackathon[0].rules.map((map) => {
-                            return <p className={classes.para}>{map}</p>
-                        })}
-
-                        <p className={classes.fees}>Registration fees: ₹<span className={classes.amount}>{hackathon[0].regFee}</span></p>
-                          <p className={classes.cont}>Contact : {hackathon[0].contact1}</p>
-                          <p className={classes.cont}>Contact : {hackathon[0].contact2}</p>
-                        
-            
-                        <a href={hackathon[0].paymentLink}>
-                        <button className={classes.btn}>Register Now !</button>
-                        </a>
-                    </div>
-                </Background>
-              </section>
-          );
-}
-=======
         <div className={classes.headingBox}>
           <h3 className={classes.heading}>{hackathon[0].heading}</h3>
           <p className={classes.para}>{hackathon[0].para}</p>
@@ -66,6 +40,5 @@ const HackathonDetail = () => {
     </section>
   );
 };
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
 
 export default HackathonDetail;
