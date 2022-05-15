@@ -55,7 +55,7 @@ const TechnicalLists = [
     id: 3,
     name: "arduino",
     imgSrc: "/assets/Workshops/arduino.png",
-    heading: "Ansys Workshop",
+    heading: "Arduino Workshop",
     headingPara:
       "Arduino is an Open-source electronic prototyping platform enabling users to create interactive electronic objects. A step by step introduction to the Arduino, electronic circuits and programming. If this is your first experience with Arduino, the UNO is the most robust board you can start playing with. The UNO is the most used and documented board of the whole Arduino & Genuino family.",
     certiPara:
