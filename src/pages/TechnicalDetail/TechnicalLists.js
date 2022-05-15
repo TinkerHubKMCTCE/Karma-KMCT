@@ -3,9 +3,11 @@ const TechnicalLists = [
     name: "figmaworkshop",
     id: 1,
     imgSrc: "/assets/Workshops/figma.png",
-    heading: "Robotics - Robo Competiton",
-    Headingpara: "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
-    certiPara: "On successful completion of this 2-day Workshop, you will earn yourself a Certification in Figma Fundamentals.",
+    heading: "Figma Workshop",
+    Headingpara:
+      "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
+    certiPara:
+      "On successful completion of this 2-day Workshop, you will earn yourself a Certification in Figma Fundamentals.",
     rules: [
       "1. Understanding of Figma and the basic tools used.",
       "2. Learning how to draw and make advanced icons, illustrations using these tools.",

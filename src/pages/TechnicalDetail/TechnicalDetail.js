@@ -20,25 +20,23 @@ const TechnicalDetail = () => {
             alt="Desafio"
           />
         </div>
-                    <div className={classes.headingBox}>
-                        <h3 className={classes.heading}>{technical[0].heading}</h3>
-                        <p className={classes.para}>
-                       {technical[0].para}
-                        </p>
-                        <h3 className={classes.heading}>Certification</h3>
-                        <p className={classes.para}>{technical[0].certiPara}</p>
-                        <h3 className={classes.heading}>Learning Outcomes</h3>
+        <div className={classes.headingBox}>
+          <h3 className={classes.heading}>{technical[0].heading}</h3>
+          <p className={classes.para}>{technical[0].para}</p>
+          <h3 className={classes.heading}>Certification</h3>
+          <p className={classes.para}>{technical[0].certiPara}</p>
+          <h3 className={classes.heading}>Learning Outcomes</h3>
 
-                        {technical[0].rules.map((map) => {
-                            return <p className={classes.para}>{map}</p>
-                        })}
-                        <a href={technical[0].paymentLink}>
-                        <button className={classes.btn}>Register Now !</button>
-                        </a>
-                    </div>
-                </Background>
-              </section>
-          );
-}
+          {technical[0].rules.map((map) => {
+            return <p className={classes.para}>{map}</p>;
+          })}
+          <a href={technical[0].paymentLink}>
+            <button className={classes.btn}>Register Now !</button>
+          </a>
+        </div>
+      </Background>
+    </section>
+  );
+};
 
 export default TechnicalDetail;
