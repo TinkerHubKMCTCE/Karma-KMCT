@@ -38,16 +38,33 @@ h2 {
     padding: 0 2px;
 }
 
+.row:hover .gallery-img{
+  filter: grayscale(1);
+}
+
 .column {
     flex: 25%;
     max-width: 25%;
     padding: 0 2px;
 }
 
+.img-wrapper {
+margin-top: 4px;
+overflow: hidden;
+}
+
+.img-wrapper:hover .gallery-img {
+  filter: none;
+}
+
 .gallery-img {
-    margin-top: 4px;
     vertical-align: middle;
     width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 800px) {
