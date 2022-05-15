@@ -34,7 +34,7 @@
 }
 
 .btn {
-    align-self: flex-start;
+    margin-top: 3rem;
     background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
     padding: 1.5rem 1.7rem;
     border: none;
@@ -70,6 +70,20 @@
 
 .bkdHeading {
     font-size: 3rem;
+}
+
+.fees {
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+.amount {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.cont {
+    font-size: 2.3rem;
 }
 
 .inputBox {

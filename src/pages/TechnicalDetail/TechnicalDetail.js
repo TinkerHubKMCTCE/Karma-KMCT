@@ -23,7 +23,7 @@ const TechnicalDetail = () => {
                     <div className={classes.headingBox}>
                         <h3 className={classes.heading}>{technical[0].heading}</h3>
                         <p className={classes.para}>
-                       {technical[0].para}
+                       {technical[0].Headingpara}
                         </p>
                         <h3 className={classes.heading}>Certification</h3>
                         <p className={classes.para}>{technical[0].certiPara}</p>
@@ -32,6 +32,11 @@ const TechnicalDetail = () => {
                         {technical[0].rules.map((map) => {
                             return <p className={classes.para}>{map}</p>
                         })}
+
+                        <p className={classes.fees}>Registration fees: ₹<span className={classes.amount}>{technical[0].regFee}</span></p>
+                          <p className={classes.cont}>Contact : {technical[0].contact1}</p>
+                          <p className={classes.cont}>Contact : {technical[0].contact2}</p>
+
                         <a href={technical[0].paymentLink}>
                         <button className={classes.btn}>Register Now !</button>
                         </a>

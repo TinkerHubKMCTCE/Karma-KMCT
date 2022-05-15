@@ -16,7 +16,14 @@ const CulturalLists = [
     rule7: "7. There should be only one entry in front of each college.",
     rule8:
       "8. Judges can stop the dance in between if they feel it is irrelevant.",
-
+    criteria: [
+      "1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!" ,
+      "2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!" ,
+      "3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!" 
+    ],
+    regFee: "50",
+    contact1: "",
+    contact2: "",
     paymentLink: "https://rzp.io/l/Desafio-Dance",
     redirectLink: "/events/cultural/desafio",
   },
