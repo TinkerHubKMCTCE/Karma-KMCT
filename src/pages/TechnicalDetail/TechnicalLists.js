@@ -70,7 +70,7 @@ const TechnicalLists = [
     ],
 
     paymentLink: "https://rzp.io/l/Karma-Arduino",
-    redirectLink: "/events/technical/ansys",
+    redirectLink: "/events/technical/arduino",
   },
   {
     id: 4,
