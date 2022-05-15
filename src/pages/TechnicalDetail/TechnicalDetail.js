@@ -22,7 +22,7 @@ const TechnicalDetail = () => {
         </div>
         <div className={classes.headingBox}>
           <h3 className={classes.heading}>{technical[0].heading}</h3>
-          <p className={classes.para}>{technical[0].para}</p>
+          <p className={classes.para}>{technical[0].headingPara}</p>
           <h3 className={classes.heading}>Certification</h3>
           <p className={classes.para}>{technical[0].certiPara}</p>
           <h3 className={classes.heading}>Learning Outcomes</h3>

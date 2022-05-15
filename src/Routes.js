@@ -12,12 +12,11 @@ import Technical from "./pages/Technical/Technical";
 import Footer from "./components/Footer/Footer";
 import Hackathon from "./pages/Hackathon/Hackathon";
 import ProjectCompetition from "./pages/ProjectCompetition/ProjectCompetition";
-import PreLoader from "./components/Header/PreLoader/PreLoader";
+
 
 const MyRoutes = () => {
   return (
     <Fragment>
-      <PreLoader />
       <Header />
       <main>
         <Routes>

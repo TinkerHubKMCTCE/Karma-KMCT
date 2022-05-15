@@ -23,25 +23,22 @@ const HackathonDetail = () => {
           />
         </div>
 
-                    <div className={classes.headingBox}>
-                        <h3 className={classes.heading}>{hackathon[0].heading}</h3>
-                        <p className={classes.para}>
-                       {hackathon[0].para}
-                        </p>
-                        <h3 className={classes.heading}>Learning Outcomes</h3>
+        <div className={classes.headingBox}>
+          <h3 className={classes.heading}>{hackathon[0].heading}</h3>
+          <p className={classes.para}>{hackathon[0].para}</p>
+          <h3 className={classes.heading}>Learning Outcomes</h3>
 
-                        {hackathon[0].rules.map((map) => {
-                            return <p className={classes.para}>{map}</p>
-                        })}
-                        
-            
-                        <a href={hackathon[0].paymentLink}>
-                        <button className={classes.btn}>Register Now !</button>
-                        </a>
-                    </div>
-                </Background>
-              </section>
-          );
-}
+          {hackathon[0].rules.map((map) => {
+            return <p className={classes.para}>{map}</p>;
+          })}
+
+          <a href={hackathon[0].paymentLink}>
+            <button className={classes.btn}>Register Now !</button>
+          </a>
+        </div>
+      </Background>
+    </section>
+  );
+};
 
 export default HackathonDetail;

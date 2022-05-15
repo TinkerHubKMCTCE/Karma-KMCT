@@ -7,17 +7,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
 import Link from "react-scroll/modules/components/Link";
+import Logo from "./header_logo.png";
 
 const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.row}>
         <div className={classes.col}>
-          <img
-            className={classes.karma}
-            src="assets/Footer/footer_karma.svg"
-            alt="Karma logo"
-          />
+          <img className={classes.karma} src={Logo} alt="Karma logo" />
           <p className={classes.para}>
             Annual national level techno managerial cultural extravaganza of the
             KMCT College of Engineering. Karma enables brilliant minds to
@@ -94,13 +91,25 @@ const Footer = () => {
         <div className={classes.col}>
           <h3>Follow us on</h3>
           <div className={classes.socialIcons}>
-            <a href="https://instagram.com/karma.kmct">
+            <a
+              href="https://instagram.com/karma.kmct"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon className={classes.icons} icon={faInstagram} />
             </a>
-            <a href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g">
+            <a
+              href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon className={classes.icons} icon={faYoutube} />
             </a>
-            <a href="https://www.facebook.com/karma.kmct/">
+            <a
+              href="https://www.facebook.com/karma.kmct/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon className={classes.icons} icon={faFacebook} />
             </a>
           </div>
