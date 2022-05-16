@@ -12,10 +12,6 @@ import Technical from "./pages/Technical/Technical";
 import Footer from "./components/Footer/Footer";
 import Hackathon from "./pages/Hackathon/Hackathon";
 import ProjectCompetition from "./pages/ProjectCompetition/ProjectCompetition";
-<<<<<<< HEAD
-=======
-
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
 
 const MyRoutes = () => {
   return (

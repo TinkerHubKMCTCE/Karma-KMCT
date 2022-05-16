@@ -7,26 +7,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
 import Link from "react-scroll/modules/components/Link";
-<<<<<<< HEAD
-import Logo from "./header_logo.png"
-=======
 import Logo from "./header_logo.png";
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
 
 const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.row}>
         <div className={classes.col}>
-<<<<<<< HEAD
-          <img
-            className={classes.karma}
-            src={Logo}
-            alt="Karma logo"
-          />
-=======
           <img className={classes.karma} src={Logo} alt="Karma logo" />
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
           <p className={classes.para}>
             Annual national level techno managerial cultural extravaganza of the
             KMCT College of Engineering. Karma enables brilliant minds to

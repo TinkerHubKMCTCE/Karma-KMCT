@@ -1,6 +1,5 @@
 import { useState } from "react";
 import classes from "./Header.module.css";
-import Logo from "./header_logo.png"
 
 import { FiMenu } from "react-icons/fi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -40,15 +39,7 @@ const Header = () => {
             duration={600}
           >
             <Link to="/">
-<<<<<<< HEAD
-              <img
-                src={Logo}
-                alt="/"
-                className={classes.logo}
-              />
-=======
               <img src={Logo} alt="/" className={classes.logo} />
->>>>>>> bfbf80ba4053286a1f785f8427471cd0345451b3
             </Link>
           </Drop>
         </div>
