@@ -6,7 +6,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
-import Link from "react-scroll/modules/components/Link";
+import Link from "react-router-dom";
 import Logo from "./header_logo.png";
 
 const Footer = () => {
