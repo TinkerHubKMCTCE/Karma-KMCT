@@ -6,7 +6,6 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
-import Link from "react-router-dom";
 import Logo from "./header_logo.png";
 
 const Footer = () => {
@@ -50,41 +49,40 @@ const Footer = () => {
               <li>Contact us</li>
             </HashLink>
 
-            <Link
+            <a
               href="https://docs.google.com/document/d/1cJfjOhoEfW_JhiMF-tUJXNWwRKxSIN-KrIlJCnh0EZ4/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Privacy policy</li>
-            </Link>
+            </a>
 
-            <Link
+            <a
               href="https://docs.google.com/document/d/1VOnAodNTeF8ShOCxxVb_AXnxLKg2jKZCUY0QxbQd4nE/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Terms and condition</li>
-            </Link>
+            </a>
 
-            <Link
+            <a
               href="https://docs.google.com/document/d/1K0En27BTf6KJB2eHZmnr7BAMDWK8T83--8HJOu-GkA0/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Refund & Cancellation Policy</li>
-            </Link>
-
-            <Link
+            </a>
+            <a
               href="https://docs.google.com/document/d/1DVGB-PePPd7XCNW4LAJ6qBShudKzBJtuaAaiC6Q1DWY/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Shipping Policy</li>
-            </Link>
+            </a>
           </ul>
         </div>
 
