@@ -37,7 +37,7 @@ const Footer = () => {
           <h3>Links</h3>
           <ul>
             <HashLink
-              to="/#home"
+              to="/#about"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>About</li>
