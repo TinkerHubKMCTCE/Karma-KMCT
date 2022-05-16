@@ -149,6 +149,10 @@ const TechnicalLists = [
       "5. To use tools like Redmine Project Management System, SVN Source Code Managaement System and Mantis Bug Tracking System etc.",
     ],
 
+    regFee: "50",
+    contact1: "",
+    contact2: "",
+
     paymentLink: "https://rzp.io/l/Karma-Web",
     redirectLink: "/events/technical/web",
   },

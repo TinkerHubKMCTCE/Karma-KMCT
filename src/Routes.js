@@ -13,7 +13,6 @@ import Footer from "./components/Footer/Footer";
 import Hackathon from "./pages/Hackathon/Hackathon";
 import ProjectCompetition from "./pages/ProjectCompetition/ProjectCompetition";
 
-
 const MyRoutes = () => {
   return (
     <Fragment>
