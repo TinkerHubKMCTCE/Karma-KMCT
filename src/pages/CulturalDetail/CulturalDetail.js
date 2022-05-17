@@ -44,9 +44,9 @@ const CulturalDetail = () => {
           <p className={classes.para}>{culturalDetail[0].rule14}</p>
           <p className={classes.para}>{culturalDetail[0].rule15}</p>
 
-          <h3 className={classes.heading}>Judging Criteria</h3>
+          {/* <h3 className={classes.heading}>Judging Criteria</h3>
 
-          {/* {culturalDetail[0].criteria.map((crit) => {
+          {culturalDetail[0].criteria.map((crit) => {
             return <p className={crit}></p>;
           })} */}
 
@@ -54,8 +54,9 @@ const CulturalDetail = () => {
             Registration fees: ₹
             <span className={classes.amount}>{culturalDetail[0].regFee}</span>
           </p>
-          <p className={classes.cont}>Contact : {culturalDetail[0].contact1}</p>
-          <p className={classes.cont}>Contact : {culturalDetail[0].contact2}</p>
+
+          <p className={classes.cont}>Contact - {culturalDetail[0].contact1}</p>
+          <p className={classes.cont}>Contact - {culturalDetail[0].contact2}</p>
 
           <a
             href={culturalDetail[0].paymentLink}
