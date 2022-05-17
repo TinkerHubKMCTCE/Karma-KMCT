@@ -238,7 +238,7 @@ const CulturalLists = [
     rule12: "12. No submission will be accepted after the deadline.",
 
     paymentLink: "https://rzp.io/l/Karma-Troll",
-    redirectLink: "/events/cultural/trollitup",
+    redirectLink: "/events/cultural/troll",
   },
 ];
 
