@@ -6,17 +6,16 @@ const Technical = () => {
   console.log(TechnicalLists);
   return (
     <div className={classes.technical}>
-
-{TechnicalLists.map((list) => {
-            return (
-              <EventCard
-          key={list.id}
-          imgSrc={list.imgSrc}
-          heading={list.heading}
-          redirectLink={list.redirectLink}
-           />
-        );  
-        })}
+      {TechnicalLists.map((list) => {
+        return (
+          <EventCard
+            key={list.id}
+            imgSrc={list.imgSrc}
+            heading={list.heading}
+            redirectLink={list.redirectLink}
+          />
+        );
+      })}
     </div>
   );
 };

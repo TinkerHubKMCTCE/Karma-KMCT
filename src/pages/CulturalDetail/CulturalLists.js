@@ -16,11 +16,11 @@ const CulturalLists = [
     rule7: "7. There should be only one entry in front of each college.",
     rule8:
       "8. Judges can stop the dance in between if they feel it is irrelevant.",
-    criteria: [
-      "1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!",
-      "2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!",
-      "3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!",
-    ],
+    // criteria: [
+    //   "1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!",
+    //   "2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!",
+    //   "3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!",
+    // ],
     regFee: "50",
     contact1: "",
     contact2: "",
@@ -205,7 +205,7 @@ const CulturalLists = [
     redirectLink: "/events/cultural/treasurehunt",
   },
   {
-    id: 10,
+    id: 11,
     name: "mrmrskarma",
     para: "Here..,KARMA'22 pave a way to the most challenging crown  MR & MS KARMA . Fella of KMCT! Get ready and knit your intelligence, creativity, persona on single thread to crush your rival and Hit your target!",
     imgSrc: "/assets/Cultural/mrkarma.png",
@@ -215,7 +215,7 @@ const CulturalLists = [
     redirectLink: "/events/cultural/mrmrskarma",
   },
   {
-    id: 11,
+    id: 12,
     name: "troll",
     para: "Trolls look for a reasons to hate but really what they are mad at is the fact that they are not included in anything ever ! While reading some trolls we can relate to it so much. Are you ready to make some funny creative trolls? Then 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with '𝐓𝐑𝐎𝐋𝐋 𝐈𝐓 𝐔𝐏!' 𝐓𝐫𝐨𝐥𝐥 𝐌𝐚𝐤𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Troll it up and make it fun !!",
     imgSrc: "/assets/Cultural/troll.png",
@@ -238,7 +238,7 @@ const CulturalLists = [
     rule12: "12. No submission will be accepted after the deadline.",
 
     paymentLink: "https://rzp.io/l/Karma-Troll",
-    redirectLink: "/events/cultural/troll",
+    redirectLink: "/events/cultural/trollitup",
   },
 ];
 
