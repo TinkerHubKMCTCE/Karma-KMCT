@@ -83,6 +83,10 @@
     .herobox {
         justify-content: center;
     }
+    
+    .hero{
+       background-position: center center;
+    }
 
     .logo {
         width: 50rem;
