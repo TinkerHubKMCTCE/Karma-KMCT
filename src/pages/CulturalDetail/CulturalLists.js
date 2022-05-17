@@ -3,7 +3,7 @@ const CulturalLists = [
     id: 1,
     name: "desafio",
     imgSrc: "/assets/cultural/desafio.png",
-    heading: "Desafio - Dance Competiton",
+    heading: "DESAFIO - Dance Competiton",
     para: "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
     rule1: "1. No participants in group: min 4 and max 12 students.",
     rule2: "2. Time limit : 7+1 minutes.",
@@ -16,14 +16,14 @@ const CulturalLists = [
     rule7: "7. There should be only one entry in front of each college.",
     rule8:
       "8. Judges can stop the dance in between if they feel it is irrelevant.",
-    // criteria: [
-    //   "1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!",
-    //   "2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!",
-    //   "3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil!",
-    // ],
-    regFee: "50",
-    contact1: "",
-    contact2: "",
+
+    // criteria: ["Will update the rules and criteria on the website."],
+
+    regFee: " 200/- per person",
+
+    contact1: "Arun | 9947949603",
+    contact2: "Answara | 9645098354",
+
     paymentLink: "https://rzp.io/l/Desafio-Dance",
     redirectLink: "/events/cultural/desafio",
   },
@@ -42,6 +42,13 @@ const CulturalLists = [
     rule7: "7. A finished art should not contain any other materials.",
     rule8:
       "8. Each participants will receive a registration number after the registration, it should be written on the top left corner of the final art.",
+
+    // criteria: ["Will update the rules and criteria on the website."],
+
+    regFee: " 50/- per person",
+
+    contact1: "Arjun KP | 8075551219",
+    contact2: "Kavyanjali | 7559031951",
 
     paymentLink: "https://rzp.io/l/Pencil-Drawing",
     redirectLink: "/events/cultural/pencildrawing",
@@ -70,6 +77,13 @@ const CulturalLists = [
     rule10:
       "10. The deadline for the same shall be informed after confirmation of participation. Presenting banners, posters or other materials directly displaying the theme is prohibited.",
 
+    // criteria: ["Will update the rules and criteria on the website."],
+
+    regFee: " 200/- per person",
+
+    contact1: "Arun | 9947949603",
+    contact2: "Mufeeda | 7025917739",
+
     paymentLink: "https://rzp.io/l/Fashion-Show",
     redirectLink: "/events/cultural/fashionshow",
   },
@@ -86,21 +100,47 @@ const CulturalLists = [
       "3. Use of single instrument other than organ by the participant is permitted.",
     rule4: "4. Composition and overall impression",
 
+    // criteria: [
+    //   "1. Swaram",
+    //   "2. Ragam",
+    //   "3. Taalam",
+    //   "4. Composition and overall impression",
+    // ],
+
+    regFee: " 50/- per person",
+
+    contact1: "Maneesha | 9747778332",
+    contact2: "Joseph | 7034193478",
+
     paymentLink: "https://rzp.io/l/Karma22LightMusic",
     redirectLink: "/events/cultural/lightmusic",
   },
   {
     id: 5,
     name: "facepainting",
-    para: 'Are you an artist!.. then 𝐊𝐀𝐑𝐌𝐀\'𝟐𝟐 Is here with an opportunity to color your college life.  Join "𝐀𝐆𝐇𝐀𝐈𝐃" 𝐅𝐚𝐜𝐞 𝐏𝐚𝐢𝐧𝐭𝐢𝐧𝐠.Throw different colors and make your snap different to win exciting prizes!',
+    para: 'Are you an artist!.. then 𝐊𝐀𝐑𝐌𝐀\'𝟐𝟐 Is here with an opportunity to color your college life.  Join "AGHAIDH" 𝐅𝐚𝐜𝐞 𝐏𝐚𝐢𝐧𝐭𝐢𝐧𝐠.Throw different colors and make your snap different to win exciting prizes!',
     imgSrc: "/assets/cultural/facepainting.png",
-    heading: "𝐀𝐆𝐇𝐀𝐈𝐃 - Face Painting",
+    heading: "AGHAIDH - Face Painting",
     rule1: "1. A theme based face painting competition.",
     rule2: "2. Two members per team.",
     rule3: "3. It is an open event.",
     rule4: "4. Paints will be provided.",
     rule5: "5. Participants are required to bring their own brushes.",
     rule6: "6. Maximum time limit - 60 minutes.",
+
+    // criteria: [
+    //   "1. Creativity",
+    //   "2. Originality",
+    //   "3. Presentation of theme",
+    //   "4. Visual appeal",
+    //   "5. Resource utilization",
+    //   "6. Speed",
+    // ],
+
+    regFee: " 200/- per person",
+
+    contact1: "Akash PG | 7034541463",
+    contact2: "Anaswara | 7025836141",
 
     paymentLink: "https://rzp.io/l/FacePainting",
     redirectLink: "/events/cultural/facepainting",
@@ -110,7 +150,7 @@ const CulturalLists = [
     name: "mehendi",
     para: " If you have a knack for doodling beautiful patterns and amazing works of art then this mehandi competition is right up your alley, 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐀𝐥𝐡𝐞𝐧𝐚' 𝐌𝐞𝐡𝐚𝐧𝐝𝐢 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Sign up and let the world see your creativity.",
     imgSrc: "/assets/cultural/mehendi.png",
-    heading: "𝐀𝐭𝐡𝐞𝐧𝐚 - Mehendi Competition",
+    heading: "Alhena - Mehendi Competition",
     rule1: "1. Spot registration are allowed.",
     rule2:
       "2. Individual, as well as two-person registrations are accepted, ie, can put mehendi on oneself or on someone else.",
@@ -121,6 +161,18 @@ const CulturalLists = [
     rule7: "7. Reference design can't be used once the event has started.",
     rule8: "8. Time limit: 60 minutes.",
 
+    // criteria: [
+    //   "1. Originality",
+    //   "2. Presentation",
+    //   "3. Creativity",
+    //   "4. Complexity",
+    // ],
+
+    regFee: " 100/- per person",
+
+    contact1: "Aysha Amal | 8136943457",
+    contact2: "Jishnu | 9846983107",
+
     paymentLink: "https://rzp.io/l/KarmaMehendi",
     redirectLink: "/events/cultural/mehendi",
   },
@@ -129,7 +181,7 @@ const CulturalLists = [
     name: "photography",
     para: "\"A good photographer must love life more than they love photography\" Are you such a photographer?,then your chance is here!! 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐂𝐀𝐏𝐓𝐔𝐑𝐄' 𝐒𝐩𝐨𝐭 𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐲 𝐂𝐨𝐧𝐭𝐞𝐬𝐭,grab your chance now!",
     imgSrc: "/assets/cultural/photography.png",
-    heading: "𝐂𝐀𝐏𝐓𝐔𝐑𝐄 - 𝐒𝐩𝐨𝐭 𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐲 𝐂𝐨𝐧𝐭𝐞𝐬𝐭",
+    heading: "CAPTURE - Spot Photography",
     rule1:
       "1. CAPTURE ,The Photography Contest of KARMA  will take place fram 21th May 2022 to 23 May 2022 and is open to everyone regardless of profession or age. ",
     rule2:
@@ -155,6 +207,18 @@ const CulturalLists = [
     rule14:
       "The image for the competition must be uploaded by the contestants with the following details specified in the email, Name of the institution, Nome of the contestant, Mobile number.",
 
+    // criteria: [
+    //   "1. Originality",
+    //   "2. Presentation",
+    //   "3. Creativity",
+    //   "4. Complexity",
+    // ],
+
+    regFee: " 50/- per person",
+
+    contact1: "Akshay Jose | 7012131476",
+    contact2: "Dheeraj | 9846166748",
+
     paymentLink: "https://rzp.io/l/Karma-Photography",
     redirectLink: "/events/cultural/photography",
   },
@@ -171,6 +235,18 @@ const CulturalLists = [
     rule3:
       "3. Each participant will be given 30 seconds to think and spell each word.",
 
+    // criteria: [
+    //   "1. Originality",
+    //   "2. Presentation",
+    //   "3. Creativity",
+    //   "4. Complexity",
+    // ],
+
+    regFee: " 30/- per person",
+
+    contact1: "Vyshnavi | 7736985282",
+    contact2: "Keerthana Das | 7034776915",
+
     paymentLink: "https://rzp.io/l/Karma-SpellBee",
     redirectLink: "/events/cultural/spellbee",
   },
@@ -179,13 +255,25 @@ const CulturalLists = [
     name: "poemwriting",
     para: "Remember, writing poetry is like making love; one will never know whether one's own pleasure is shared\".Are you an enthusiastic writer? Then here is an opportunity for you, 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐒𝐡𝐚𝐢𝐫𝐢' 𝐏𝐨𝐞𝐦 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Opportunities are like sunrisers, if you wait too long you miss them.So without wasting your time do participate and show your kind of talent!!",
     imgSrc: "/assets/cultural/poemwriting.png",
-    heading: "𝐒𝐡𝐚𝐢𝐫𝐢 - 𝐏𝐨𝐞𝐦 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧",
+    heading: "Shairi - Poem Writing Competition",
     rule1: "1. Poem should not exceed 24 lines.",
     rule2: "2. Poetry can written in any poetical style.",
     rule3: "3. Only one poem per person is allowed.",
     rule4: "4. Entry should be authentic.",
     rule5: "5. Any form of plagiarism discovered will leads to disqualified.",
     rule6: "6. Theme of poem will be provided.",
+
+    // criteria: [
+    //   "1. Originality",
+    //   "2. Presentation",
+    //   "3. Creativity",
+    //   "4. Complexity",
+    // ],
+
+    regFee: " 30/- per person",
+
+    contact1: "Yadhu | 6238260890",
+    contact2: "Aswini | Aswini",
 
     paymentLink: "https://rzp.io/l/Karma-PoemWriting",
     redirectLink: "/events/cultural/poemwriting",
@@ -195,11 +283,24 @@ const CulturalLists = [
     name: "treasurehunt",
     para: 'Are you seeking for an opportunity to earn exciting prizes, here your wait is over! 𝐊𝐀𝐑𝐌𝐀\'𝟐𝟐 comes up with "𝐓𝐑𝐄𝐀𝐒𝐔𝐑𝐄 𝐇𝐔𝐍𝐓". Put your full potential, enjoy the moment and hit the treasure.',
     imgSrc: "/assets/Cultural/treasurehunt.png",
-    heading: "𝐓𝐑𝐄𝐀𝐒𝐔𝐑𝐄 𝐇𝐔𝐍𝐓",
+    heading: "Treasure Hunt",
     rule1: "1. The event will be conducted as a team event.",
     rule2: "2. Maximum 4 members are allowed in a team.",
     rule3:
       "3. Rest of the instructions will be given at the start of the event.",
+
+    // criteria: [
+    //   "1. Originality",
+    //   "2. Presentation",
+    //   "3. Creativity",
+    //   "4. Complexity",
+    // ],
+
+    regFee: " 50/- per person",
+
+    contact1: "Swaran | 9072242546",
+    contact2: "Sarah | 9746390258",
+    conatct3: "Nivyasree | 8086718523",
 
     paymentLink: "https://rzp.io/l/Karma-Treasure-Hunt",
     redirectLink: "/events/cultural/treasurehunt",
@@ -207,11 +308,11 @@ const CulturalLists = [
   {
     id: 11,
     name: "mrmrskarma",
-    para: "Here..,KARMA'22 pave a way to the most challenging crown  MR & MS KARMA . Fella of KMCT! Get ready and knit your intelligence, creativity, persona on single thread to crush your rival and Hit your target!",
+    para: 'Here, KARMA\'22 pave a way to the most challenging crown " MR & MS KARMA" . Fella of KMCT! Get ready and knit your intelligence, creativity, persona on a single thread to crush your rival and Hit your target!',
     imgSrc: "/assets/Cultural/mrkarma.png",
     heading: "Mr & Ms Karma",
 
-    paymentLink: "",
+    paymentLink: "https://www.karmakmct.com/events/cultural",
     redirectLink: "/events/cultural/mrmrskarma",
   },
   {
@@ -219,7 +320,7 @@ const CulturalLists = [
     name: "troll",
     para: "Trolls look for a reasons to hate but really what they are mad at is the fact that they are not included in anything ever ! While reading some trolls we can relate to it so much. Are you ready to make some funny creative trolls? Then 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with '𝐓𝐑𝐎𝐋𝐋 𝐈𝐓 𝐔𝐏!' 𝐓𝐫𝐨𝐥𝐥 𝐌𝐚𝐤𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Troll it up and make it fun !!",
     imgSrc: "/assets/Cultural/troll.png",
-    heading: "𝐓𝐑𝐎𝐋𝐋 𝐈𝐓 𝐔𝐏",
+    heading: "Troll It Up",
     rule1: "1. A participant can submit only ONE troll/meme",
     rule2:
       "2. Each candidate is requested to send his/her entry to the email ID trollkarma22@gmail.com",
@@ -237,8 +338,69 @@ const CulturalLists = [
       "11. Trolls that are published before by any individuals or institutions are not allowed in the contest",
     rule12: "12. No submission will be accepted after the deadline.",
 
+    // The best creative troll uploaded in the page will be selected by an eminent panel of judges.
+
+    // criteria: [
+    //   "1. Overall humor",
+    //   "2. Originality",
+    //   "3. Decision of the panel will be final",
+    // ],
+
+    regFee: " 30/- per person",
+
+    contact1: "Karthikeyan | 9074501158",
+    contact2: "Akash PG | 7034541463",
+
     paymentLink: "https://rzp.io/l/Karma-Troll",
     redirectLink: "/events/cultural/troll",
+  },
+  {
+    id: 13,
+    name: "spotdance",
+    para: "Trolls look for a reasons to hate but really what they are mad at is the fact that they are not included in anything ever ! While reading some trolls we can relate to it so much. Are you ready to make some funny creative trolls? Then 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with '𝐓𝐑𝐎𝐋𝐋 𝐈𝐓 𝐔𝐏!' 𝐓𝐫𝐨𝐥𝐥 𝐌𝐚𝐤𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. Troll it up and make it fun !!",
+    imgSrc: "/assets/Cultural/spotdance.png",
+    heading: "Spot Dance",
+    rule1: "1. Spot registration is allowed.",
+    rule2: "2. Individual participation ",
+
+    // criteria: [
+    //   "1. Overall humor",
+    //   "2. Originality",
+    //   "3. Decision of the panel will be final.",
+    // ],
+
+    regFee: " 50/- per person",
+
+    contact1: "Athulya | 9567210735",
+    contact2: "Abhishek K | 7034922929",
+
+    paymentLink: "https://rzp.io/l/Karma-Spot-Dance",
+    redirectLink: "/events/cultural/spotdance",
+  },
+  {
+    id: 14,
+    name: "whisper-challenge",
+    para: "Playing games always brings you joy!.. 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 provides \"𝐖𝐇𝐈𝐒𝐏𝐄𝐑 𝐂𝐇𝐀𝐋𝐋𝐄𝐍𝐆𝐄\" That let your heart coordinate with your brain. Make it happen together, don't miss the chance.",
+    imgSrc: "/assets/Cultural/whisperchallenge.png",
+    heading: "Whisper Challenge",
+    rule1: "1. Spot registration is allowed.",
+    rule2: "2. Individual participation ",
+
+    // criteria: [
+    //   "1. Its an open event.",
+    //   "2. Two members per team.",
+    //   "3. Time limit - 1 minute.",
+    //   "4. No using of hands.",
+    //   "5. There will be only 3 chances.",
+    // ],
+
+    regFee: " 50/- per person",
+
+    contact1: "Arshaq | 9895770399",
+    contact2: "Swaran | 9072242546",
+
+    paymentLink: "https://rzp.io/l/Karma-Whisper-Challenge",
+    redirectLink: "/events/cultural/whisper-challenge",
   },
 ];
 
