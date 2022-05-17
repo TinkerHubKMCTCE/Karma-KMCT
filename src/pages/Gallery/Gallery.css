@@ -1,6 +1,26 @@
+.gallerySection {
+  padding: 2rem 1.5rem;
+}
+
+.galleryBg {
+  padding: 9rem;
+}
+
 .galleryHeading {
+  font-size: 5rem;
   text-align: center;
   margin: 20px auto 10px;
+  color: #fff;
+}
+
+.galleryHeading::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 4px;
+  text-align: center;
+  background-image: linear-gradient(90deg, #09B35C 2.27%, #32B4ED 97.67%);
 }
 
 .desc {
@@ -56,7 +76,6 @@ width: 100%;
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 2px;
 }
 
 .row:hover .gallery-img{
@@ -66,12 +85,13 @@ filter: grayscale(1);
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 2px;
+  padding: .7rem;
 }
 
 .img-wrapper {
 margin-top: 4px;
 overflow: hidden;
+margin-bottom: 1rem;
 }
 
 .img-wrapper:hover .gallery-img {

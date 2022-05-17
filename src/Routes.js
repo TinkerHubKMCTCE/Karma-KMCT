@@ -11,6 +11,7 @@ import Cultural from "./pages/Cultural/Cultural";
 import Technical from "./pages/Technical/Technical";
 import Footer from "./components/Footer/Footer";
 import Hackathon from "./pages/Hackathon/Hackathon";
+import { Gallery } from "./pages/Gallery/Gallery";
 import ProjectCompetition from "./pages/ProjectCompetition/ProjectCompetition";
 
 const MyRoutes = () => {
@@ -33,6 +34,8 @@ const MyRoutes = () => {
           <Route path="/events/cultural/:id" element={<CulturalDetail />} />
           <Route path="/events/technical/:id" element={<TechnicalDetail />} />
           <Route path="/events/hackathon/:id" element={<HackathonDetail />} />
+
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </main>
       <Footer />

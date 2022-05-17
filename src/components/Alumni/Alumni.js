@@ -17,7 +17,7 @@ const Ambassadar = () => {
           />
         </div>
         <div className={classes.headingBox}>
-          <h3 className={classes.heading}>Halcyon - Alumni Meet</h3>
+          <h3 className={classes.heading}>Halcyon - Alumni</h3>
           <p className={classes.para}>
             "We maybe far apart but the bond between a student and alma mater
             always remains strong." <br></br>
@@ -28,7 +28,7 @@ const Ambassadar = () => {
           </p>
 
           <button className={classes.btn} onClick={() => setOpen(!open)}>
-            Register Now !
+            Register as an Alumni!
           </button>
         </div>
        

@@ -6,7 +6,7 @@ import Ambassadar from "./components/Ambassadar/Ambassadar";
 import Alumni from "./components/Alumni/Alumni";
 import ContactUs from "./components/ContactUs/ContactUs";
 import PreLoader from "./pages/PreLoader/PreLoader";
-import { Gallery } from "./pages/Gallery/Gallery";
+import Gallery  from "./components/Gallery/Gallery";
 
 function App() {
   return (

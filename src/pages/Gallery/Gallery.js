@@ -1,9 +1,11 @@
 import "./Gallery.css"
-import React, { Fragment } from 'react'
+import Background from "../../UI/Background"
+import React from 'react'
 
 export const Gallery = () => {
   return (
-    <Fragment className="">
+      <section className="gallerySection">
+    <Background className="galleryBg">
     <h2 className="galleryHeading">Gallery</h2>
     <div class="row">
         <div class="column">
@@ -86,6 +88,7 @@ export const Gallery = () => {
             </div>
         </div>
     </div>
-</Fragment>
+</Background>
+</section>
   )
 }
