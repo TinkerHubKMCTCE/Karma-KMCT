@@ -124,11 +124,12 @@ const Header = () => {
             </li>
           </ul>
 
-          {/* Mobile Page */}
-
-          <Link to="/tickets">
+          <Link target="_blank" rel="noopener noreferrer" to="/tickets">
             <button className={classes.btn}>Buy Tickets</button>
           </Link>
+
+
+          {/* Mobile Page */}
 
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
             {mobile ? (
@@ -144,9 +145,9 @@ const Header = () => {
         </div>
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
-          <Drop to="/">
-            <button className={classes.btn}>Buy Tickets</button>
-          </Drop>
+          <Link target="_blank" rel="noopener noreferrer" to="/">
+            <button className={classes.btn1}>Buy Tickets</button>
+          </Link>
 
           <ul className={classes.mobileNav}>
             <li>

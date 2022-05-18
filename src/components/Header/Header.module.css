@@ -119,13 +119,12 @@
     color: #fff;
     width: 12rem;
     cursor: pointer;
-    transition: all .3s;
-    transform: scale(1);
+    transition: all .2s;
 }
 
 .btn:hover {
-    transform: scale(1.2);
-    transition: all .3s;
+    transform: translateY(-.1rem);
+    background-image: linear-gradient(to top left,#09B326, #32B4ED);
 }
 
 .mobileBox {
