@@ -1,6 +1,4 @@
 .footer {
-    width: 100%;
-    display: block;
     overflow: hidden;
     background: linear-gradient(to right, #00093c, #191919);
     color: #fff;
@@ -8,6 +6,7 @@
     border-top-left-radius: 50px;
     font-size: 1.5rem;
     line-height: 2rem;
+    position: relative;
 }
 
 .row {
