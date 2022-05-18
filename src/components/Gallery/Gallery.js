@@ -27,7 +27,7 @@ const Gallery = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            View
+            View our Gallery !
           </Link>
         </div>
       </Background>
