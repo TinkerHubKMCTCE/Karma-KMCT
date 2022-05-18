@@ -49,6 +49,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.7);
+    transition: all .3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-1.3rem);
 }
 
 .cardSection1 {
