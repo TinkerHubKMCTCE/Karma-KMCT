@@ -1,32 +1,32 @@
 const CulturalLists = [
-  {
-    id: 1,
-    name: "desafio",
-    imgSrc: "/assets/cultural/desafio.png",
-    heading: "DESAFIO - Dance Competiton",
-    para: "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
-    rule1: "1. No participants in group: min 4 and max 12 students.",
-    rule2: "2. Time limit : 7+1 minutes.",
-    rule3: "3. Theme : Folk dance/ Patriotic/ Religious/ Hindi.",
-    rule4: "4. Style : Any style of dance (depend on participant).",
-    rule5:
-      "5. Participants are required to bring their own music CDs and props.",
-    rule6:
-      "6. Confirm the song and provide the CD to the concerned faculty co-coordinator of the event.",
-    rule7: "7. There should be only one entry in front of each college.",
-    rule8:
-      "8. Judges can stop the dance in between if they feel it is irrelevant.",
+  // {
+  //   id: 1,
+  //   name: "desafio",
+  //   imgSrc: "/assets/cultural/desafio.png",
+  //   heading: "DESAFIO - Dance Competiton",
+  //   para: "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
+  //   rule1: "1. No participants in group: min 4 and max 12 students.",
+  //   rule2: "2. Time limit : 7+1 minutes.",
+  //   rule3: "3. Theme : Folk dance/ Patriotic/ Religious/ Hindi.",
+  //   rule4: "4. Style : Any style of dance (depend on participant).",
+  //   rule5:
+  //     "5. Participants are required to bring their own music CDs and props.",
+  //   rule6:
+  //     "6. Confirm the song and provide the CD to the concerned faculty co-coordinator of the event.",
+  //   rule7: "7. There should be only one entry in front of each college.",
+  //   rule8:
+  //     "8. Judges can stop the dance in between if they feel it is irrelevant.",
 
-    // criteria: ["Will update the rules and criteria on the website."],
+  //   // criteria: ["Will update the rules and criteria on the website."],
 
-    regFee: " 200/- per person",
+  //   regFee: " 200/- per person",
 
-    contact1: "Arun | 9947949603",
-    contact2: "Answara | 9645098354",
+  //   contact1: "Arun | 9947949603",
+  //   contact2: "Answara | 9645098354",
 
-    paymentLink: "https://rzp.io/l/Desafio-Dance",
-    redirectLink: "/events/cultural/desafio",
-  },
+  //   paymentLink: "https://rzp.io/l/Desafio-Dance",
+  //   redirectLink: "/events/cultural/desafio",
+  // },
   {
     id: 2,
     name: "pencildrawing",
@@ -53,40 +53,40 @@ const CulturalLists = [
     paymentLink: "https://rzp.io/l/Pencil-Drawing",
     redirectLink: "/events/cultural/pencildrawing",
   },
-  {
-    id: 3,
-    name: "fashionshow",
-    para: "Are you a fashionista or a dressy, kicky, sassy person? If yes, then what are you waiting for? KARMA '22 is here with 'VOGUE FIESTA' Fashion show' ! Style is a way to say who you are without having to speak. Create your own visual style. Let it be unique for yourself and yet identifiable for others ! All fashion lovers do participate and make sure you have registered.",
-    imgSrc: "/assets/cultural/fashionshow.png",
-    heading: "Vogue Fiesta - Fashion Show",
-    rule1:
-      "1. Cross college teams will not be awarded any Karma points if they win.",
-    rule2: "2. A minimum of 6 and a maximum of 30 models per team are allowed.",
-    rule3: "3. One participant cannot be a part of two participating teams.",
-    rule4: "4. Time limit per team: 10 minutes empty to empty.",
-    rule5:
-      "5. An additional 1 minute, if required, will be provided for narration only.Exceeding the time limit will lead to team disqualification.",
-    rule6:
-      "6. Participating teams should upload a video of their past performance to a drive, and send the link along with the following information to karmakmct2022@gmail.com by 15th May 2022.",
-    rule7:
-      "7. College Name (and Team Name, if any) -Name and Contact Info of any 3 team members.",
-    rule8:
-      "8. List of Team members Shortlisted teams will be informed by mail.",
-    rule9:
-      "9. Background music should be sent by email to karmakmct2022@gmail.com as a new email named VF-BGM-[College Name]. Both the subject of the mail and the Background music should be named in this format.",
-    rule10:
-      "10. The deadline for the same shall be informed after confirmation of participation. Presenting banners, posters or other materials directly displaying the theme is prohibited.",
+  // {
+  //   id: 3,
+  //   name: "fashionshow",
+  //   para: "Are you a fashionista or a dressy, kicky, sassy person? If yes, then what are you waiting for? KARMA '22 is here with 'VOGUE FIESTA' Fashion show' ! Style is a way to say who you are without having to speak. Create your own visual style. Let it be unique for yourself and yet identifiable for others ! All fashion lovers do participate and make sure you have registered.",
+  //   imgSrc: "/assets/cultural/fashionshow.png",
+  //   heading: "Vogue Fiesta - Fashion Show",
+  //   rule1:
+  //     "1. Cross college teams will not be awarded any Karma points if they win.",
+  //   rule2: "2. A minimum of 6 and a maximum of 30 models per team are allowed.",
+  //   rule3: "3. One participant cannot be a part of two participating teams.",
+  //   rule4: "4. Time limit per team: 10 minutes empty to empty.",
+  //   rule5:
+  //     "5. An additional 1 minute, if required, will be provided for narration only.Exceeding the time limit will lead to team disqualification.",
+  //   rule6:
+  //     "6. Participating teams should upload a video of their past performance to a drive, and send the link along with the following information to karmakmct2022@gmail.com by 15th May 2022.",
+  //   rule7:
+  //     "7. College Name (and Team Name, if any) -Name and Contact Info of any 3 team members.",
+  //   rule8:
+  //     "8. List of Team members Shortlisted teams will be informed by mail.",
+  //   rule9:
+  //     "9. Background music should be sent by email to karmakmct2022@gmail.com as a new email named VF-BGM-[College Name]. Both the subject of the mail and the Background music should be named in this format.",
+  //   rule10:
+  //     "10. The deadline for the same shall be informed after confirmation of participation. Presenting banners, posters or other materials directly displaying the theme is prohibited.",
 
-    // criteria: ["Will update the rules and criteria on the website."],
+  //   // criteria: ["Will update the rules and criteria on the website."],
 
-    regFee: " 200/- per person",
+  //   regFee: " 200/- per person",
 
-    contact1: "Arun | 9947949603",
-    contact2: "Mufeeda | 7025917739",
+  //   contact1: "Arun | 9947949603",
+  //   contact2: "Mufeeda | 7025917739",
 
-    paymentLink: "https://rzp.io/l/Fashion-Show",
-    redirectLink: "/events/cultural/fashionshow",
-  },
+  //   paymentLink: "https://rzp.io/l/Fashion-Show",
+  //   redirectLink: "/events/cultural/fashionshow",
+  // },
   {
     id: 4,
     name: "lightmusic",
