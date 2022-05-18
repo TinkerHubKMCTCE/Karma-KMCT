@@ -71,6 +71,10 @@
     .composition {
         order: 1;
     }
+
+    .heading1 {
+        font-size: 7rem;
+    }
 }
 
 .images {
