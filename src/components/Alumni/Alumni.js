@@ -9,7 +9,7 @@ const Ambassadar = () => {
   return (
     <section className={classes.ambaSection}>
       <div className={classes.ambassadar}>
-      <div className={classes.imgBox}>
+        <div className={classes.imgBox}>
           <img
             className={classes.img}
             src="assets/Alumni/alumni.png"
@@ -28,10 +28,9 @@ const Ambassadar = () => {
           </p>
 
           <button className={classes.btn} onClick={() => setOpen(!open)}>
-            Register as an Alumni!
+            Register as an Alumni !
           </button>
         </div>
-       
       </div>
 
       {open && <Form open={open} onClick={() => setOpen(!open)} />}

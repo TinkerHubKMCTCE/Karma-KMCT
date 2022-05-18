@@ -62,4 +62,8 @@
         flex-direction: column;
         gap: 4rem;
     }
+    
+    .btn {
+        align-self: center;
+    }
 }

@@ -26,7 +26,7 @@ const Events = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Explore our events
+            Explore our events !
           </Link>
         </div>
       </Background>

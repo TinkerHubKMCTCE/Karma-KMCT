@@ -61,7 +61,10 @@
         flex-direction: column;
         gap: 4rem;
     }
-    
+    .img {
+        width: 100%;
+    }
+
     .btn {
         align-self: center;
     }
