@@ -22,7 +22,7 @@ const Events = () => {
 
           <Link
             to="/events"
-            className={classes.btn}
+            className={classes.btn} 
             target="_blank"
             rel="noopener noreferrer"
           >
