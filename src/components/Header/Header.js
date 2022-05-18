@@ -145,7 +145,7 @@ const Header = () => {
         </div>
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
-          <Link target="_blank" rel="noopener noreferrer" to="/">
+          <Link target="_blank" rel="noopener noreferrer" to="/tickets">
             <button className={classes.btn1}>Buy Tickets</button>
           </Link>
 
