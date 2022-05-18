@@ -126,7 +126,7 @@ const Header = () => {
 
           {/* Mobile Page */}
 
-          <Link to="/">
+          <Link to="/tickets">
             <button className={classes.btn}>Buy Tickets</button>
           </Link>
 
