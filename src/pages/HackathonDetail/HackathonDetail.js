@@ -3,7 +3,9 @@ import classes from "./HackathonDetail.module.css";
 import Background from "../../UI/Background";
 import hackathonLists from "./hackathonLists";
 
+
 const HackathonDetail = () => {
+
   const params = useParams();
   console.log(params.id);
 
@@ -15,26 +17,30 @@ const HackathonDetail = () => {
   return (
     <section className={classes.ambaSection}>
       <Background className={classes.ambassadar}>
-        <div className={classes.imgBox}>
-          <img
-            className={classes.img}
-            src={hackathon[0].imgSrc}
-            alt="Desafio"
-          />
-        </div>
+        <div className={classes.tech}>
+          <div className={classes.imgBox}>
+            <img
+              className={classes.img}
+              src={hackathon[0].imgSrc}
+              alt="Desafio"
+            />
+          </div>
 
-        <div className={classes.headingBox}>
-          <h3 className={classes.heading}>{hackathon[0].heading}</h3>
-          <p className={classes.para}>{hackathon[0].para}</p>
-          <h3 className={classes.heading}>Learning Outcomes</h3>
+          <div className={classes.ScrollBox}>
+            <div className={classes.headingBox}>
+              <h3 className={classes.heading}>{hackathon[0].heading}</h3>
+              <p className={classes.para}>{hackathon[0].para}</p>
+              <h3 className={classes.heading}>Learning Outcomes</h3>
 
-          {hackathon[0].rules.map((map) => {
-            return <p className={classes.para}>{map}</p>;
-          })}
+              {hackathon[0].rules.map((map) => {
+                return <p className={classes.para}>{map}</p>;
+              })}
 
-          <a href={hackathon[0].paymentLink}>
-            <button className={classes.btn}>Register Now !</button>
-          </a>
+              <a href={hackathon[0].paymentLink}>
+                <button className={classes.btn}>Register Now !</button>
+              </a>
+            </div>
+          </div>
         </div>
       </Background>
     </section>

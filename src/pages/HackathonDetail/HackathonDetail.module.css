@@ -1,8 +1,9 @@
 .ambaSection {
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
-.ambassadar {
+.tech {
+    width: 100%;
     display: flex; 
     margin-top: 5rem;
 }
@@ -12,11 +13,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
+
+.scrollBox {
+    max-height:65rem;
+    overflow-y: auto;
+    flex-basis: 60%;
+    padding: 1rem 1.4rem;
+}
+
+.scrollBox::-webkit-scrollbar {
+    width: 7px;
+  }
+
+.scrollBox::-webkit-scrollbar-thumb {
+    background: rgba(110, 109, 109, 0.726);
+  }
 
 .imgBox {
     margin: 2rem auto;
     padding: 0 4rem;
+    flex-basis: 40%;
 }
 
 .heading {
@@ -34,7 +52,7 @@
 }
 
 .btn {
-    margin-top: 4rem;
+    margin-top: 3rem;
     align-self: flex-start;
     background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
     padding: 1.5rem 1.7rem;
@@ -64,6 +82,11 @@
     margin-bottom: 3rem;
 }
 
+.fieldBox {
+    margin: 0 auto;
+    background-color: red;
+}
+
 .fees {
     font-size: 2.7rem;
     font-weight: 500;
@@ -76,11 +99,6 @@
 
 .cont {
     font-size: 2.3rem;
-}
-
-.fieldBox {
-    margin: 0 auto;
-    background-color: red;
 }
 
 .bkdHeading {
@@ -100,16 +118,17 @@
         grid-template-columns: repeat(1, 1fr);
     } 
 
-    .ambassadar {
-        display: flex;
-        flex-direction: column;
+    .tech {
+       flex-direction: column;
+       gap: 3rem;
     }
 
-    .headingBox {
+    .scrollBox {
         order: 2;
     }
 
     .imgBox {
+        flex-basis: 90%;
         order: 1;
     }
 
