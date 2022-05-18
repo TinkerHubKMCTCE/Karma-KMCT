@@ -2,8 +2,13 @@ import { useParams } from "react-router-dom";
 import classes from "./EventDetail.module.css";
 import Background from "../../UI/Background";
 import CulturalLists from "./CulturalLists";
+import { useEffect } from "react";
 
 const CulturalDetail = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   const params = useParams();
   console.log(params.id);

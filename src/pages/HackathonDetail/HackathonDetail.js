@@ -2,10 +2,14 @@ import { useParams } from "react-router-dom";
 import classes from "./HackathonDetail.module.css";
 import Background from "../../UI/Background";
 import hackathonLists from "./hackathonLists";
-
+import { useEffect } from "react";
 
 const HackathonDetail = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   const params = useParams();
   console.log(params.id);
 

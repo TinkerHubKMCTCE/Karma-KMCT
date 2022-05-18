@@ -53,7 +53,7 @@
 }
 
 .card:hover {
-    transform: translateY(-1.3rem);
+    transform: translateY(-.7rem);
 }
 
 .cardSection1 {
