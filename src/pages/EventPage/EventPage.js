@@ -5,7 +5,7 @@ import classes from "./EventPage.module.css";
 const EventPage = () => {
     return (
         <section className={classes.eventPage}>
-            <Background>
+            <Background className={classes.bg}>
 
                 <div className={classes.tabs}>
                     <div className={classes.tabList}>

@@ -1,8 +1,9 @@
 .card {
     margin: 0 auto;
-    width: 32rem;
+    width: 34rem;
     color: #fff;
     box-shadow: 0 8px 7px 0px rgba(0,0,0,0.2);
+    padding: 2rem .9rem;
 }
 
 .imgBox {
@@ -23,12 +24,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem .3rem;
+    padding: 1.9rem .3rem;
     gap: 1.5rem;
+    height: 15rem;
+    justify-content: flex-end;
 }
 
 .heading {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     text-align: center;
 }
 
@@ -43,4 +46,5 @@
     transition: all .3s;
     text-decoration: none;
     list-style: none;
+    justify-self: flex-end;
 }
