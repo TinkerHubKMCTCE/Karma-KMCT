@@ -1,0 +1,74 @@
+.section {
+    background: gray;
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 8rem;
+    background: url("/public/assets/Desktop-3.png");
+    background-size: cover;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    gap: 3rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 0 auto;
+    width: 50rem;
+    background: white;
+    box-shadow: 0 8px 7px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 1.5rem 1rem;
+}
+
+.cardSection1 {
+    padding: 1rem 2.5rem;
+    border-bottom: 3px solid #ccc;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #ccc;
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: 2.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.details {
+    padding: 1rem 2.5rem;
+    border-bottom: 3px solid #ccc;
+    text-align: left;
+}
+
+.detailList {
+    font-size: 2rem;
+
+}
+
+.price {
+    padding: 2rem 4rem;
+    text-align: center;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
+    padding: .7rem 3rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition: all .3s;
+    text-decoration: none;
+    list-style: none;
+}

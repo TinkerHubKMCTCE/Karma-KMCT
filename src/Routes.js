@@ -13,6 +13,7 @@ import Footer from "./components/Footer/Footer";
 import Hackathon from "./pages/Hackathon/Hackathon";
 import { Gallery } from "./pages/Gallery/Gallery";
 import ProjectCompetition from "./pages/ProjectCompetition/ProjectCompetition";
+import Tickets from "./pages/Tickets/Tickets";
 
 const MyRoutes = () => {
   return (
@@ -31,11 +32,12 @@ const MyRoutes = () => {
             />
           </Route>
           <Route path="/events" element={<Navigate to="cultural" />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/events/cultural/:id" element={<CulturalDetail />} />
           <Route path="/events/technical/:id" element={<TechnicalDetail />} />
           <Route path="/events/hackathon/:id" element={<HackathonDetail />} />
 
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/tickets" element={<Tickets />} />
         </Routes>
       </main>
       <Footer />
