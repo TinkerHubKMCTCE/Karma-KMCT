@@ -127,6 +127,10 @@
     background-image: linear-gradient(to top left,#09B326, #32B4ED);
 }
 
+.btn:active {
+    transform: translateY(0);
+}
+
 .mobileBox {
     display: none;
 }
