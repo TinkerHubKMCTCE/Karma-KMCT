@@ -28,7 +28,7 @@ const MyRoutes = () => {
             <Route path="cultural" element={<Cultural />} />
             <Route path="technical" element={<Technical />} />
             <Route path="hackathon" element={<Hackathon />} />
-            {/* <Route path="games" element={<Games />} /> */}
+            <Route path="games" element={<Games />} />
             <Route
               path="project-competition"
               element={<ProjectCompetition />}
@@ -39,7 +39,7 @@ const MyRoutes = () => {
           <Route path="/events/cultural/:id" element={<CulturalDetail />} />
           <Route path="/events/technical/:id" element={<TechnicalDetail />} />
           <Route path="/events/hackathon/:id" element={<HackathonDetail />} />
-          {/* <Route path="/events/games/:id" element={<GamesDetail />} /> */}
+          <Route path="/events/games/:id" element={<GamesDetail />} />
 
           <Route path="/tickets" element={<Tickets />} />
         </Routes>
