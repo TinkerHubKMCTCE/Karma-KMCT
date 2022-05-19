@@ -11,8 +11,8 @@ const EventPage = () => {
                     <div className={classes.tabList}>
                         <div className={`${classes.tabHead}`}><NavLink to="cultural" className={({ isActive }) => (isActive ? `${classes.active} ${classes.links}` : `${classes.links}`)}>Cultural</NavLink></div>
                         <div className={`${classes.tabHead}`}><NavLink to="technical" className={({ isActive }) => (isActive ? `${classes.active} ${classes.links}` : `${classes.links}`)}>Workshops</NavLink></div>
-                        <div className={`${classes.tabHead}`}><NavLink to="hackathon" className={({ isActive }) => (isActive ? `${classes.active} ${classes.links}` : `${classes.links}`)}>Hackathon</NavLink></div>
                         <div className={`${classes.tabHead}`}><NavLink to="games" className={({ isActive }) => (isActive ? `${classes.active} ${classes.links}` : `${classes.links}`)}>Games</NavLink></div>
+                        <div className={`${classes.tabHead}`}><NavLink to="hackathon" className={({ isActive }) => (isActive ? `${classes.active} ${classes.links}` : `${classes.links}`)}>Hackathon</NavLink></div>
                     </div>
                 </div>
         <Outlet />

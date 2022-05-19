@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 480px) {
     .modal {
-        top: 12vh;
+        top: 16vh;
         left: 9%;
     }
     

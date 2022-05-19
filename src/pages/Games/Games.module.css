@@ -1,4 +1,4 @@
-/* .games {
+.games {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -67,6 +67,7 @@
 }
 
 @media screen and (max-width:390px) {
-    /* .cultural {
+    .cultural {
         grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
-    } */
+    }
+}

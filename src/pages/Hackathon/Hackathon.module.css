@@ -9,6 +9,12 @@
     padding: 3rem 6rem;
 }
 
+.soon {
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+}
+
 .card {
     margin: 0 auto;
     width: 35rem;

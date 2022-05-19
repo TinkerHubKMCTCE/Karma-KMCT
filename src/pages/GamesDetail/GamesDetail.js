@@ -1,51 +1,56 @@
-// import { useParams } from "react-router-dom";
-// import classes from "./GamesDetail.module.css";
-// import Background from "../../UI/Background";
-// import GamesLists from "./GamesLists";
-// import { useEffect } from "react";
+import { useParams } from "react-router-dom";
+import classes from "./GamesDetail.module.css";
+import Background from "../../UI/Background";
+import GamesLists from "./GamesLists";
+import { useEffect } from "react";
 
-// const GamesDetail = () => {
+const GamesDetail = () => {
 
-//   useEffect(() => {
-//     window.scrollTo(0, 0)
-//   }, [])
-  
-//   const params = useParams();
-//   console.log(params.id);
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
-//   const games = GamesLists.filter((event) => params.id === event.name);
+    const params = useParams();
+    console.log(params.id);
 
-//   return (
-//     <section className={classes.ambaSection}>
-//       <Background className={classes.ambassadar}>
-//         <div className={classes.tech}>
-//           <div className={classes.imgBox}>
-//             <img
-//               className={classes.img}
-//               src={games[0].imgSrc}
-//               alt="Hi Kmct"
-//             />
-//           </div>
+    const games = GamesLists.filter((event) => params.id === event.name);
 
-//           <div className={classes.ScrollBox}>
-//             <div className={classes.headingBox}>
-//               <h3 className={classes.heading}>{games[0].heading}</h3>
-//               <p className={classes.para}>{games[0].para}</p>
-//               <h3 className={classes.heading}>Learning Outcomes</h3>
+    return (
+        <section className={classes.ambaSection}>
+            <Background className={classes.ambassadar}>
+                <div className={classes.tech}>
+                    <div className={classes.imgBox}>
+                        <img
+                            className={classes.img}
+                            src={games[0].imgSrc}
+                            alt="Hi Kmct"
+                        />
+                    </div>
 
-//               {games[0].rules.map((map) => {
-//                 return <p className={classes.para}>{map}</p>;
-//               })}
+                    <div className={classes.ScrollBox}>
+                        <div className={classes.headingBox}>
+                            <h3 className={classes.heading}>{games[0].heading}</h3>
+                            <p className={classes.para}>{games[0].para}</p>
+                            <h3 className={classes.heading}>Game Rules</h3>
 
-//               <a href={games[0].paymentLink}>
-//                 <button className={classes.btn}>Register Now !</button>
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-//       </Background>
-//     </section>
-//   );
-// };
+                            {games[0].rules.map((map) => {
+                                return <p className={classes.para}>{map}</p>;
+                            })}
 
-// export default GamesDetail;
+                            <p className={classes.fees}>
+                                Registration fees: ₹
+                                <span className={classes.amount}>{games[0].regFee}</span>
+                            </p>
+
+                            <a href={games[0].paymentLink}>
+                                <button className={classes.btn}>Register Now!</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </Background>
+        </section>
+    );
+};
+
+export default GamesDetail;
