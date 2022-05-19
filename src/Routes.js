@@ -23,7 +23,8 @@ const MyRoutes = () => {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/home" element={<App />} />
+          <Route path="/" element={<Navigate to="home" />} />
           <Route path="/events/*" element={<EventPage />}>
             <Route path="cultural" element={<Cultural />} />
             <Route path="technical" element={<Technical />} />
