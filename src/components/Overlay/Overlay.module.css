@@ -1,0 +1,41 @@
+.modal {
+    position: fixed;
+    top: 13vh;
+    left: 32%;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.poster {
+    width: 55%;
+}
+
+.imgBox {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    font-size: 3rem;
+    left: 48.5%;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .modal {
+        top: 12vh;
+        left: 9%;
+    }
+    
+    .poster {
+        width: 90%;
+    }
+
+    .icon {
+        font-size: 4rem;
+        top: 14px;
+        left: 78%;
+    }
+}
