@@ -1,9 +1,12 @@
 import classes from "./Hackathon.module.css";
 import HackathonLists from "../HackathonDetail/hackathonLists";
 import EventCard from "../../components/EventCard/EventCard";
+import { useEffect } from "react";
 
 const Hackathon = () => {
-  console.log("HEllo world");
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className={classes.hackathon}>
       {HackathonLists.map((list) => {
