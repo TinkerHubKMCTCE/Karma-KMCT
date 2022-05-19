@@ -52,9 +52,9 @@
     transition: all .3s ease-out;
 }
 
-.card:hover {
+/* .card:hover {
     transform: translateY(-.7rem);
-}
+} */
 
 .cardSection1 {
     padding: 1.7rem 2.5rem;
@@ -88,9 +88,13 @@
 
 .detailList {
     font-size: 2rem;
-    color: #EDEDED;
-    opacity: 90%;
+    line-height: 3.5rem;
+}
 
+.conditions {
+    font-size: 1.9rem;
+    color: #fff;
+    opacity: 65%;
 }
 
 .price {
@@ -118,4 +122,10 @@
     transform: scale(1.05);
     transition: all .1s ease-in;
     background: linear-gradient(to left, #09B35C 3.59%, #32B4ED 241.85%);
+}
+
+@media screen and (max-width: 480px) {
+    .card:active {
+        transform: scale(1.05);
+    }
 }
