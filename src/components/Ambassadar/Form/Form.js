@@ -9,7 +9,7 @@ const Form = (props) => {
   const [fullName, setfullName] = useState("");
   const [college, setCollege] = useState("");
   const [mail, setMail] = useState("");
-  const [number, setNumber] = useState("");
+  const [phoneNo, setNumber] = useState("");
 
   const nameHandler = (event) => {
     setfullName(event.target.value);
@@ -26,15 +26,18 @@ const Form = (props) => {
 
   const sheetSubmit = (event) => {
     event.preventDefault();
-    console.log(fullName, college, mail, number);
+    const id = "KRM22CA0" + Math.floor(Math.random() * 100);
+    console.log(id);
+    console.log(fullName, college, mail, phoneNo);
 
-    fetch("https://sheetdb.io/api/v1/axyeojo2uz837", {
+    fetch("https://sheetdb.io/api/v1/fwtfx0wgxgcff", {
       method: "POST",
       body: JSON.stringify({
         fullName,
         college,
         mail,
-        number,
+        phoneNo,
+        id
       }),
       headers: { "Content-Type": "application/json" },
     }).then(
@@ -87,7 +90,7 @@ const Form = (props) => {
               type="text"
               className={classes.input}
               onChange={numberHandler}
-              value={number}
+              value={phoneNo}
               required
             />
           </div>
