@@ -9,7 +9,7 @@
 }
 
 .tabs {
-    padding: 8rem 6rem 1rem 6rem;
+    padding: 8rem 10rem 1rem 10rem;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
     list-style-type: none;
     margin: 0;
 }
@@ -41,7 +41,7 @@
 .links {
     text-decoration: none;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 @media screen and (max-width: 480px) {

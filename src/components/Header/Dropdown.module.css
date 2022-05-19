@@ -1,12 +1,12 @@
 .dropdown {
-    width: 15rem;
+    width: 16rem;
     position: absolute;
-    top: 75px;
+    top: 85px;
     right: 355px;
-    text-align: start;
-    background: #040303;
-    border-radius: 5px;
-    padding: .5rem .7rem;
+    text-align: left;
+    background: #0e0d0d;
+    border-radius: 8px;
+    padding: .7rem .8rem;
 }
 
 .drops {
@@ -36,7 +36,7 @@
     .dropdown {
         width: 30rem;
         position: absolute;
-        top: 125px;
+        top: 175px;
         right: 55px;
         text-align: start;
         border-radius: 9px;

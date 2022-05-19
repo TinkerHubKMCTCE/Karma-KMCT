@@ -183,7 +183,7 @@ const Header = () => {
               </Drop>
             </li>
             <li className={`${classes.mobLink}`} onClick={() => setDrop(!drop)}>
-              {drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events
+              {drop ? <Dropdown click={() => {setDrop(!drop); setMobile(!mobile)}} /> : ""}Events
               <FontAwesomeIcon
                 size="sm"
                 style={{
