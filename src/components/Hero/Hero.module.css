@@ -39,12 +39,15 @@
     margin-bottom: 3rem;
 }
 
-
 .caption {
     font-style: italic;
     color: #fff;
     font-size: 2rem;
     font-weight: 200;
+}
+
+.btn {
+    display: none;
 }
 
 .date {
@@ -92,8 +95,39 @@
         width: 50rem;
     }
 
+    .headerbox {
+        padding: 2rem 0;
+    }
+
     .heading {
         font-size: 8rem;
+    }
+
+    .btn {
+        display: block;
+        background-image: linear-gradient(to top right,#09B326, #32B4ED);
+        padding: 1.1rem .5rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: #fff;
+        width: 25rem;
+        cursor: pointer;
+        transition: all .2s;
+    }
+    
+    .btn:hover {
+        transform: translateY(-.1rem);
+        background-image: linear-gradient(to top left,#09B326, #32B4ED);
+    }
+    
+    .btn:active {
+        transform: translateY(0);
+    }
+
+    .anchorBtn {
+        text-decoration: none;
     }
 
     .countdownbox {

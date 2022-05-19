@@ -8,6 +8,7 @@
 
 .poster {
     width: 55%;
+    border-radius: 2px;
 }
 
 .imgBox {
