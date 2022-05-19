@@ -6,12 +6,14 @@ import EventPage from "./pages/EventPage/EventPage";
 import CulturalDetail from "./pages/CulturalDetail/CulturalDetail";
 import TechnicalDetail from "./pages/TechnicalDetail/TechnicalDetail";
 import HackathonDetail from "./pages/HackathonDetail/HackathonDetail";
+import GamesDetail from "./pages/GamesDetail/GamesDetail";
 import Header from "./components/Header/Header";
 import Cultural from "./pages/Cultural/Cultural";
 import Technical from "./pages/Technical/Technical";
 import Footer from "./components/Footer/Footer";
 import Hackathon from "./pages/Hackathon/Hackathon";
 import { Gallery } from "./pages/Gallery/Gallery";
+import Games from "./pages/Games/Games";
 import ProjectCompetition from "./pages/ProjectCompetition/ProjectCompetition";
 import Tickets from "./pages/Tickets/Tickets";
 
@@ -26,6 +28,7 @@ const MyRoutes = () => {
             <Route path="cultural" element={<Cultural />} />
             <Route path="technical" element={<Technical />} />
             <Route path="hackathon" element={<Hackathon />} />
+            {/* <Route path="games" element={<Games />} /> */}
             <Route
               path="project-competition"
               element={<ProjectCompetition />}
@@ -36,6 +39,7 @@ const MyRoutes = () => {
           <Route path="/events/cultural/:id" element={<CulturalDetail />} />
           <Route path="/events/technical/:id" element={<TechnicalDetail />} />
           <Route path="/events/hackathon/:id" element={<HackathonDetail />} />
+          {/* <Route path="/events/games/:id" element={<GamesDetail />} /> */}
 
           <Route path="/tickets" element={<Tickets />} />
         </Routes>

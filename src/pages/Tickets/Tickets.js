@@ -118,8 +118,7 @@ const Tickets = () => {
             </div>
             <div className={classes.details}>
               <p className={classes.detailList}>
-                <FontAwesomeIcon icon={faCheck} /> Access to
-                <b>Musical Night</b> & <b>Pro-show</b>
+                <FontAwesomeIcon icon={faCheck} /> Access to <b>Musical Night</b> & <b>Pro-show</b>
               </p>
               <p className={classes.detailList}>
                 <FontAwesomeIcon icon={faCheck} /> Inter College Cultural Events

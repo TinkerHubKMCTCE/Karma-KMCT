@@ -88,9 +88,13 @@
 
 .detailList {
     font-size: 2rem;
-    color: #EDEDED;
-    opacity: 90%;
+    opacity: 85%;
+    font-weight: 300;
+    font-family: "poppins", sans-serif;
+}
 
+.detailList:not(:last-child) {
+    margin-bottom: .4rem;
 }
 
 .price {
