@@ -1,4 +1,4 @@
-/* .ambaSection {
+.ambaSection {
     padding: 2rem 1.5rem;
 }
 
@@ -46,6 +46,7 @@
 .para {
     font-size: 2rem;
     margin-bottom: 2.5rem;
+    line-height: 3.4rem;
 }
 
 .img {
@@ -136,4 +137,4 @@
     .btn {
         align-self: center;
     }
-} */
+}
