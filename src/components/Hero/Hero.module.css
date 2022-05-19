@@ -36,14 +36,14 @@
     -webkit-text-fill-color: transparent;
 }
 .logo{
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
 }
 
 .caption {
     font-style: italic;
     color: #fff;
     font-size: 2rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .btn {
