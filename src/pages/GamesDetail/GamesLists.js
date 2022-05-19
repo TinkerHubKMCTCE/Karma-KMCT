@@ -20,7 +20,7 @@ const GamesLists = [
   {
     id: 2,
     name: "ludo",
-    imgSrc: "/assets/Games/ludo.svg",
+    imgSrc: "/assets/Games/",
     heading: "LUDO",
     para: "KARMA'22 is here with the amazing Ludo Competition for all the Ludo Kings and Queens. Show off all your skills you acquired on quarantine with this Ludo Game and win prizes worth 30K",
     rules: [
@@ -34,7 +34,7 @@ const GamesLists = [
   {
     id: 3,
     name: "pes",
-    imgSrc: "/assets/Games/pes.svg",
+    imgSrc: "/assets/Games/",
     heading: "PES",
     para: "KARMA'22 Presents PES Tournament  for all the PES players. Display your skills and win prizes over 15 K.",
     rules: [
