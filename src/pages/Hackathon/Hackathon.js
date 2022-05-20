@@ -1,6 +1,6 @@
 import classes from "./Hackathon.module.css";
-// import HackathonLists from "../HackathonDetail/hackathonLists";
-// import EventCard from "../../components/EventCard/EventCard";
+import HackathonLists from "../HackathonDetail/hackathonLists";
+import EventCard from "../../components/EventCard/EventCard";
 import { useEffect } from "react";
 
 const Hackathon = () => {
@@ -9,8 +9,8 @@ const Hackathon = () => {
   }, [])
   return (
     <div className={classes.hackathon}>
-    <h3 className={classes.soon}>Details will be added soon.....</h3>
-      {/* {HackathonLists.map((list) => {
+    {/* <h3 className={classes.soon}>Details will be added soon.....</h3> */}
+      {HackathonLists.map((list) => {
         return (
           <EventCard
           key={list.id}
@@ -19,7 +19,7 @@ const Hackathon = () => {
           redirectLink={list.redirectLink}
            />
         )
-      })} */}
+      })}
     </div>
   );
 };

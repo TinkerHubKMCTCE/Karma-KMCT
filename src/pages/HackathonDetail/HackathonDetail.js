@@ -31,19 +31,24 @@ const HackathonDetail = () => {
           </div>
 
           <div className={classes.ScrollBox}>
-            <div className={classes.headingBox}>
-              <h3 className={classes.heading}>{hackathon[0].heading}</h3>
-              <p className={classes.para}>{hackathon[0].para}</p>
-              <h3 className={classes.heading}>Learning Outcomes</h3>
+              <div className={classes.headingBox}>
+                <h3 className={classes.heading}>{hackathon[0].heading}</h3>
+                <p className={classes.para}>{hackathon[0].para1}</p>
+                <p className={classes.para}>{hackathon[0].para2}</p>
+                <p className={classes.para}>{hackathon[0].para3}</p>
+                <p className={classes.para}>{hackathon[0].para4}</p>
+                <p className={classes.para}>{hackathon[0].para5}</p>
+                <p className={classes.para}>{hackathon[0].certiPara}</p>
+                <h3 className={classes.heading}>Rules</h3>
 
-              {hackathon[0].rules.map((map) => {
-                return <p className={classes.para}>{map}</p>;
-              })}
+                {hackathon[0].rules.map((map) => {
+                  return <p className={classes.para}>{map}</p>;
+                })}
 
-              <a href={hackathon[0].paymentLink}>
-                <button className={classes.btn}>Register Now !</button>
-              </a>
-            </div>
+                <a href={hackathon[0].paymentLink}>
+                  <button className={classes.btn}>Register Now !</button>
+                </a>
+              </div>
           </div>
         </div>
       </Background>

@@ -13,14 +13,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 2.5rem 1rem;
     
 }
 
 .scrollBox {
-    max-height:65rem;
+    width: 100%;
+    max-height: 35rem;
     overflow-y: auto;
-    flex-basis: 60%;
-    padding: 1rem 1.4rem;
+    flex-basis: 50%;
+    padding: 2rem 1.4rem;
 }
 
 .scrollBox::-webkit-scrollbar {
@@ -34,7 +36,6 @@
 .imgBox {
     margin: 2rem auto;
     padding: 0 4rem;
-    flex-basis: 40%;
 }
 
 .heading {
