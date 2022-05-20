@@ -14,7 +14,6 @@ import Footer from "./components/Footer/Footer";
 import Hackathon from "./pages/Hackathon/Hackathon";
 import { Gallery } from "./pages/Gallery/Gallery";
 import Games from "./pages/Games/Games";
-import ProjectCompetition from "./pages/ProjectCompetition/ProjectCompetition";
 import Tickets from "./pages/Tickets/Tickets";
 
 const MyRoutes = () => {
@@ -30,10 +29,6 @@ const MyRoutes = () => {
             <Route path="technical" element={<Technical />} />
             <Route path="hackathon" element={<Hackathon />} />
             <Route path="games" element={<Games />} />
-            <Route
-              path="project-competition"
-              element={<ProjectCompetition />}
-            />
           </Route>
           <Route path="/events" element={<Navigate to="cultural" />} />
           <Route path="/gallery" element={<Gallery />} />
