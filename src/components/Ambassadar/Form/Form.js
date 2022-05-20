@@ -87,7 +87,7 @@ const Form = (props) => {
             />
             <input
               placeholder="Phone number"
-              type="text"
+              type="tel"
               className={classes.input}
               onChange={numberHandler}
               value={phoneNo}
@@ -95,7 +95,7 @@ const Form = (props) => {
             />
           </div>
 
-          <button className={classes.btn1} onClick={() => setOpen(!open)}>
+          <button className={classes.btn1}  onClick={() => setOpen(!open)}>
             Sign Up
           </button>
         </form>
