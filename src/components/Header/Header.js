@@ -71,7 +71,7 @@ const Header = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="/#about">
+                <HashLink className={classes.homeLink} to="#about">
                   About
                 </HashLink>
               </Drop>
@@ -102,7 +102,7 @@ const Header = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="/#ambassador">
+                <HashLink className={classes.homeLink} to="#ambassador">
                   Register
                 </HashLink>
               </Drop>
@@ -117,7 +117,7 @@ const Header = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="/#contact">
+                <HashLink className={classes.homeLink} to="#contact">
                   Contact
                 </HashLink>
               </Drop>

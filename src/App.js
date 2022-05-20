@@ -17,7 +17,7 @@ function App() {
   return (
     <Fragment>
       <PreLoader />
-      {overlay && <Overlay onClick={() => setOverlay(!overlay)} />}
+      {overlay && <Overlay onClick={() => setOverlay(false)} />}
       <Hero />
       <About />
       <Events />
