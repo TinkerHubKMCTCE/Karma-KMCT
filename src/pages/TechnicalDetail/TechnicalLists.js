@@ -1,23 +1,23 @@
 const TechnicalLists = [
-  {
-    id: 1,
-    name: "aiml",
-    imgSrc: "/assets/Workshops/aiml.png",
-    heading: "AI / ML Workshop",
-    headingPara: "By attending AI/ML Workshop you will get a introduction to the world of Artificial Intelligence and Machine Learning. This workshop will help you to understand the fundementals of AI and ML and also this includes some live projects of Machine Learning which you can experince. This session will explain the complete learning path. Every beginners can attend this workshop.",
-    certiPara:
-      "On successful completion of this 1-day Workshop, you will earn yourself a Certification in AI / ML.",
-    rules: [
-      "1. Explore the career opportunities in AI ML",
-      "2. Learn the fundamentals of AI",
-      "3. Learn the foundation and terminology of ML",
-      "4. Understand the current trends in AI",
-      "5. Gain insights with python.",
-    ],
+  // {
+  //   id: 1,
+  //   name: "aiml",
+  //   imgSrc: "/assets/Workshops/aiml.png",
+  //   heading: "AI / ML Workshop",
+  //   headingPara: "By attending AI/ML Workshop you will get a introduction to the world of Artificial Intelligence and Machine Learning. This workshop will help you to understand the fundementals of AI and ML and also this includes some live projects of Machine Learning which you can experince. This session will explain the complete learning path. Every beginners can attend this workshop.",
+  //   certiPara:
+  //     "On successful completion of this 1-day Workshop, you will earn yourself a Certification in AI / ML.",
+  //   rules: [
+  //     "1. Explore the career opportunities in AI ML",
+  //     "2. Learn the fundamentals of AI",
+  //     "3. Learn the foundation and terminology of ML",
+  //     "4. Understand the current trends in AI",
+  //     "5. Gain insights with python.",
+  //   ],
 
-    paymentLink: "https://rzp.io/l/Karma-AI-ML",
-    redirectLink: "/events/technical/aiml",
-  },
+  //   paymentLink: "https://rzp.io/l/Karma-AI-ML",
+  //   redirectLink: "/events/technical/aiml",
+  // },
   {
     id: 2,
     name: "ansys",
@@ -125,30 +125,30 @@ const TechnicalLists = [
     paymentLink: "https://rzp.io/l/Karma-FLutter",
     redirectLink: "/events/technical/flutter",
   },
-  {
-    id: 7,
-    name: "web",
-    imgSrc: "/assets/Workshops/web.png",
-    heading: "Web Design & Development Workshop",
-    headingPara:
-      "Web design is the skill of creating presentations of content that are delivered to an end-user through the World Wide Web, using a web browser or other web-enabled software. Usually hypertext or hypermedia content is presented. It Involves integrating your marketing plan and using good SEO techniques. Use of HTML designs for page layout control purposes qualitatively with productive designing.",
-    certiPara:
-      "On successful completion of this 1-day Workshop, you will earn yourself a Certification in Web Design & Development.",
-    rules: [
-      "1. Enrich knowledge in branding stationery designs for Print Inspiration, social media ads, UI designing, HTML Mailer and website layout for online promotions.",
-      "2. Acquire great skills set of HTML5, CSS3, JQuery, Bootstrap Framework and its components to add cool features to your responsive websites.",
-      "3. New ways of coding, tips & tricks and modern best practice to develop a website with seo esstentials.",
-      "4. To setup up a website on host server with custom control panel.",
-      "5. To use tools like Redmine Project Management System, SVN Source Code Managaement System and Mantis Bug Tracking System etc.",
-    ],
+  // {
+  //   id: 7,
+  //   name: "web",
+  //   imgSrc: "/assets/Workshops/web.png",
+  //   heading: "Web Design & Development Workshop",
+  //   headingPara:
+  //     "Web design is the skill of creating presentations of content that are delivered to an end-user through the World Wide Web, using a web browser or other web-enabled software. Usually hypertext or hypermedia content is presented. It Involves integrating your marketing plan and using good SEO techniques. Use of HTML designs for page layout control purposes qualitatively with productive designing.",
+  //   certiPara:
+  //     "On successful completion of this 1-day Workshop, you will earn yourself a Certification in Web Design & Development.",
+  //   rules: [
+  //     "1. Enrich knowledge in branding stationery designs for Print Inspiration, social media ads, UI designing, HTML Mailer and website layout for online promotions.",
+  //     "2. Acquire great skills set of HTML5, CSS3, JQuery, Bootstrap Framework and its components to add cool features to your responsive websites.",
+  //     "3. New ways of coding, tips & tricks and modern best practice to develop a website with seo esstentials.",
+  //     "4. To setup up a website on host server with custom control panel.",
+  //     "5. To use tools like Redmine Project Management System, SVN Source Code Managaement System and Mantis Bug Tracking System etc.",
+  //   ],
 
-    regFee: "50",
-    contact1: "",
-    contact2: "",
+  //   regFee: "50",
+  //   contact1: "",
+  //   contact2: "",
 
-    paymentLink: "https://rzp.io/l/Karma-Web",
-    redirectLink: "/events/technical/web",
-  },
+  //   paymentLink: "https://rzp.io/l/Karma-Web",
+  //   redirectLink: "/events/technical/web",
+  // },
 ];
 
 export default TechnicalLists;
