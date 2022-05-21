@@ -1,3 +1,4 @@
+import Faq from "../Faq/Faq";
 import classes from "./ContactUs.module.css";
 
 const ContactUs = () => {
@@ -5,7 +6,10 @@ const ContactUs = () => {
     <section id="contact" className={classes.contact}>
       <div className={classes.contactBox}>
         <div className={classes.contentBox}>
-          <div className={classes.persons}>
+
+            <Faq />
+          {/* <div className={classes.persons}>
+
             <div className={classes.personBox}>
               <h3 className={classes.personHeading}>Shamsudheen</h3>
               <div className={classes.details}>
@@ -29,7 +33,7 @@ const ContactUs = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className={classes.mapBox}>
             <iframe
@@ -40,6 +44,7 @@ const ContactUs = () => {
               style={{ border: 0 }}
             ></iframe>
           </div>
+
         </div>
       </div>
     </section>

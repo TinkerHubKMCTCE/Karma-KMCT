@@ -8,7 +8,7 @@
     display: flex;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.432);
-    padding: 4rem 5rem;
+    padding: 5rem 5rem;
     border-radius: 15px;
     display: block;
 }
@@ -39,7 +39,7 @@
 
 .contentBox {
     display: flex;
-    justify-content: space-evenly;
+    gap: 4rem;
 }
 
 .persons {
@@ -79,6 +79,7 @@
 }
 
 .mapBox {
+    align-self: center;
     width: 100%;
     height: 40rem;
     background: #000;
