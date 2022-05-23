@@ -51,11 +51,11 @@ const Hero = () => {
           <h4 className={classes.caption}>What goes around comes around</h4>
           <p className={classes.date}>MAY 21-23, 2022</p>
           <Link className={classes.anchorBtn} target="_blank" rel="noopener noreferrer" to="/tickets">
-            <button className={classes.btn}>Buy Tickets now !</button>
+            <button className={classes.btn}>Tickets on sale now !</button>
           </Link>
         </div>
 
-        <div className={classes.countdownbox}>
+        {/* <div className={classes.countdownbox}>
           <div className={classes.countdown}>
             <p>{countDays}</p>
             <p>
@@ -82,7 +82,7 @@ const Hero = () => {
             <p>{countSeconds}</p>
             <p>sec</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
