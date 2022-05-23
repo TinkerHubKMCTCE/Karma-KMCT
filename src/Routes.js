@@ -39,6 +39,7 @@ const MyRoutes = () => {
           <Route path="/events/technical/:id" element={<TechnicalDetail />} />
           <Route path="/events/hackathon/:id" element={<HackathonDetail />} />
           <Route path="/events/games/:id" element={<GamesDetail />} />
+          <Route path="/events/talk/:id" element={<TalkDetail />} />
 
           <Route path="/tickets" element={<Tickets />} />
         </Routes>
