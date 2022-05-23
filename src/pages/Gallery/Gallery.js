@@ -2,7 +2,7 @@ import "./Gallery.css"
 import Background from "../../UI/Background"
 import React from 'react'
 
-export const Gallery = () => {
+const Gallery = () => {
   return (
       <section className="gallerySection">
     <Background className="galleryBg">
@@ -92,3 +92,5 @@ export const Gallery = () => {
 </section>
   )
 }
+
+export default Gallery;
