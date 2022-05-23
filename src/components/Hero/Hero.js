@@ -1,47 +1,47 @@
-import { useEffect, useRef, useState } from "react";
+// import { useEffect, useRef } from "react";
 import classes from "./Hero.module.css";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
-  const [countDays, setDays] = useState(false);
-  const [countHours, setHours] = useState(false);
-  const [countMinutes, setMinutes] = useState(false);
-  const [countSeconds, setSeconds] = useState(false);
+  // const [countDays, setDays] = useState(false);
+  // const [countHours, setHours] = useState(false);
+  // const [countMinutes, setMinutes] = useState(false);
+  // const [countSeconds, setSeconds] = useState(false);
 
-  let interval = useRef();
+  // let interval = useRef();
 
-  const startTimer = () => {
-    const countdownDate = new Date("May 21 2022 18:00:00").getTime();
+  // const startTimer = () => {
+  //   const countdownDate = new Date("May 21 2022 18:00:00").getTime();
 
-    interval = setInterval(() => {
-      const now = new Date().getTime();
-      const distance = countdownDate - now;
+  //   interval = setInterval(() => {
+  //     const now = new Date().getTime();
+  //     const distance = countdownDate - now;
 
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor(
-        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-      );
-      const minutes = Math.floor((distance / 1000 / 60) % 60);
-      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  //     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  //     const hours = Math.floor(
+  //       (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  //     );
+  //     const minutes = Math.floor((distance / 1000 / 60) % 60);
+  //     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      if (distance < 0) {
-        //
-        clearInterval(interval);
-      } else {
-        setDays(days);
-        setHours(hours);
-        setMinutes(minutes);
-        setSeconds(seconds);
-      }
-    }, 1000);
-  };
+  //     if (distance < 0) {
+  //       //
+  //       clearInterval(interval);
+  //     } else {
+  //       setDays(days);
+  //       setHours(hours);
+  //       setMinutes(minutes);
+  //       setSeconds(seconds);
+  //     }
+  //   }, 1000);
+  // };
 
-  useEffect(() => {
-    startTimer();
-    return () => {
-      clearInterval(interval);
-    };
-  });
+  // useEffect(() => {
+  //   startTimer();
+  //   return () => {
+  //     clearInterval(interval);
+  //   };
+  // });
 
   return (
     <section id="home" className={classes.hero}>
