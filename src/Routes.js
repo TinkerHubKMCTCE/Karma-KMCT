@@ -10,10 +10,12 @@ const Gallery = React.lazy(() => import("./pages/Gallery/Gallery"))
 const CulturalDetail = React.lazy(() => import("./pages/CulturalDetail/CulturalDetail"))
 const TechnicalDetail = React.lazy(() => import("./pages/TechnicalDetail/TechnicalDetail"))
 const HackathonDetail = React.lazy(() => import("./pages/HackathonDetail/HackathonDetail"))
+const TalkDetail = React.lazy(() => import("./pages/TalkDetail/TalkDetail"))
 const Cultural = React.lazy(() => import("./pages/Cultural/Cultural"))
 const Technical = React.lazy(() => import("./pages/Technical/Technical"))
 const Hackathon = React.lazy(() => import("./pages/Hackathon/Hackathon"))
 const Games = React.lazy(() => import("./pages/Games/Games"))
+const Talk = React.lazy(() => import("./pages/Talk/Talk"))
 const GamesDetail = React.lazy(() => import("./pages/GamesDetail/GamesDetail"))
 const EventPage = React.lazy(() => import("./pages/EventPage/EventPage"))
 const Tickets = React.lazy(() => import("./pages/Tickets/Tickets"))
@@ -32,6 +34,7 @@ const MyRoutes = () => {
             <Route path="technical" element={<Technical />} />
             <Route path="hackathon" element={<Hackathon />} />
             <Route path="games" element={<Games />} />
+            <Route path="talk" element={<Talk />} />
           </Route>
           <Route path="/events" element={<Navigate to="cultural" />} />
           <Route path="/gallery" element={<Gallery />} />

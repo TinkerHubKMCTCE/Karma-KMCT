@@ -10,7 +10,7 @@ const TalkLists = [
       "Hey Everyone,",
       "The most pretentious event of KARMA 22 finally unveils here. Mr Farish (Program Manager at Google India) will be visiting KMCT College of engineering tomorrow.",
       "Everyone is expected to attend the session and make it grand  ",
-      "Time:- 10 to 12  ",
+      "Time:- 10 to 12 ",
       "Venue:- Seminar Hall ",
       "Date :- 22/05/33 ",
     ],
