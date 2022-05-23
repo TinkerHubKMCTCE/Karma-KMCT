@@ -52,9 +52,9 @@
     transition: all .3s ease-out;
 }
 
-/* .card:hover {
+.card:hover {
     transform: translateY(-.7rem);
-} */
+}
 
 .cardSection1 {
     padding: 1.7rem 2.5rem;
