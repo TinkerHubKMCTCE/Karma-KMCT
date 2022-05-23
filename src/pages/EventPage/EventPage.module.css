@@ -9,7 +9,7 @@
 }
 
 .tabs {
-    padding: 8rem 10rem 1rem 10rem;
+    padding: 13rem 10rem 1rem 10rem;
     text-align: center;
 }
 
@@ -45,6 +45,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    .tabList {
+        flex-wrap: wrap;
+    }
+
     .btn {
         font-size:1.3rem;
     }
