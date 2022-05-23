@@ -19,7 +19,6 @@
 .scrollBox {
     max-height:65rem;
     overflow-y: auto;
-    flex-basis: 60%;
     padding: 1rem 1.4rem;
 }
 
@@ -34,7 +33,7 @@
 .imgBox {
     margin: 2rem auto;
     padding: 0 4rem;
-    flex-basis: 40%;
+    flex-basis: 75%;
 }
 
 .heading {

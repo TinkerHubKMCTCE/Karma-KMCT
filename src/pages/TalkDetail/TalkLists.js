@@ -17,7 +17,7 @@ const TalkLists = [
 
     regFee: " Free Cost",
     paymentLink: "https://forms.gle/J25gwXdPp99dRrQbA",
-    redirectLink: "/events/talks/farish",
+    redirectLink: "/events/talk/farish",
   },
 ];
 
