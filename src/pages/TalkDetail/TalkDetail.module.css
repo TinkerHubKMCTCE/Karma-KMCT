@@ -119,17 +119,15 @@
     } 
 
     .tech {
-       flex-direction: column;
-       gap: 3rem;
+        flex-direction: column;
     }
 
     .scrollBox {
-        order: 2;
+        order: 1;
     }
 
     .imgBox {
         flex-basis: 90%;
-        order: 1;
     }
 
     .btn {
