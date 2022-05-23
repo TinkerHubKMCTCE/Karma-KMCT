@@ -1,11 +1,11 @@
-import classes from "./Games.module.css";
+import classes from "./Talk.module.css";
 import TalkLists from "../TalkDetail/TalkLists";
 import EventCard from "../../components/EventCard/EventCard";
 
 const Talk = () => {
   return (
     <div className={classes.talks}>
-      {GamesLists.map((list) => {
+      {TalkLists.map((list) => {
         return (
           <EventCard
             key={list.id}
