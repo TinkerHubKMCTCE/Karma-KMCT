@@ -8,13 +8,13 @@ const Tickets = () => {
     const color1Sec = "#020202";
     const Bg1 = "/assets/Tickets/Vector1.svg";
 
-    // const color2Prim = "#2B65B2";
-    // const color2Sec = "#2945A2";
-    // const Bg2 = "/assets/Tickets/Vector2.svg";
+    const color2Prim = "#2B65B2";
+    const color2Sec = "#2945A2";
+    const Bg2 = "/assets/Tickets/Vector2.svg";
 
-    // const color3Prim = "#36256A";
-    // const color3Sec = "#562B83";
-    // const Bg3 = "/assets/Tickets/Vector3.svg";
+    const color3Prim = "#36256A";
+    const color3Sec = "#562B83";
+    const Bg3 = "/assets/Tickets/Vector3.svg";
 
     return (
         <section className={classes.section}>
@@ -23,7 +23,7 @@ const Tickets = () => {
                     <h2 className={classes.heading}>Grab your Tickets now</h2>
                 </div>
                 <div className={classes.cards}>
-                    {/* <div
+                    <div
                         className={classes.card}
                         style={{
                             background: `url(${Bg2}), linear-gradient(${color2Prim}, ${color2Sec})`,
@@ -66,7 +66,7 @@ const Tickets = () => {
                                 <button className={classes.btn}>₹300</button>
                             </div>
                         </a>
-                    </div> */}
+                    </div>
 
                     <div
                         className={classes.card}
@@ -112,7 +112,7 @@ const Tickets = () => {
                         </a>
                     </div>
 
-                    {/* <div
+                    <div
                         className={classes.card}
                         style={{
                             background: `url(${Bg3}), linear-gradient(${color3Prim}, ${color3Sec})`,
@@ -152,7 +152,7 @@ const Tickets = () => {
                                 <button className={classes.btn}>₹600</button>
                             </div>
                         </a>
-                    </div> */}
+                    </div>
                 </div>
             </Background>
         </section>
