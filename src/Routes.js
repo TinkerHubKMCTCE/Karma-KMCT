@@ -3,6 +3,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import App from "./App";
 
 import Header from "./components/Header/Header";
+import Loader from "./UI/Loader/Loader";
 import Footer from "./components/Footer/Footer";
 
 const Gallery = React.lazy(() => import("./pages/Gallery/Gallery"))
@@ -24,7 +25,7 @@ const MyRoutes = () => {
     <Fragment>
       <Header />
       <main>
-      <Suspense fallback={<div>Loading....</div>}>
+      <Suspense fallback={<Loader />}>
       <Routes>
           <Route path="/home" element={<App />} />
           <Route path="/" element={<Navigate to="home" />} />
