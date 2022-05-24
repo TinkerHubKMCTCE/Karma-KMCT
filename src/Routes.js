@@ -5,7 +5,6 @@ import App from "./App";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
-const PreLoader = React.lazy(() => import("./pages/PreLoader/PreLoader"))
 const Gallery = React.lazy(() => import("./pages/Gallery/Gallery"))
 const CulturalDetail = React.lazy(() => import("./pages/CulturalDetail/CulturalDetail"))
 const TechnicalDetail = React.lazy(() => import("./pages/TechnicalDetail/TechnicalDetail"))
@@ -25,15 +24,15 @@ const MyRoutes = () => {
     <Fragment>
       <Header />
       <main>
-      <Suspense fallback={<PreLoader />}>
-        <Routes>
+      <Suspense fallback={<div>Loading....</div>}>
+      <Routes>
           <Route path="/home" element={<App />} />
           <Route path="/" element={<Navigate to="home" />} />
-          <Route path="/events/*" element={<EventPage />}>
-            <Route path="cultural" element={<Cultural />} />
-            <Route path="technical" element={<Technical />} />
-            <Route path="hackathon" element={<Hackathon />} />
-            <Route path="games" element={<Games />} />
+          <Route exact path="/events/*" element={<EventPage />}>
+            <Route exact path="cultural" element={<Cultural />} />
+            <Route exact path="technical" element={<Technical />} />
+            <Route exact path="hackathon" element={<Hackathon />} />
+            <Route exact path="games" element={<Games />} />
             <Route path="talk" element={<Talk />} />
           </Route>
           <Route path="/events" element={<Navigate to="cultural" />} />
