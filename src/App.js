@@ -1,4 +1,4 @@
-import { React ,Fragment, useState } from "react";
+import { React ,Fragment, useState, useEffect } from "react";
 
 import PreLoader from "./pages/PreLoader/PreLoader";
 import Hero from "./components/Hero/Hero";
@@ -12,11 +12,16 @@ import Overlay from "./components/Overlay/Overlay"
 
 function App() {
 
+  const [preloader, setPreloader] = useState(false)
   const [overlay, setOverlay] = useState(true)
+
+  useEffect(() => {
+    setPreloader(true)
+  }, [])
 
   return (
     <Fragment>
-      <PreLoader />
+      {preloader && <PreLoader />}
       {overlay && <Overlay onClick={() => setOverlay(false)} />}
       <Hero />
       <About />
