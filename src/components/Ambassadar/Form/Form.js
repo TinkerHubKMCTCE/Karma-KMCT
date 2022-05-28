@@ -30,7 +30,7 @@ const Form = (props) => {
     console.log(id);
     console.log(fullName, college, mail, phoneNo);
 
-    fetch("https://sheetdb.io/api/v1/fwtfx0wgxgcff", {
+    fetch("", {
       method: "POST",
       body: JSON.stringify({
         fullName,
@@ -41,8 +41,8 @@ const Form = (props) => {
       }),
       headers: { "Content-Type": "application/json" },
     }).then(
-      alert("You are registered Successfully"),
-      (window.location = "https://chat.whatsapp.com/JNqNB3UIyOI9CsbO3KJ95z")
+      alert("PROGRAM CLOSED!!")
+      
     );
   };
 
