@@ -47,12 +47,13 @@ const Hero = () => {
     <section id="home" className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
-          <h1 className={classes.heading}>Karma 22</h1>
+          <h1 className={classes.heading}>Karma 23</h1>
           <h4 className={classes.caption}>What goes around comes around</h4>
-          <p className={classes.date}>MAY 21-23, 2022</p>
+          {/* <p className={classes.date}>MAY 21-23, 2022</p>
           <Link className={classes.anchorBtn} target="_blank" rel="noopener noreferrer" to="/tickets">
             <button className={classes.btn}>Tickets on sale now !</button>
-          </Link>
+          </Link> */}
+          <h2 className={classes.comingsoon}>Coming Soon</h2>
         </div>
 
         {/* <div className={classes.countdownbox}>

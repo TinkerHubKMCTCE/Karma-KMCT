@@ -22,14 +22,14 @@ function App() {
   return (
     <Fragment>
       {preloader && <PreLoader />}
-      {overlay && <Overlay onClick={() => setOverlay(false)} />}
+      {/* {overlay && <Overlay onClick={() => setOverlay(false)} />} */}
       <Hero />
-      <About />
+      {/* <About />
       <Events />
       <Gallery />
       <Ambassadar />
       <Alumni />
-      <ContactUs />
+      <ContactUs /> */}
     </Fragment>
   );
 }

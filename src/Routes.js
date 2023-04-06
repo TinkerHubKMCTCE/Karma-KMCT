@@ -23,7 +23,7 @@ const Tickets = React.lazy(() => import("./pages/Tickets/Tickets"))
 const MyRoutes = () => {
   return (
     <Fragment>
-      <Header />
+      {/* <Header /> */}
       <main>
       <Suspense fallback={<Loader />}>
       <Routes>
@@ -48,7 +48,7 @@ const MyRoutes = () => {
         </Routes>
         </Suspense>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };
