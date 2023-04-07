@@ -6,7 +6,7 @@ function PreLoader() {
   return (
     <div className="preLoader">
       <img className="preLoaderLogo" src={Logo} alt="preloader" />
-      <h1 className="preLoaderheading">Karma 23</h1>
+      <h1 className="preLoaderheading">Karma 22</h1>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 // import { useEffect, useRef } from "react";
 import classes from "./Hero.module.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Hero = () => {
   // const [countDays, setDays] = useState(false);
