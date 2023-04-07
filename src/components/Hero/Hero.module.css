@@ -6,17 +6,8 @@
 .comingsoon {
   font-family: myFirstFont;
   font-size: 12rem;
-  background: #7f00ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #e100ff,
-    #f2ff00
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #e100ff,
-    #f2ff00
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #7f00ff;
+  background-image: linear-gradient(to bottom, #09b326, #32b4ed);
 
   background-clip: text;
   -webkit-background-clip: text;
@@ -55,6 +46,7 @@
   font-weight: bolder;
   display: inline-block;
   background-image: linear-gradient(to bottom, #09b326, #32b4ed);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
