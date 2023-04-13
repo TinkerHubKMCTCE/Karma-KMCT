@@ -1,6 +1,7 @@
 import classes from "./Ambassadar.module.css";
 // import Mobile from "./Mobile.svg";
 import Form from "./Form/Form";
+import PrimaryBtn from "../Button/Button"
 
 import { useState } from "react";
 import Background from "../../UI/Background";
@@ -20,9 +21,7 @@ const Ambassadar = () => {
             by others. Make it happen without wasting your time !
           </p>
 
-          <button className={classes.btn} onClick={() => setOpen(!open)}>
-            Register Now !
-          </button>
+          <PrimaryBtn text="Register Now !" onClick={() => setOpen(!open)} />
         </div>
         <div className={classes.imgBox}>
           <img

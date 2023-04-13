@@ -75,42 +75,46 @@
     height: 3.5px;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+    background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
     transform-origin: bottom right;
     transition: transform 0.25s ease-in-out;
-  }
+}
 
-  .homeLink {
-      color: inherit;
-  }
+.homeLink {
+    color: inherit;
+}
 
-  .navLink:hover:after {
+.navLink:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
 
-  .active {
+.active {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
 
-  .dropLink {
-      width: 8.5rem;
-      display: inline-block;
-      text-align: center;
-      align-items: center;
+.dropLink {
+    width: 8.5rem;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
     text-decoration: none;
     margin-right: 3rem;
     cursor: pointer;
-      background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+    background: #780206;
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    background: linear-gradient(to right, hsl(233, 88%, 50%), hsl(358, 97%, 50%));
     -webkit-background-clip: text;
-	/* -webkit-text-fill-color: transparent; */
+    /* -webkit-text-fill-color: transparent; */
     color: transparent;
     font-weight: 700;
-  }
+}
 
 .btn {
-    background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+    background: #780206;
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    background: linear-gradient(to right, hsl(233, 88%, 40%), hsl(358, 97%, 40%));
     padding: .9rem 1.3rem;
     border: none;
     border-radius: 7px;
@@ -119,12 +123,14 @@
     color: #fff;
     width: 12rem;
     cursor: pointer;
-    transition: all .2s;
+    transition: all .3s ease-out;
 }
 
 .btn:hover {
     transform: translateY(-.1rem);
-    background-image: linear-gradient(to top left,#09B326, #32B4ED);
+    background: #780206;
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    background: linear-gradient(45deg, hsl(233, 88%, 40%), hsl(358, 97%, 40%));
 }
 
 .btn:active {
@@ -153,9 +159,9 @@
     display: inline;
     padding: 2rem;
     font-size: 2.7rem;
-    background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+    background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
     -webkit-background-clip: text;
-	/* -webkit-text-fill-color: transparent; */
+    /* -webkit-text-fill-color: transparent; */
     color: transparent;
     font-weight: 700;
 }
@@ -164,7 +170,7 @@
     .logo {
         width: 30%;
     }
-    
+
     .nav {
         display: none;
     }
@@ -174,7 +180,7 @@
     }
 
     .btn1 {
-        background-image: linear-gradient(to bottom right,#09B326, #32B4ED);
+        background-image: linear-gradient(to bottom right, #09B326, #32B4ED);
         padding: .9rem 1.3rem;
         border: none;
         border-radius: 5px;
@@ -184,7 +190,7 @@
         width: 15rem;
         margin: 2rem auto;
     }
-    
+
 
     .hamburger {
         display: inline-block;
@@ -200,13 +206,13 @@
         margin: auto;
         display: flex;
         flex-direction: column;
-         background-color: rgba(0, 0, 0, 0.527);
+        background-color: rgba(0, 0, 0, 0.527);
         border-radius: 10px;
         padding: 1.3rem 2rem;
         text-align: center;
         transition: all .4s;
     }
-    
+
     .mobileBox {
         width: 95%;
         position: absolute;
@@ -223,4 +229,3 @@
         transition: all .8s;
     }
 }
-

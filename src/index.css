@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --color-primay: rgb(14, 11, 56) 11.2%;
+  --color-secondary: rgb(239, 37, 37) 91.1%;
+}
+
+
 *,
 *::after,
 *::before {
@@ -14,15 +21,50 @@ html {
 
 @media screen and (max-width: 480px) {
   html {
-    font-size:45%;
+    font-size: 45%;
   }
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: url(/public/assets/Desktop-3.png);
+  /* background: radial-gradient(circle at 10% 20%, rgb(25, 30, 36) 0%, rgb(15, 15, 15) 90%); */
+  background: #780206;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: url(/public/assets/Desktop-3.png);
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   scroll-behavior: smooth;
   height: 100vh;
+}
+
+.primaryButton {
+  background: #780206;
+  background: -webkit-linear-gradient(to right, #061161, #780206);
+  background: linear-gradient(to right, hsl(233, 88%, 40%), hsl(358, 97%, 40%));
+
+  padding: 1.5rem 1.7rem;
+  border: none;
+  border-radius: 9px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  align-self: flex-start;
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+
+.primaryButton:hover {
+  transform: translateY(-.1rem);
+  background: #780206;
+  background: -webkit-linear-gradient(to right, #061161, #780206);
+  background: linear-gradient(45deg, hsl(233, 88%, 40%), hsl(358, 97%, 40%));
+}
+
+.primaryButton:active {
+  transform: translateY(0);
 }
