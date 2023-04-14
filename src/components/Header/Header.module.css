@@ -108,19 +108,16 @@
   text-decoration: none;
   margin-right: 3rem;
   cursor: pointer;
-  background: #780206;
-  background: -webkit-linear-gradient(to right, #061161, #780206);
-  background: linear-gradient(to right, hsl(233, 88%, 50%), hsl(358, 97%, 50%));
+  background: var(--color-1);
   -webkit-background-clip: text;
+  background-clip: text;
   /* -webkit-text-fill-color: transparent; */
   color: transparent;
   font-weight: 700;
 }
 
 .btn {
-  background: #780206;
-  background: -webkit-linear-gradient(to right, #061161, #780206);
-  background: linear-gradient(to right, hsl(233, 88%, 40%), hsl(358, 97%, 40%));
+  background: var(--color-1);
   padding: 0.9rem 1.3rem;
   border: none;
   border-radius: 7px;
@@ -134,9 +131,7 @@
 
 .btn:hover {
   transform: translateY(-0.1rem);
-  background: #780206;
-  background: -webkit-linear-gradient(to right, #061161, #780206);
-  background: linear-gradient(45deg, hsl(233, 88%, 40%), hsl(358, 97%, 40%));
+  background: var(--color-1);
 }
 
 .btn:active {

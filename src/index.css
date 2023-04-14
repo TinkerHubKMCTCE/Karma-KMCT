@@ -4,8 +4,13 @@
   --grad-1-dark: #1f1c18;
   --grad-2-dark: #8e0e00;
 
-  --grad-1-light: hsl(233, 88%, 40%);
-  --grad-2-light: hsl(358, 97%, 40%);
+  /* --grad-1-light: hsl(233, 88%, 40%);
+  --grad-2-light: hsl(358, 97%, 40%); */
+
+  --grad-1-light: #1f1c18;
+  --grad-2-light: #8e0e00;
+
+  --color-1: hsl(6, 100%, 35%);
 }
 
 *,
