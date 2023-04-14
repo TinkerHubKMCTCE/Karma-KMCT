@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import classes from "./Hero.module.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Hero = () => {
   const [countDays, setDays] = useState(false);
@@ -65,7 +65,7 @@ const Hero = () => {
           <div className={classes.countdown}>
             <p>{countDays}</p>
             <p>
-              <small>days</small>
+              <small>Days</small>
             </p>
           </div>
 
@@ -73,20 +73,20 @@ const Hero = () => {
 
           <div className={classes.countdown}>
             <p>{countHours}</p>
-            <p>hours</p>
+            <p>Hours</p>
           </div>
 
           <span className={classes.column}>:</span>
 
           <div className={classes.countdown}>
             <p>{countMinutes}</p>
-            <p>min</p>
+            <p>Min</p>
           </div>
 
           <span className={classes.column}>:</span>
           <div className={classes.countdown}>
             <p>{countSeconds}</p>
-            <p>sec</p>
+            <p>Sec</p>
           </div>
         </div>
       </div>
