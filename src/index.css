@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --grad-1-dark: #000000;
-  --grad-2-dark: #450002;
+  --grad-1-dark: #1f1c18;
+  --grad-2-dark: #8e0e00;
 
   --grad-1-light: hsl(233, 88%, 40%);
   --grad-2-light: hsl(358, 97%, 40%);
