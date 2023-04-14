@@ -98,9 +98,11 @@
 }
 
 .countdownbox {
-  color: #fff;
-  border: 3px solid #fff;
-  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 3rem 5rem;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -109,7 +111,8 @@
 
 .countdown {
   font-size: 3rem;
-  font-weight: 600;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
   margin: 0;
   padding: 0;
 }
