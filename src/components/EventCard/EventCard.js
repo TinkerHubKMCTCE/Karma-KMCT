@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import classes from "./EventCard.module.css";
 
+import PrimaryBtn from "../Button/Button";
+
 const EventCard = (props) => {
   return (
     <div className={classes.card}>
@@ -9,8 +11,8 @@ const EventCard = (props) => {
       </div>
       <div className={classes.textBox}>
         <h3 className={classes.heading}>{props.heading}</h3>
-        <Link className={classes.btn} to={props.redirectLink}>
-          View More
+        <Link to={props.redirectLink}>
+          <PrimaryBtn text="View more" />
         </Link>
       </div>
     </div>

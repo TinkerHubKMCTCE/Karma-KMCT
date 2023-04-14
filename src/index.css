@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --color-primay: rgb(14, 11, 56) 11.2%;
-  --color-secondary: rgb(239, 37, 37) 91.1%;
-}
+  --grad-1-dark: #000000;
+  --grad-2-dark: #450002;
 
+  --grad-1-light: hsl(233, 88%, 40%);
+  --grad-2-light: hsl(358, 97%, 40%);
+}
 
 *,
 *::after,
@@ -26,14 +28,14 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  /* background: radial-gradient(circle at 10% 20%, rgb(25, 30, 36) 0%, rgb(15, 15, 15) 90%); */
+  font-family: "Poppins", sans-serif;
   background: #780206;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #061161, #780206);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #061161, #780206);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(
+    to right,
+    var(--grad-1-dark),
+    var(--grad-2-dark)
+  );
+  background: linear-gradient(to right, var(--grad-1-dark), var(--grad-2-dark));
 
   /* background: url(/public/assets/Desktop-3.png);
   background-size: cover;
@@ -44,25 +46,32 @@ body {
 
 .primaryButton {
   background: #780206;
-  background: -webkit-linear-gradient(to right, #061161, #780206);
-  background: linear-gradient(to right, hsl(233, 88%, 40%), hsl(358, 97%, 40%));
 
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--grad-1-light),
+    var(--grad-2-light)
+  );
+  background: linear-gradient(45deg, var(--grad-1-light), var(--grad-2-light));
   padding: 1.5rem 1.7rem;
   border: none;
   border-radius: 9px;
-  font-size: 2rem;
   font-weight: 600;
   color: #fff;
   align-self: flex-start;
   cursor: pointer;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .primaryButton:hover {
-  transform: translateY(-.1rem);
+  transform: translateY(-0.1rem);
   background: #780206;
-  background: -webkit-linear-gradient(to right, #061161, #780206);
-  background: linear-gradient(45deg, hsl(233, 88%, 40%), hsl(358, 97%, 40%));
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--grad-1-light),
+    var(--grad-2-light)
+  );
+  background: linear-gradient(90deg, var(--grad-1-light), var(--grad-2-light));
 }
 
 .primaryButton:active {

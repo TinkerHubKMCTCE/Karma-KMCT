@@ -19,7 +19,7 @@
 .hero {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
-    url("/public/assets/Hero/hero.png");
+    url("/public/assets/Hero/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -63,6 +63,7 @@
 
 .btn {
   display: block;
+  margin-bottom: 2rem;
   background-image: linear-gradient(to top right, #09b326, #32b4ed);
   padding: 1.1rem 0.5rem;
   border: none;
