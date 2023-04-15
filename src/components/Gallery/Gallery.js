@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import classes from "./Gallery.module.css";
 import React from "react";
 import Background from "../../UI/Background";
@@ -6,7 +8,12 @@ import PrimayBtn from "../Button/Button";
 
 const Gallery = () => {
   return (
-    <section className={classes.gallery}>
+    <motion.section
+      initial={{ opacity: 0, x: -100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5 }}
+      className={classes.gallery}
+    >
       <Background className={classes.eventBox}>
         <div className={classes.imgBox}>
           <img
@@ -30,7 +37,7 @@ const Gallery = () => {
           </Link>
         </div>
       </Background>
-    </section>
+    </motion.section>
   );
 };
 

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import classes from "./Events.module.css";
 import Background from "../../UI/Background";
 import { Link } from "react-router-dom";
@@ -5,7 +7,13 @@ import PrimayBtn from "../Button/Button";
 
 const Events = () => {
   return (
-    <section className={classes.events}>
+    <motion.section
+      initial={{ opacity: 0, x: 100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, delay: 0.5 }}
+      viewport={{ margin: "200px 0px 200px 0px" }}
+      className={classes.events}
+    >
       <Background className={classes.eventBox}>
         <div className={classes.imgBox}>
           <img
@@ -29,7 +37,7 @@ const Events = () => {
           </Link>
         </div>
       </Background>
-    </section>
+    </motion.section>
   );
 };
 

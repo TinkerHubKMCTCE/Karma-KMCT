@@ -1,11 +1,18 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
 import classes from "./EventCard.module.css";
 
 import PrimaryBtn from "../Button/Button";
 
 const EventCard = (props) => {
   return (
-    <div className={classes.card}>
+    <motion.div
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, delay: 1 }}
+      className={classes.card}
+    >
       <div className={classes.imgBox}>
         <img className={classes.img} src={props.imgSrc} alt="cultural event" />
       </div>
@@ -15,7 +22,7 @@ const EventCard = (props) => {
           <PrimaryBtn text="View more" />
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
