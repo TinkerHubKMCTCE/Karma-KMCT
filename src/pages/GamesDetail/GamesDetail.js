@@ -3,6 +3,7 @@ import classes from "./GamesDetail.module.css";
 import Background from "../../UI/Background";
 import GamesLists from "./GamesLists";
 import { useEffect } from "react";
+import PrimaryBtn from "../../components/Button/Button";
 
 const GamesDetail = () => {
   useEffect(() => {
@@ -26,11 +27,11 @@ const GamesDetail = () => {
             <div className={classes.headingBox}>
               <h3 className={classes.heading}>{games[0].heading}</h3>
               <p className={classes.para}>{games[0].para}</p>
-              <h3 className={classes.heading}>Game Rules</h3>
 
+              {/* <h3 className={classes.heading}>Game Rules</h3>
               {games[0].rules.map((map) => {
                 return <p className={classes.para}>{map}</p>;
-              })}
+              })} */}
 
               <p className={classes.fees}>
                 Registration fees: ₹
@@ -42,7 +43,7 @@ const GamesDetail = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className={classes.btn}>Register Now!</button>
+                <PrimaryBtn text="Register Now !" />
               </a>
             </div>
           </div>

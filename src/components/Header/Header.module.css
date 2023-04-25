@@ -1,26 +1,28 @@
 .header {
   position: fixed;
-  width: 95%;
+  width: calc(100% - 8rem);
+  top: 0;
   left: 50%;
   transform: translate(-50%);
-  padding: 3.3rem 2.5rem;
+  padding: 1.5rem 2rem;
   color: #fff;
   z-index: 100;
   transition: all 0.4s ease-in-out;
 }
 
 .scrolledHeader {
-  width: 95%;
+  width: calc(100% - 4rem);
+  top: 2rem;
   position: fixed;
-  top: 3%;
   left: 50%;
   transform: translate(-50%);
-  background-color: rgba(0, 0, 0, 0.932);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 2rem;
   color: #fff;
   z-index: 100;
   border-radius: 15px;
   transition: all 0.4s ease-in-out;
+  backdrop-filter: blur(7px);
 }
 
 .elements {
@@ -36,7 +38,8 @@
 }
 
 .logo {
-  width: 25%;
+  /* width: 25%; */
+  height: 5rem;
 }
 
 .hamburger {
