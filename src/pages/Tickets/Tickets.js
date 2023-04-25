@@ -45,23 +45,20 @@ const Tickets = () => {
               Events
             </p>
             <p className={classes.detailList}>
-              <FontAwesomeIcon icon={faCheck} /> Workshops and Mentoring
-            </p>
-            <p className={classes.detailList}>
               <FontAwesomeIcon icon={faCheck} /> Entry to Expo Corner
             </p>
             <p className={classes.conditions}>* Conditions apply</p>
           </div>
 
-          {/* <a
-              href="https://rzp.io/l/Karma-Day2"
-              target="_blank"
-              rel="noopener noreferrer"
-            > */}
-          <div className={classes.price}>
-            <button className={classes.btn}>₹399</button>
-          </div>
-          {/* </a> */}
+          <a
+            href="https://api.whatsapp.com/send/?phone=%2B919895770399&text=Hi, Can+I+get+an+entry+ticket+for+KARMA23+-+Day+2%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={classes.price}>
+              <button className={classes.btn}>₹399</button>
+            </div>
+          </a>
         </div>
 
         <div
@@ -76,11 +73,7 @@ const Tickets = () => {
           </div>
           <div className={classes.details}>
             <p className={classes.detailList}>
-              <FontAwesomeIcon icon={faCheck} /> Presenting{" "}
-              <b>DJ MARI FERRARI</b>
-            </p>
-            <p className={classes.detailList}>
-              <FontAwesomeIcon icon={faCheck} /> Featuring - <b>DJ TREMENT</b>
+              <FontAwesomeIcon icon={faCheck} /> Presenting <b>DJ OLLY ESSE</b>
             </p>
             <p className={classes.detailList}>
               <FontAwesomeIcon icon={faCheck} /> Featuring - <b>DJ SAMURAIZZ</b>
@@ -94,15 +87,15 @@ const Tickets = () => {
             <p className={classes.conditions}>* Conditions apply</p>
           </div>
 
-          {/* <a
-              href="https://rzp.io/l/Karma-Day3"
-              target="_blank"
-              rel="noopener noreferrer"
-            > */}
-          <div className={classes.price}>
-            <button className={classes.btn}>₹499</button>
-          </div>
-          {/* </a> */}
+          <a
+            href="https://api.whatsapp.com/send/?phone=%2B919895770399&text=Hi, Can+I+get+an+entry+ticket+for+KARMA23+-+Day+3%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={classes.price}>
+              <button className={classes.btn}>₹499</button>
+            </div>
+          </a>
         </div>
 
         <div
@@ -135,15 +128,15 @@ const Tickets = () => {
             <p className={classes.conditions}>* Conditions apply</p>
           </div>
 
-          {/* <a
-              href="https://rzp.io/l/Karma-Combo"
-              target="_blank"
-              rel="noopener noreferrer"
-            > */}
-          <div className={classes.price}>
-            <button className={classes.btn}>₹799</button>
-          </div>
-          {/* </a> */}
+          <a
+            href="https://api.whatsapp.com/send/?phone=%2B919895770399&text=Hi, Can+I+get+a+combo+entry+ticket+for+KARMA23+-+Day+2+and+3%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={classes.price}>
+              <button className={classes.btn}>₹799</button>
+            </div>
+          </a>
         </div>
       </div>
       {/* </Background> */}
