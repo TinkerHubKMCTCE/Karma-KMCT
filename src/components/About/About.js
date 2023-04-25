@@ -14,7 +14,7 @@ const About = () => {
       <div className={classes.about}>
         <div className={classes.details}>
           <h3 className={classes.heading}>About</h3>
-          <h2 className={classes.heading1}>Karma 22</h2>
+          <h2 className={classes.heading1}>Karma 23</h2>
           <p className={classes.para}>
             Its the annual national-level techno­managerial ­cultural
             extravaganza of the KMCT College of Engineering. Karma invites
