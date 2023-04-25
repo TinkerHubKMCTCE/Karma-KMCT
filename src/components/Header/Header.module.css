@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  width: calc(100% - 8rem);
+  width: calc(100vw - 8rem);
   top: 0;
   left: 50%;
   transform: translate(-50%);
@@ -11,7 +11,7 @@
 }
 
 .scrolledHeader {
-  width: calc(100% - 4rem);
+  width: calc(100vw - 4rem);
   top: 2rem;
   position: fixed;
   left: 50%;
@@ -164,6 +164,7 @@
   padding: 2rem;
   font-size: 2.7rem;
   background-image: linear-gradient(to bottom right, #09b326, #32b4ed);
+  background-clip: text;
   -webkit-background-clip: text;
   /* -webkit-text-fill-color: transparent; */
   color: transparent;
@@ -172,7 +173,8 @@
 
 @media screen and (max-width: 480px) {
   .logo {
-    width: 30%;
+    width: auto;
+    /* height: 4rem; */
   }
 
   .nav {
