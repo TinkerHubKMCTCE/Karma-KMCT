@@ -8,7 +8,7 @@
 }
 
 .poster {
-  width: 40vw;
+  max-width: 45rem;
 }
 
 .imgBox {

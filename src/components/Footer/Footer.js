@@ -27,9 +27,9 @@ const Footer = () => {
           <p>KMCT College Of Engineering, Kallanthode</p>
           <p>NITC - P.O</p>
           <p>Kozhikode - 673601</p>
-          <p className={classes.email}>karmakmct22@gmail.com</p>
-          <p className={classes.contactNo}>Shamsudheen C - 7012 824 370</p>
-          <p className={classes.contactNo}>Sithara beegam - 8592 002 134</p>
+          <p className={classes.email}>karmakmct23@gmail.com</p>
+          <p className={classes.contactNo}>Pradyoth Satheesh - 9446 982 558</p>
+          <p className={classes.contactNo}>Naja Saleem - 6235 451 154</p>
         </div>
 
         <div className={`${classes.col} ${classes.links}`}>
