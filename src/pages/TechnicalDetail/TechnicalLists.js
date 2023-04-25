@@ -82,7 +82,6 @@ const TechnicalLists = [
     id: 4,
     name: "iot",
     imgSrc: "/assets/Workshops/Iot.webp",
-    heading: "IoT",
     heading: "Internet of Things (IoT)",
     headingPara:
       "The Internet of Things (IoT) is a system of interrelated devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. This workshop will introduce you to the basics of IoT and how it can be used to build innovative projects.",

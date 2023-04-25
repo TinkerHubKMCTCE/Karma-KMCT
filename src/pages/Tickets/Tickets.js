@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import Background from "../../UI/Background";
+// import Background from "../../UI/Background";
 import classes from "./Tickets.module.css";
 
 const Tickets = () => {

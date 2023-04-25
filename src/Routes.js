@@ -13,11 +13,11 @@ const CulturalDetail = React.lazy(() =>
 const TechnicalDetail = React.lazy(() =>
   import("./pages/TechnicalDetail/TechnicalDetail")
 );
-const HackathonDetail = React.lazy(() =>
-  import("./pages/HackathonDetail/HackathonDetail")
-);
+// const HackathonDetail = React.lazy(() =>
+//   import("./pages/HackathonDetail/HackathonDetail")
+// );
 
-const TalkDetail = React.lazy(() => import("./pages/TalkDetail/TalkDetail"));
+// const TalkDetail = React.lazy(() => import("./pages/TalkDetail/TalkDetail"));
 const Cultural = React.lazy(() => import("./pages/Cultural/Cultural"));
 const Technical = React.lazy(() => import("./pages/Technical/Technical"));
 // const Hackathon = React.lazy(() => import("./pages/Hackathon/Hackathon"));

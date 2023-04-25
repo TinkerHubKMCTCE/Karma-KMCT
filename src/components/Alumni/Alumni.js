@@ -5,7 +5,7 @@ import Form from "./Form/Form";
 import PrimayBtn from "../Button/Button";
 
 import { useState } from "react";
-import { text } from "@fortawesome/fontawesome-svg-core";
+// import { text } from "@fortawesome/fontawesome-svg-core";
 
 const Ambassadar = () => {
   const [open, setOpen] = useState(false);
