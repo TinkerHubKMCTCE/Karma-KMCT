@@ -1,17 +1,18 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import Faq from "../Faq/Faq";
 import classes from "./ContactUs.module.css";
 
 const ContactUs = () => {
   return (
-    <motion.section
-      initial={{ opacity: 0, x: 100 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5, delay: 0.5 }}
-      id="contact"
-      className={classes.contact}
-    >
+    // <motion.section
+    //   initial={{ opacity: 0, x: 100 }}
+    //   whileInView={{ opacity: 1, x: 0 }}
+    //   transition={{ duration: 0.5, delay: 0.5 }}
+    //   id="contact"
+    //   className={classes.contact}
+    // >
+    <section id="contact" className={classes.contact}>
       <div className={classes.contactBox}>
         <div className={classes.contentBox}>
           <Faq />
@@ -53,7 +54,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

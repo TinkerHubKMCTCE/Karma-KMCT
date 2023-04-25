@@ -1,20 +1,20 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import classes from "./About.module.css";
 
 const About = () => {
   return (
-    <motion.section
-      initial={{ opacity: 0, x: -100 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1 }}
+    <section
+      // initial={{ opacity: 0, x: -100 }}
+      // whileInView={{ opacity: 1, x: 0 }}
+      // transition={{ duration: 1 }}
       id="about"
       className={classes.aboutSec}
     >
       <div className={classes.about}>
         <div className={classes.details}>
           <h3 className={classes.heading}>About</h3>
-          <h2 className={classes.heading1}>Karma 22</h2>
+          <h2 className={classes.heading1}>Karma 23</h2>
           <p className={classes.para}>
             Its the annual national-level techno­managerial ­cultural
             extravaganza of the KMCT College of Engineering. Karma invites
@@ -42,7 +42,7 @@ const About = () => {
           />
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

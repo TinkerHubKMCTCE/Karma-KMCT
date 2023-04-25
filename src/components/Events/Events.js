@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import classes from "./Events.module.css";
 import Background from "../../UI/Background";
@@ -7,11 +7,11 @@ import PrimayBtn from "../Button/Button";
 
 const Events = () => {
   return (
-    <motion.section
-      initial={{ opacity: 0, x: 100 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5, delay: 0.5 }}
-      viewport={{ margin: "200px 0px 200px 0px" }}
+    <section
+      // initial={{ opacity: 0, x: 100 }}
+      // whileInView={{ opacity: 1, x: 0 }}
+      // transition={{ duration: 0.5, delay: 0.5 }}
+      // viewport={{ margin: "200px 0px 200px 0px" }}
       className={classes.events}
     >
       <Background className={classes.eventBox}>
@@ -24,7 +24,7 @@ const Events = () => {
         </div>
 
         <div className={classes.headingBox}>
-          <h3 className={classes.heading}>Karma 22 Events</h3>
+          <h3 className={classes.heading}>Karma 23 Events</h3>
           <p className={classes.para}>
             The programme includes a variety of activities, including technical,
             non-technical, hackathons, and project contests. The event is
@@ -37,7 +37,7 @@ const Events = () => {
           </Link>
         </div>
       </Background>
-    </motion.section>
+    </section>
   );
 };
 

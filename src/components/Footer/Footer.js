@@ -115,7 +115,7 @@ const Footer = () => {
       </div>
       <hr className={classes.hr} />
       <p className={classes.copyright}>
-        Karma'22 | Copyright &#169; All rights reserved.
+        Karma'23 | Copyright &#169; All rights reserved.
       </p>
     </footer>
   );

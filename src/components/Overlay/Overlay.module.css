@@ -1,16 +1,14 @@
 .modal {
   position: fixed;
-  top: 13vh;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 1rem;
   z-index: 1000;
 }
 
 .poster {
-  /* width: 55%; */
-  height: 70vh;
-  max-width: 90vw;
-  border-radius: 2px;
+  width: 40vw;
 }
 
 .imgBox {
@@ -28,17 +26,15 @@
 
 @media screen and (max-width: 480px) {
   .modal {
-    top: 16vh;
-    left: 9%;
+    margin: 0 auto;
   }
 
   .poster {
-    width: 90%;
+    width: 60vw;
   }
 
   .icon {
     font-size: 4rem;
-    top: 14.5px;
-    left: 78%;
+    top: 0;
   }
 }

@@ -45,6 +45,7 @@
   font-size: 12rem;
   font-weight: bolder;
   display: inline-block;
+  text-align: center;
   background-image: linear-gradient(to bottom, #09b326, #32b4ed);
   background-clip: text;
   -webkit-background-clip: text;
