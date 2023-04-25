@@ -3,17 +3,17 @@ import classes from "./Faq.module.css";
 
 const questions = [
   {
-    question: "How can i participate in KARMA 22?",
+    question: "How can i participate in KARMA 23?",
     answer:
-      "All can participate by booking tickets through our portal, and tickets closes on 1 day prior to the event dates (21, 22, 23 MAY 2022) of KARMA 22",
+      "All can participate by booking tickets through our portal, and tickets closes on 1 day prior to the event dates (21, 23, 23 MAY 2022) of KARMA 23",
   },
   {
-    question: "What are the dates of KARMA 22?",
-    answer: "May 21, 22, 23. Events will happen from 9:00 am to 10:00 pm",
+    question: "What are the dates of KARMA 23?",
+    answer: "April 28, 29, and 30. Events will happen from 9:00 am to 10:00 pm",
   },
   {
-    question: "What is the entry fees for KARMA 22?",
-    answer: "The entry for karma 22 is 300(day 2), 400(day 3), 600(day 2&3)",
+    question: "What is the entry fees for KARMA 23?",
+    answer: "The entry for karma 23 is 300(day 2), 400(day 3), 600(day 2&3)",
   },
   {
     question: "Is it possible for one participant to attend any workshop?",

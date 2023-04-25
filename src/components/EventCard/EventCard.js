@@ -19,7 +19,7 @@ const EventCard = (props) => {
       <div className={classes.textBox}>
         <h3 className={classes.heading}>{props.heading}</h3>
         <Link to={props.redirectLink}>
-          <PrimaryBtn text="View more" />
+          <PrimaryBtn text="See details" />
         </Link>
       </div>
     </motion.div>

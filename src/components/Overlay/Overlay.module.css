@@ -1,42 +1,44 @@
 .modal {
-    position: fixed;
-    top: 13vh;
-    left: 35%;
-    padding: 1rem;
-    z-index: 1000;
+  position: fixed;
+  top: 13vh;
+  left: 35%;
+  padding: 1rem;
+  z-index: 1000;
 }
 
 .poster {
-    width: 55%;
-    border-radius: 2px;
+  /* width: 55%; */
+  height: 70vh;
+  max-width: 90vw;
+  border-radius: 2px;
 }
 
 .imgBox {
-    position: relative;
+  position: relative;
 }
 
 .icon {
-    position: absolute;
-    top: 20px;
-    font-size: 3rem;
-    left: 48.5%;
-    color: #fff;
-    cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: -3rem;
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
-    .modal {
-        top: 16vh;
-        left: 9%;
-    }
-    
-    .poster {
-        width: 90%;
-    }
+  .modal {
+    top: 16vh;
+    left: 9%;
+  }
 
-    .icon {
-        font-size: 4rem;
-        top: 14.5px;
-        left: 78%;
-    }
+  .poster {
+    width: 90%;
+  }
+
+  .icon {
+    font-size: 4rem;
+    top: 14.5px;
+    left: 78%;
+  }
 }

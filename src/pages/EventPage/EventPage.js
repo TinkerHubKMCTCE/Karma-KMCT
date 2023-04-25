@@ -44,7 +44,7 @@ const EventPage = () => {
                 Games
               </NavLink>
             </div>
-            <div className={`${classes.tabHead}`}>
+            {/* <div className={`${classes.tabHead}`}>
               <NavLink
                 to="hackathon"
                 className={({ isActive }) =>
@@ -55,8 +55,8 @@ const EventPage = () => {
               >
                 Hackathon
               </NavLink>
-            </div>
-            <div className={`${classes.tabHead}`}>
+            </div> */}
+            {/* <div className={`${classes.tabHead}`}>
               <NavLink
                 to="talk"
                 className={({ isActive }) =>
@@ -67,7 +67,7 @@ const EventPage = () => {
               >
                 Expert Talk
               </NavLink>
-            </div>
+            </div> */}
           </div>
         </div>
         <Outlet />
