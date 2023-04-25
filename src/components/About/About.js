@@ -1,8 +1,16 @@
+import { motion } from "framer-motion";
+
 import classes from "./About.module.css";
 
 const About = () => {
   return (
-    <section id="about" className={classes.aboutSec}>
+    <motion.section
+      initial={{ opacity: 0, x: -100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1 }}
+      id="about"
+      className={classes.aboutSec}
+    >
       <div className={classes.about}>
         <div className={classes.details}>
           <h3 className={classes.heading}>About</h3>
@@ -34,7 +42,7 @@ const About = () => {
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

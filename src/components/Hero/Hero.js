@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import classes from "./Hero.module.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import PrimayBtn from "../Button/Button";
 
 const Hero = () => {
   const [countDays, setDays] = useState(false);
@@ -50,15 +51,14 @@ const Hero = () => {
           <h1 className={classes.heading}>Karma 23</h1>
           <h4 className={classes.caption}>What goes around comes around</h4>
           <p className={classes.date}>APRIL 28-30, 2023</p>
-          {/* <Link
+          <Link
             className={classes.anchorBtn}
             target="_blank"
             rel="noopener noreferrer"
             to="/tickets"
           >
-            <button className={classes.btn}>Tickets on sale now !</button>
-          </Link> */}
-          {/* <h2 className={classes.comingsoon}>Coming Soon</h2> */}
+            <PrimayBtn text="Tickets on sale now !" margin="0 0 3rem 0" />
+          </Link>
         </div>
 
         <div className={classes.countdownbox}>

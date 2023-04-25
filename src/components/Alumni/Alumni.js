@@ -1,13 +1,22 @@
+import { motion } from "framer-motion";
+
 import classes from "./Alumni.module.css";
 import Form from "./Form/Form";
+import PrimayBtn from "../Button/Button";
 
 import { useState } from "react";
+// import { text } from "@fortawesome/fontawesome-svg-core";
 
 const Ambassadar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className={classes.ambaSection}>
+    <motion.section
+      initial={{ opacity: 0, x: -100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5 }}
+      className={classes.ambaSection}
+    >
       <div className={classes.ambassadar}>
         <div className={classes.imgBox}>
           <img
@@ -27,14 +36,12 @@ const Ambassadar = () => {
             𝚗𝚘𝚜𝚝𝚊𝚕𝚐𝚒𝚊 <br></br>_𝚂𝚑𝚊𝚛𝚎 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎𝚜 <br></br>_𝚝𝚘𝚐𝚎𝚝𝚑𝚎𝚛
           </p>
 
-          <button className={classes.btn} onClick={() => setOpen(!open)}>
-            Register as an Alumni !
-          </button>
+          <PrimayBtn text="Register as Alumni" onClick={() => setOpen(!open)} />
         </div>
       </div>
 
       {open && <Form open={open} onClick={() => setOpen(!open)} />}
-    </section>
+    </motion.section>
   );
 };
 

@@ -1,13 +1,20 @@
+import { motion } from "framer-motion";
+
 import Faq from "../Faq/Faq";
 import classes from "./ContactUs.module.css";
 
 const ContactUs = () => {
   return (
-    <section id="contact" className={classes.contact}>
+    <motion.section
+      initial={{ opacity: 0, x: 100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, delay: 0.5 }}
+      id="contact"
+      className={classes.contact}
+    >
       <div className={classes.contactBox}>
         <div className={classes.contentBox}>
-
-            <Faq />
+          <Faq />
           {/* <div className={classes.persons}>
 
             <div className={classes.personBox}>
@@ -44,10 +51,9 @@ const ContactUs = () => {
               style={{ border: 0 }}
             ></iframe>
           </div>
-
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

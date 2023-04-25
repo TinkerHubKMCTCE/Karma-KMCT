@@ -5,8 +5,8 @@ import { useEffect } from "react";
 
 const Cultural = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={classes.cultural}>
       {CulturalLists.map((list) => {
@@ -16,6 +16,7 @@ const Cultural = () => {
             imgSrc={list.imgSrc}
             heading={list.heading}
             redirectLink={list.redirectLink}
+            showButton={false}
           />
         );
       })}

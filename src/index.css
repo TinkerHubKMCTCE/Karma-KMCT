@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --grad-1-dark: #1f1c18;
+  --grad-2-dark: #8e0e00;
+
+  /* --grad-1-light: hsl(233, 88%, 40%);
+  --grad-2-light: hsl(358, 97%, 40%); */
+
+  --grad-1-light: #1f1c18;
+  --grad-2-light: #8e0e00;
+
+  --color-1: hsl(6, 100%, 35%);
+}
+
 *,
 *::after,
 *::before {
@@ -21,9 +35,52 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: url(/public/assets/Desktop-3.png);
+  background: #780206;
+  background: -webkit-linear-gradient(
+    to right,
+    var(--grad-1-dark),
+    var(--grad-2-dark)
+  );
+  background: linear-gradient(to right, var(--grad-1-dark), var(--grad-2-dark));
+
+  /* background: url(/public/assets/Desktop-3.png);
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   scroll-behavior: smooth;
   height: 100vh;
+  overflow-x: hidden;
+}
+
+.primaryButton {
+  background: #780206;
+
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--grad-1-light),
+    var(--grad-2-light)
+  );
+  background: linear-gradient(45deg, var(--grad-1-light), var(--grad-2-light));
+  padding: 1.5rem 1.7rem;
+  border: 1px solid var(--grad-2-light);
+  border-radius: 9px;
+  font-weight: 600;
+  color: #fff;
+  align-self: flex-start;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.primaryButton:hover {
+  transform: translateY(-0.1rem);
+  background: #780206;
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--grad-1-light),
+    var(--grad-2-light)
+  );
+  background: linear-gradient(90deg, var(--grad-1-light), var(--grad-2-light));
+}
+
+.primaryButton:active {
+  transform: translateY(0);
 }

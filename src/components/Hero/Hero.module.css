@@ -63,6 +63,7 @@
 
 .btn {
   display: block;
+  margin-bottom: 2rem;
   background-image: linear-gradient(to top right, #09b326, #32b4ed);
   padding: 1.1rem 0.5rem;
   border: none;

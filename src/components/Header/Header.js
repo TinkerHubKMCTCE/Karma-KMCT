@@ -126,6 +126,11 @@ const Header = () => {
 
           <Link target="_blank" rel="noopener noreferrer" to="/tickets">
             <button className={classes.btn}>Buy Tickets</button>
+            {/* <button style={classes.mainButton} href="https://twitter.com/kamildyrek">
+              <div class="left"></div>
+              Hover me!
+              <div class="right"></div>
+            </button> */}
           </Link>
 
 
@@ -147,7 +152,7 @@ const Header = () => {
             <button className={classes.btn1}>Buy Tickets</button>
           </Link>
 
- {/* Mobile Page */}
+          {/* Mobile Page */}
 
           <ul className={classes.mobileNav}>
             <li>
@@ -183,7 +188,7 @@ const Header = () => {
               </Drop>
             </li>
             <li className={`${classes.mobLink}`} onClick={() => setDrop(!drop)}>
-              {drop ? <Dropdown click={() => {setDrop(!drop); setMobile(!mobile)}} /> : ""}Events
+              {drop ? <Dropdown click={() => { setDrop(!drop); setMobile(!mobile) }} /> : ""}Events
               <FontAwesomeIcon
                 size="sm"
                 style={{

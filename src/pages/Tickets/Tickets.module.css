@@ -1,131 +1,131 @@
 .section {
-    width: 100%;
-    padding: 3rem 1.5rem;
-    background-size: cover;
+  /* width: 100%; */
+  padding: 8rem 1.5rem 3rem;
+  background-size: cover;
 }
 
 .bg {
-    padding: 10rem 3rem;
+  padding: 10rem 3rem;
 }
 
 .headingBox {
-    width: 100%;
-    text-align: center;
-    color: #fff;
+  width: 100%;
+  text-align: center;
+  color: #fff;
 }
 
 .heading {
-    font-size: 3rem;
-    opacity: 80%;
+  font-size: 3rem;
+  opacity: 80%;
 }
 
 .heading:after {
-    content: '';
-    display: block;
-    width: 20%;
-    margin: 7px auto;
-    height: 3.5px;
-    background-image: linear-gradient(90deg, #09B35C 2.27%, #32B4ED 97.67%);
-  }
+  content: "";
+  display: block;
+  width: 20%;
+  margin: 7px auto;
+  height: 3.5px;
+  background-image: linear-gradient(90deg, #09b35c 2.27%, #32b4ed 97.67%);
+}
 
 .cards {
-    display: flex;
-    justify-content: center;
-    max-width: 98%;
-    gap: 3rem;
-    align-items: center;
-    margin: 0 auto;
-    padding: 5rem 0;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  max-width: 98%;
+  gap: 3rem;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5rem 0;
+  flex-wrap: wrap;
 }
 
 .card {
-    margin: 0 auto;
-    width: 35rem;
-    box-shadow: 0 8px 7px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    padding: 1.5rem 2rem;
-    color: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.7);
-    transition: all .3s ease-out;
+  margin: 0 auto;
+  width: 35rem;
+  box-shadow: 0 8px 7px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-out;
 }
 
 .card:hover {
-    transform: translateY(-.7rem);
+  transform: translateY(-0.7rem);
 }
 
 .cardSection1 {
-    padding: 1.7rem 2.5rem;
-    border-bottom: 3px solid #ccc;
-    text-align: center;
+  padding: 1.7rem 2.5rem;
+  border-bottom: 3px solid #ccc;
+  text-align: center;
 }
 
 .h1 {
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    color: #ccc;
-    font-weight: 600;
-    margin-bottom: 1rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #ccc;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .h2 {
-    font-size: 2.7rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    border: 3px solid;
-    border-image-source: linear-gradient(180deg, #09B35C 0%, #32B4ED 100%);
-    border-image-slice: 1;
-    padding: .2rem .9rem;
+  font-size: 2.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 3px solid;
+  border-image-source: linear-gradient(180deg, #09b35c 0%, #32b4ed 100%);
+  border-image-slice: 1;
+  padding: 0.2rem 0.9rem;
 }
 
 .details {
-    padding: 1rem 1.5rem;
-    border-bottom: 3px solid #ccc;
-    text-align: left;
+  padding: 1rem 1.5rem;
+  border-bottom: 3px solid #ccc;
+  text-align: left;
 }
 
 .detailList {
-    font-size: 2rem;
-    line-height: 3.5rem;
+  font-size: 2rem;
+  line-height: 3.5rem;
 }
 
 .conditions {
-    font-size: 1.9rem;
-    color: #fff;
-    opacity: 65%;
+  font-size: 1.9rem;
+  color: #fff;
+  opacity: 65%;
 }
 
 .price {
-    padding: 2rem 4rem;
-    text-align: center;
+  padding: 2rem 4rem;
+  text-align: center;
 }
 
 .btn {
-    background: linear-gradient(89.85deg, #09B35C 3.59%, #32B4ED 241.85%);
-    padding: .7rem 4rem;
-    border: none;
-    border-radius: 8px;
-    font-size: 2.1rem;
-    font-weight: 600;
-    color: #fff;
-    transition: all .3s;
-    text-decoration: none;
-    list-style: none;
-    transform: scale(1);
-    transition: all .1s ease-in;
-    cursor: pointer;
+  background: linear-gradient(89.85deg, #09b35c 3.59%, #32b4ed 241.85%);
+  padding: 0.7rem 4rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.3s;
+  text-decoration: none;
+  list-style: none;
+  transform: scale(1);
+  transition: all 0.1s ease-in;
+  cursor: pointer;
 }
 
 .btn:hover {
-    transform: scale(1.05);
-    transition: all .1s ease-in;
-    background: linear-gradient(to left, #09B35C 3.59%, #32B4ED 241.85%);
+  transform: scale(1.05);
+  transition: all 0.1s ease-in;
+  background: linear-gradient(to left, #09b35c 3.59%, #32b4ed 241.85%);
 }
 
 @media screen and (max-width: 480px) {
-    .card:active {
-        transform: scale(1.05);
-    }
+  .card:active {
+    transform: scale(1.05);
+  }
 }
