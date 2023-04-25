@@ -50,7 +50,7 @@ const Hero = () => {
         <div className={classes.headerbox}>
           <h1 className={classes.heading}>Karma 23</h1>
           <h4 className={classes.caption}>What goes around comes around</h4>
-          <p className={classes.date}>MAY 21-23, 2022</p>
+          <p className={classes.date}>APRIL 28-30, 2023</p>
           <Link
             className={classes.anchorBtn}
             target="_blank"
