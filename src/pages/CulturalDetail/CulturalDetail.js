@@ -3,6 +3,7 @@ import classes from "./EventDetail.module.css";
 import Background from "../../UI/Background";
 import CulturalLists from "./CulturalLists";
 import { useEffect } from "react";
+import PrimaryBtn from "../../components/Button/Button";
 
 const CulturalDetail = () => {
   useEffect(() => {
@@ -66,7 +67,7 @@ const CulturalDetail = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className={classes.btn}>Register Now !</button>
+                <PrimaryBtn text="Register" />
               </a>
             </div>
           </div>
