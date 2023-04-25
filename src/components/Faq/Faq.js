@@ -5,7 +5,7 @@ const questions = [
   {
     question: "How can i participate in KARMA 23?",
     answer:
-      "All can participate by booking tickets through our portal, and tickets closes on 1 day prior to the event dates (21, 23, 23 MAY 2022) of KARMA 23",
+      "All can participate by booking tickets through our portal, and tickets closes on 1 day prior to the event dates (28, 29, 30 April 2023) of KARMA 23",
   },
   {
     question: "What are the dates of KARMA 23?",
