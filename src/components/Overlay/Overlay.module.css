@@ -9,6 +9,10 @@
 
 .poster {
   max-width: 45rem;
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  border-radius: 1rem;
 }
 
 .imgBox {
@@ -30,7 +34,7 @@
   }
 
   .poster {
-    width: 60vw;
+    width: 80vw;
   }
 
   .icon {
