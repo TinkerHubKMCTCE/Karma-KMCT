@@ -8,15 +8,16 @@
 
 .imgBox {
   width: 100%;
-  border: 2px solid transparent;
-  border-image: linear-gradient(to bottom right, #09b326, #32b4ed);
-  border-image-slice: 1;
+
 }
 
 .img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, var(--grad-2-light), var(--grad-1-light));
+  border-image-slice: 1; */
 }
 
 .textBox {
