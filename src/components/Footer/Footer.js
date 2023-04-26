@@ -90,14 +90,14 @@ const Footer = () => {
           <h3>Follow us on</h3>
           <div className={classes.socialIcons}>
             <a
-              href="https://instagram.com/karma.kmct"
+              href="https://www.instagram.com/karmakmct/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon className={classes.icons} icon={faInstagram} />
             </a>
             <a
-              href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g"
+              href="https://www.youtube.com/@karmakmct7265"
               target="_blank"
               rel="noopener noreferrer"
             >
