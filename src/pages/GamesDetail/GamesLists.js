@@ -20,6 +20,17 @@ const GamesLists = [
     paymentLink: "https://rzp.io/l/Karma-PUBG",
     redirectLink: "/events/games/treasure-hunt",
   },
+  {
+    id: 3,
+    name: "chess",
+    imgSrc: "/assets/Games/chess.png",
+    heading: "Checkmate",
+    para: "Amidst the stillness of the board,Where black and white converge,A game of kings and queens is played,As minds begin to merge, KARMA'23 is here with chess competition with prize worth 5k!",
+    rules: [],
+    regFee: " 50/-",
+    paymentLink: "https://rzp.io/l/Karma-PUBG",
+    redirectLink: "/events/games/chess",
+  },
 ];
 
 export default GamesLists;
