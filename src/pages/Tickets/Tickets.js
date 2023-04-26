@@ -2,19 +2,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 // import Background from "../../UI/Background";
 import classes from "./Tickets.module.css";
+import PrimaryBtn from "../../components/Button/Button";
 
 const Tickets = () => {
-  const color1Prim = "#444444";
-  const color1Sec = "#020202";
-  const Bg1 = "/assets/Tickets/Vector1.svg";
+  const color1Prim = "#342";
+  const color1Sec = "#000";
+  const Bg1 = "/assets/Tickets/Vector2.svg";
 
-  const color2Prim = "#2B65B2";
-  const color2Sec = "#2945A2";
+  const color2Prim = "#26004c";
+  const color2Sec = "#000";
   const Bg2 = "/assets/Tickets/Vector2.svg";
 
-  const color3Prim = "#36256A";
-  const color3Sec = "#562B83";
-  const Bg3 = "/assets/Tickets/Vector3.svg";
+  const color3Prim = "#8e0e00";
+  const color3Sec = "#000";
+  const Bg3 = "/assets/Tickets/Vector1.svg";
 
   return (
     <section className={classes.section}>
@@ -56,7 +57,7 @@ const Tickets = () => {
             rel="noopener noreferrer"
           >
             <div className={classes.price}>
-              <button className={classes.btn}>₹399</button>
+              <PrimaryBtn text="₹399" pad="1rem 4rem"/>
             </div>
           </a>
         </div>
@@ -93,7 +94,7 @@ const Tickets = () => {
             rel="noopener noreferrer"
           >
             <div className={classes.price}>
-              <button className={classes.btn}>₹499</button>
+              <PrimaryBtn text="₹499" pad="1rem 4rem"/>
             </div>
           </a>
         </div>
@@ -134,7 +135,7 @@ const Tickets = () => {
             rel="noopener noreferrer"
           >
             <div className={classes.price}>
-              <button className={classes.btn}>₹799</button>
+              <PrimaryBtn text="₹799" pad="1rem 4rem"/>
             </div>
           </a>
         </div>

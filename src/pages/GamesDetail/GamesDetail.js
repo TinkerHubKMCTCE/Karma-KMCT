@@ -28,10 +28,10 @@ const GamesDetail = () => {
               <h3 className={classes.heading}>{games[0].heading}</h3>
               <p className={classes.para}>{games[0].para}</p>
 
-              {/* <h3 className={classes.heading}>Game Rules</h3>
+              <h3 className={classes.heading}>Game Rules</h3>
               {games[0].rules.map((map) => {
                 return <p className={classes.para}>{map}</p>;
-              })} */}
+              })}
 
               <p className={classes.fees}>
                 Registration fees: ₹

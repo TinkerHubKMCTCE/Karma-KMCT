@@ -25,7 +25,7 @@
   width: 20%;
   margin: 7px auto;
   height: 3.5px;
-  background-image: linear-gradient(90deg, #09b35c 2.27%, #32b4ed 97.67%);
+  background-image: linear-gradient(90deg, var(--grad-2-dark) 2.27%, var(--grad-1-dark) 97.67%);
 }
 
 .cards {
@@ -74,8 +74,8 @@
   font-size: 2.7rem;
   font-weight: 500;
   text-transform: uppercase;
-  border: 3px solid;
-  border-image-source: linear-gradient(180deg, #09b35c 0%, #32b4ed 100%);
+  /* border: 3px solid; */
+  /* border-image-source: linear-gradient(180deg, #09b35c 0%, #32b4ed 100%); */
   border-image-slice: 1;
   padding: 0.2rem 0.9rem;
 }
