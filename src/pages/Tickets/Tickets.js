@@ -35,7 +35,7 @@ const Tickets = () => {
           </div>
           <div className={classes.details}>
             <p className={classes.detailList}>
-              <FontAwesomeIcon icon={faCheck} /> Sithara Beegum{" "}
+              <FontAwesomeIcon icon={faCheck} /> <b>Sithara Krishnakumar</b>
             </p>
             <p className={classes.detailList}>
               <FontAwesomeIcon icon={faCheck} /> Participation in Games

@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  width: calc(100vw - 8rem);
+  width: calc(100vw - 4rem);
   top: 0;
   left: 50%;
   transform: translate(-50%);
@@ -11,7 +11,7 @@
 }
 
 .scrolledHeader {
-  width: calc(100vw - 4rem);
+  width: calc(100vw - 8rem);
   top: 2rem;
   position: fixed;
   left: 50%;

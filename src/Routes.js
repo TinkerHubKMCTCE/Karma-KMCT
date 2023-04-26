@@ -54,7 +54,7 @@ const MyRoutes = () => {
           </Routes>
         </Suspense>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </Fragment>
   );
 };

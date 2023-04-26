@@ -27,7 +27,7 @@ const Footer = () => {
           <p>KMCT College Of Engineering, Kallanthode</p>
           <p>NITC - P.O</p>
           <p>Kozhikode - 673601</p>
-          <p className={classes.email}>karmakmct23@gmail.com</p>
+          {/* <p className={classes.email}>karmakmct23@gmail.com</p> */}
           <p className={classes.contactNo}>Pradyoth Satheesh - 9446 982 558</p>
           <p className={classes.contactNo}>Naja Saleem - 6235 451 154</p>
         </div>
@@ -49,7 +49,7 @@ const Footer = () => {
               <li>Contact us</li>
             </HashLink>
 
-            <a
+            {/* <a
               href="https://docs.google.com/document/d/1cJfjOhoEfW_JhiMF-tUJXNWwRKxSIN-KrIlJCnh0EZ4/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
@@ -82,7 +82,7 @@ const Footer = () => {
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Shipping Policy</li>
-            </a>
+            </a> */}
           </ul>
         </div>
 
