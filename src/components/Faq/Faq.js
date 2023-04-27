@@ -13,7 +13,7 @@ const questions = [
   },
   {
     question: "What is the entry fees for KARMA 23?",
-    answer: "The entry for karma 23 is 300(day 2), 400(day 3), 600(day 2&3)",
+    answer: "The entry for karma 23 is 399(day 2), 499(day 3), 799(day 2&3)",
   },
   {
     question: "Is it possible for one participant to attend any workshop?",
