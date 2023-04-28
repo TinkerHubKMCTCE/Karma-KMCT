@@ -63,7 +63,8 @@ const Hero = () => {
 
         <div className={classes.countdownbox}>
           <div className={classes.countdown}>
-            <p>{countDays}</p>
+            //<p>{countDays}</p>
+            <p>00</p>
             <p>
               <small>Days</small>
             </p>
@@ -72,20 +73,23 @@ const Hero = () => {
           <span className={classes.column}>:</span>
 
           <div className={classes.countdown}>
-            <p>{countHours}</p>
+            //<p>{countHours}</p>
+            <p>00</p>
             <p>Hours</p>
           </div>
 
           <span className={classes.column}>:</span>
 
           <div className={classes.countdown}>
-            <p>{countMinutes}</p>
+            //<p>{countMinutes}</p>
+            <p>00</p>
             <p>Min</p>
           </div>
 
           <span className={classes.column}>:</span>
           <div className={classes.countdown}>
-            <p>{countSeconds}</p>
+            //<p>{countSeconds}</p>
+            <p>00</p>
             <p>Sec</p>
           </div>
         </div>
